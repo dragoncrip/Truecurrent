@@ -3,13 +3,18 @@ name: Update Funding 7d Average
 on:
   schedule:
     - cron: '0 */6 * * *'   # cada 6 horas (UTC)
-  workflow_dispatch:        # permite ejecutarlo manualmente
+  workflow_dispatch:
+
+permissions:
+  contents: write          # ← esto es lo importante
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}   # opcional pero recomendado
 
       - uses: actions/setup-python@v5
         with:
@@ -28,4 +33,3 @@ jobs:
           git add funding_7d.json
           git diff --staged --quiet || git commit -m "update funding 7d average $(date -u +'%Y-%m-%d %H:%M')"
           git push
-
