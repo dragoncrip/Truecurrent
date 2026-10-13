@@ -20,11 +20,13 @@ def get_funding_rates(market_id, limit=200):
     r.raise_for_status()
     return r.json().get("fundingRates", [])
 
-def average_7d_annualized(rates):
+def average_annualized(rates, hours):
     if not rates:
         return None
-    recent = rates[:168]
+    recent = rates[:hours]
     hourly = [float(r["rate"]) for r in recent]
+    if not hourly:
+        return None
     avg = statistics.mean(hourly)
     return round(avg * 8760 * 100, 2)
 
@@ -35,7 +37,8 @@ def main():
     for m in markets:
         try:
             rates = get_funding_rates(m["marketId"])
-            avg_7d = average_7d_annualized(rates)
+            avg_7d = average_annualized(rates, 168)
+            avg_3d = average_annualized(rates, 72)
 
             # Funding actual
             last_rate_str = m.get("perpetualMarketFunding", {}).get("lastFundingRate")
@@ -46,7 +49,7 @@ def main():
             price_change_24h = None
 
             if avg_7d is not None:
-                # Clasificación CRYPTO / RWA (coincidencia estricta)
+                # Clasificación CRYPTO / RWA
                 ticker_upper = m["ticker"].upper()
                 base = ticker_upper.split("/")[0].split(" ")[0]
 
@@ -71,6 +74,7 @@ def main():
                     "marketId": m["marketId"],
                     "type": "RWA" if is_rwa else "CRYPTO",
                     "avg_7d_annualized_%": avg_7d,
+                    "avg_3d_annualized_%": avg_3d,
                     "current_funding_annualized_%": current_annualized,
                     "price_change_24h_%": price_change_24h
                 })
