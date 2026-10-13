@@ -38,3 +38,81 @@
   <div class="controls">
     <button onclick="sortData(true)">Mayor a Menor</button>
     <button onclick="sortData(false)">Menor a Mayor</button>
+  </div>
+
+  <table id="table">
+    <thead>
+      <tr>
+        <th>Activo</th>
+        <th>Funding 7d Anualizado</th>
+        <th>Muestras</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    let data = [];
+    let currentSortDesc = true;
+
+    // Limpia el ticker: "FIL/USDC PERP" → "FIL"
+    function cleanTicker(ticker) {
+      return ticker
+        .replace('/USDC PERP', '')
+        .replace('/USDT PERP', '')
+        .replace(' PERP', '')
+        .trim();
+    }
+
+    async function loadData() {
+      const res = await fetch('funding_7d.json');
+      const json = await res.json();
+      data = json.data.map(item => ({
+        ...item,
+        cleanName: cleanTicker(item.ticker)
+      }));
+      document.getElementById('updated').textContent = 
+        `Actualizado: ${new Date(json.updated_at).toLocaleString()} | ${json.count} mercados`;
+      render();
+    }
+
+    function render() {
+      const search = document.getElementById('search').value.toLowerCase().trim();
+      
+      let filtered = data;
+      if (search) {
+        filtered = data.filter(item => 
+          item.cleanName.toLowerCase().includes(search) || 
+          item.ticker.toLowerCase().includes(search)
+        );
+      }
+
+      const sorted = [...filtered].sort((a, b) => 
+        currentSortDesc 
+          ? b["avg_7d_annualized_%"] - a["avg_7d_annualized_%"] 
+          : a["avg_7d_annualized_%"] - b["avg_7d_annualized_%"]
+      );
+
+      const tbody = document.querySelector('#table tbody');
+      tbody.innerHTML = sorted.map(r => `
+        <tr>
+          <td>${r.cleanName}</td>
+          <td class="${r["avg_7d_annualized_%"] >= 0 ? 'positive' : 'negative'}">
+            ${r["avg_7d_annualized_%"].toFixed(2)}%
+          </td>
+          <td>${r.samples}</td>
+        </tr>
+      `).join('');
+    }
+
+    function sortData(desc) {
+      currentSortDesc = desc;
+      render();
+    }
+
+    document.getElementById('search').addEventListener('input', render);
+
+    loadData();
+  </script>
+</body>
+</html>
