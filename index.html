@@ -5,42 +5,157 @@
   <title>TrueCurrent Funding 7d</title>
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <style>
-    body { 
-      font-family: system-ui, sans-serif; 
-      background: #0d1117; 
-      color: #c9d1d9; 
-      padding: 20px; 
-      margin: 0; 
-    }
+    body { font-family: system-ui, sans-serif; background: #0d1117; color: #c9d1d9; padding: 20px; margin: 0; }
     h1 { text-align: center; margin-bottom: 5px; }
     #updated { text-align: center; color: #8b949e; margin-bottom: 15px; }
-    #search { 
-      display: block; 
-      margin: 0 auto 12px; 
-      padding: 10px 16px; 
-      width: 300px; 
-      font-size: 16px; 
-      border-radius: 6px; 
-      border: 1px solid #30363d; 
-      background: #161b22; 
-      color: #c9d1d9; 
+    #search { display: block; margin: 0 auto 12px; padding: 10px 16px; width: 300px; font-size: 16px; border-radius: 6px; border: 1px solid #30363d; background: #161b22; color: #c9d1d9; }
+    .filters { text-align: center; margin-bottom: 20px; }
+    .filters label { margin: 0 15px; cursor: pointer; font-size: 15px; }
+    .filters input { margin-right: 6px; transform: scale(1.1); }
+    .container { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; max-width: 1400px; margin: 0 auto; }
+    .column { flex: 1; min-width: 420px; }
+    .column h2 { text-align: center; font-size: 1.3rem; margin: 0 0 10px 0; color: #58a6ff; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid #30363d; }
+    th { background: #161b22; }
+    tr:hover { background: #161b22; }
+    .positive { color: #3fb950; font-weight: 500; }
+    .negative { color: #f85149; font-weight: 500; }
+    .badge { display: inline-block; font-size: 11px; padding: 2px 6px; border-radius: 4px; margin-left: 6px; font-weight: 600; }
+    .badge-crypto { background: #238636; color: white; }
+    .badge-rwa { background: #9e6a03; color: white; }
+  </style>
+</head>
+<body>
+  <h1>TrueCurrent – Funding Rate Promedio 7 días (Anualizado)</h1>
+  <p id="updated">Cargando...</p>
+  <input type="text" id="search" placeholder="Buscar token (ej. FIL, BTC, NVDA...)">
+
+  <div class="filters">
+    <label><input type="checkbox" id="filter-crypto" checked> Crypto</label>
+    <label><input type="checkbox" id="filter-rwa" checked> RWA</label>
+  </div>
+
+  <div class="container">
+    <div class="column">
+      <h2>Mayor a Menor</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Activo</th>
+            <th>Funding 7d</th>
+            <th>Funding Actual</th>
+            <th>Precio 24h</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-high"></tbody>
+      </table>
+    </div>
+    <div class="column">
+      <h2>Menor a Mayor</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Activo</th>
+            <th>Funding 7d</th>
+            <th>Funding Actual</th>
+            <th>Precio 24h</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-low"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    let data = [];
+
+    function cleanTicker(ticker) {
+      return (ticker || "")
+        .replace('/USDC PERP', '')
+        .replace('/USDT PERP', '')
+        .replace(' PERP', '')
+        .trim();
     }
-    .filters {
-      text-align: center;
-      margin-bottom: 20px;
+
+    async function loadData() {
+      try {
+        const res = await fetch('funding_7d.json?v=' + Date.now());
+        if (!res.ok) throw new Error("No se pudo cargar el JSON");
+        const json = await res.json();
+        data = (json.data || []).map(item => ({
+          ...item,
+          cleanName: cleanTicker(item.ticker),
+          type: item.type || "CRYPTO"
+        }));
+        document.getElementById('updated').textContent = 
+          `Actualizado: ${json.updated_at ? new Date(json.updated_at).toLocaleString() : '—'} | ${json.count || data.length} mercados`;
+        render();
+      } catch (e) {
+        document.getElementById('updated').textContent = "Error cargando datos: " + e.message;
+        console.error(e);
+      }
     }
-    .filters label {
-      margin: 0 15px;
-      cursor: pointer;
-      font-size: 15px;
+
+    function formatRow(r) {
+      const avg = r["avg_7d_annualized_%"];
+      const curr = r["current_funding_annualized_%"];
+      const chg = r["price_change_24h_%"];
+
+      const avgHtml = avg != null 
+        ? `<span class="${avg >= 0 ? 'positive' : 'negative'}">${Number(avg).toFixed(2)}%</span>` 
+        : '—';
+
+      const currHtml = curr != null 
+        ? `<span class="${curr >= 0 ? 'positive' : 'negative'}">${Number(curr).toFixed(2)}%</span>` 
+        : '—';
+
+      const chgHtml = chg != null 
+        ? `<span class="${chg >= 0 ? 'positive' : 'negative'}">${Number(chg).toFixed(2)}%</span>` 
+        : '—';
+
+      const badge = r.type === "RWA" 
+        ? '<span class="badge badge-rwa">RWA</span>' 
+        : '<span class="badge badge-crypto">CRYPTO</span>';
+
+      return `
+        <tr>
+          <td>${r.cleanName}${badge}</td>
+          <td>${avgHtml}</td>
+          <td>${currHtml}</td>
+          <td>${chgHtml}</td>
+        </tr>
+      `;
     }
-    .filters input {
-      margin-right: 6px;
-      transform: scale(1.1);
+
+    function render() {
+      const search = document.getElementById('search').value.toLowerCase().trim();
+      const showCrypto = document.getElementById('filter-crypto').checked;
+      const showRwa = document.getElementById('filter-rwa').checked;
+
+      let filtered = data.filter(item => {
+        if (item.type === "CRYPTO" && !showCrypto) return false;
+        if (item.type === "RWA" && !showRwa) return false;
+        if (search && !item.cleanName.toLowerCase().includes(search)) return false;
+        return true;
+      });
+
+      const high = [...filtered].sort((a, b) => 
+        (b["avg_7d_annualized_%"] ?? -9999) - (a["avg_7d_annualized_%"] ?? -9999)
+      );
+      const low = [...filtered].sort((a, b) => 
+        (a["avg_7d_annualized_%"] ?? 9999) - (b["avg_7d_annualized_%"] ?? 9999)
+      );
+
+      document.getElementById('tbody-high').innerHTML = high.map(formatRow).join('') || '<tr><td colspan="4">Sin resultados</td></tr>';
+      document.getElementById('tbody-low').innerHTML = low.map(formatRow).join('') || '<tr><td colspan="4">Sin resultados</td></tr>';
     }
-    .container {
-      display: flex;
-      gap: 30px;
-      justify-content: center;
-      flex-wrap: wrap;
-      max-
+
+    document.getElementById('search').addEventListener('input', render);
+    document.getElementById('filter-crypto').addEventListener('change', render);
+    document.getElementById('filter-rwa').addEventListener('change', render);
+
+    loadData();
+  </script>
+</body>
+</html>
