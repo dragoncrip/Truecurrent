@@ -1,19 +1,19 @@
-# Clasificación CRYPTO / RWA basada en los mercados reales de TrueCurrent
+# Clasificación CRYPTO / RWA (lista limpia de Acciones + Macro)
 ticker_upper = m["ticker"].upper()
 
 rwa_keywords = [
-    # Acciones / Equities (extraídas de la interfaz)
+    # Acciones / Equities
     "SNOW", "DELL", "META", "PANW", "COIN", "ASML", "INTC", "HOOD", "ARM", "LLY",
-    "US500", "SPX", "TSM", "NVDA", "AMGN", "VRT", "GOLD", "XAU", "AMD", "FLUT",
-    "SCHW", "PM", "ANET", "PFE", "QCOM", "GOOGL", "V", "AMC", "EM", "GME", "DIS",
+    "US500", "SPX", "TSM", "NVDA", "C", "AMGN", "VRT", "GILD", "AMD", "FLUT",
+    "SCHW", "PM", "ANET", "PFE", "QCOM", "GOOGL", "V", "AMC", "MS", "GME", "DIS",
     "SPOT", "MRVL", "SMCI", "AAPL", "TSLA", "MSFT", "AMZN", "NFLX", "MSTR",
     "CRCL", "PLTR", "BABA", "NIO", "RIVN", "SOFI", "RBLX", "SNAP", "UBER",
-    "ABNB", "SHOP", "SQ", "PYPL", "JPM", "BAC", "GS", "MS", "BLK", "BRK",
+    "ABNB", "SHOP", "SQ", "PYPL", "JPM", "BAC", "GS", "BLK", "BRK",
     "NKE", "SBUX", "MCD", "KO", "PEP", "WMT", "TGT", "COST", "HD", "LOW",
-    "BA", "LMT", "RTX", "GD", "NOC", "PFE", "MRNA", "JNJ", "UNH", "CVS",
-    # Macro / Commodities / FX
-    "USDJPY", "EURUSD", "GBPUSD", "XAU", "XAG", "WTI", "BRENT", "GOLD", "SILVER",
-    "OIL", "CRUDE", "US500", "SPX", "NDX", "DJI",
+    "BA", "LMT", "RTX", "GD", "NOC", "MRNA", "JNJ", "UNH", "CVS",
+    # Macro / FX / Commodities
+    "USDJPY", "EURUSD", "GBPUSD", "AUDUSD", "USDCAD", "XAU", "XAG", "GOLD",
+    "SILVER", "WTI", "BRENT", "OIL", "CRUDE", "US500", "SPX", "NDX", "DJI",
     # Pre-IPO / Especiales
     "SPCX", "OPENAI", "ANTHROPIC", "SPACEX", "TTI", "AIX", "TRADFI"
 ]
