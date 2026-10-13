@@ -12,8 +12,8 @@
     .filters { text-align: center; margin-bottom: 20px; }
     .filters label { margin: 0 15px; cursor: pointer; font-size: 15px; }
     .filters input { margin-right: 6px; transform: scale(1.1); }
-    .container { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; max-width: 1400px; margin: 0 auto; }
-    .column { flex: 1; min-width: 420px; }
+    .container { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; max-width: 1200px; margin: 0 auto; }
+    .column { flex: 1; min-width: 380px; }
     .column h2 { text-align: center; font-size: 1.3rem; margin: 0 0 10px 0; color: #58a6ff; }
     table { border-collapse: collapse; width: 100%; }
     th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid #30363d; }
@@ -45,7 +45,6 @@
             <th>Activo</th>
             <th>Funding 7d</th>
             <th>Funding Actual</th>
-            <th>Precio 24h</th>
           </tr>
         </thead>
         <tbody id="tbody-high"></tbody>
@@ -59,7 +58,6 @@
             <th>Activo</th>
             <th>Funding 7d</th>
             <th>Funding Actual</th>
-            <th>Precio 24h</th>
           </tr>
         </thead>
         <tbody id="tbody-low"></tbody>
@@ -100,7 +98,6 @@
     function formatRow(r) {
       const avg = r["avg_7d_annualized_%"];
       const curr = r["current_funding_annualized_%"];
-      const chg = r["price_change_24h_%"];
 
       const avgHtml = avg != null 
         ? `<span class="${avg >= 0 ? 'positive' : 'negative'}">${Number(avg).toFixed(2)}%</span>` 
@@ -108,10 +105,6 @@
 
       const currHtml = curr != null 
         ? `<span class="${curr >= 0 ? 'positive' : 'negative'}">${Number(curr).toFixed(2)}%</span>` 
-        : '—';
-
-      const chgHtml = chg != null 
-        ? `<span class="${chg >= 0 ? 'positive' : 'negative'}">${Number(chg).toFixed(2)}%</span>` 
         : '—';
 
       const badge = r.type === "RWA" 
@@ -123,7 +116,6 @@
           <td>${r.cleanName}${badge}</td>
           <td>${avgHtml}</td>
           <td>${currHtml}</td>
-          <td>${chgHtml}</td>
         </tr>
       `;
     }
@@ -147,8 +139,8 @@
         (a["avg_7d_annualized_%"] ?? 9999) - (b["avg_7d_annualized_%"] ?? 9999)
       );
 
-      document.getElementById('tbody-high').innerHTML = high.map(formatRow).join('') || '<tr><td colspan="4">Sin resultados</td></tr>';
-      document.getElementById('tbody-low').innerHTML = low.map(formatRow).join('') || '<tr><td colspan="4">Sin resultados</td></tr>';
+      document.getElementById('tbody-high').innerHTML = high.map(formatRow).join('') || '<tr><td colspan="3">Sin resultados</td></tr>';
+      document.getElementById('tbody-low').innerHTML = low.map(formatRow).join('') || '<tr><td colspan="3">Sin resultados</td></tr>';
     }
 
     document.getElementById('search').addEventListener('input', render);
