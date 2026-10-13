@@ -2,7 +2,7 @@ name: Update Funding 7d Average
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # cada 6 horas (UTC)
+    - cron: '0 */12 * * *'   # cada 12 horas
   workflow_dispatch:
 
 permissions:
