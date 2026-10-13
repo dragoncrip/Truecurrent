@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T03:38:06.823424+00:00",
+  "updated_at": "2026-10-13T03:52:16.624171+00:00",
   "count": 285,
   "data": [
     {
@@ -7,6 +7,7 @@
       "marketId": "0x190fe9419c623610ecab416e582b16bbca794b64f04f216348d6f5159e6363be",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -520.6,
+      "avg_3d_annualized_%": -516.88,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -15,6 +16,7 @@
       "marketId": "0xf31cfea157a343462fd5388cc77738339951340c3ab221708cf2ec285c4defc7",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 480.81,
+      "avg_3d_annualized_%": 536.4,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -23,6 +25,7 @@
       "marketId": "0x39aee5b3a96e99191857f27e37b78d9b06e46c542b63c7abf4efbd7605a21468",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -467.54,
+      "avg_3d_annualized_%": -409.71,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -31,6 +34,7 @@
       "marketId": "0x1414729cb335c2bf55f48c3ad0097bf871b5af557da8365468675d7ad6b62250",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -437.04,
+      "avg_3d_annualized_%": -369.74,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -39,6 +43,7 @@
       "marketId": "0x993b2833f9fd4818f1c18e029d07dc5afc9d09e4d1dd9de7399dc61efb715dd7",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 431.49,
+      "avg_3d_annualized_%": 374.14,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -47,6 +52,7 @@
       "marketId": "0x7cc7a591783edfc16faac20ad71c01109466e4521d07713c3a66119434b8716d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 429.63,
+      "avg_3d_annualized_%": 343.07,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -55,6 +61,7 @@
       "marketId": "0x114594ae249be6902fbcee8f65048fb07a6aed3aeb3af4fb75d1204d82b195e6",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 418.42,
+      "avg_3d_annualized_%": 367.94,
       "current_funding_annualized_%": -323.66,
       "price_change_24h_%": null
     },
@@ -63,6 +70,7 @@
       "marketId": "0x0a650987f9589ba584be0a4db76f8a27b4af2994a938010a934f044c3ff49b43",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -404.13,
+      "avg_3d_annualized_%": -309.22,
       "current_funding_annualized_%": 137.44,
       "price_change_24h_%": null
     },
@@ -71,6 +79,7 @@
       "marketId": "0xf55d8c70c8efe64daccf83290a9b3ada96dd2a63559d6a777e034948e9ca352c",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -403.13,
+      "avg_3d_annualized_%": -288.19,
       "current_funding_annualized_%": -269.04,
       "price_change_24h_%": null
     },
@@ -79,6 +88,7 @@
       "marketId": "0x504bf606268cca5fd3dac7419c75a3a6527e65589f0b96b9480e2416ec1367ca",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -400.32,
+      "avg_3d_annualized_%": -439.83,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -87,6 +97,7 @@
       "marketId": "0xef711a98876a7a44812984434ef64f68bf91baf7bae84bc190aa30de766c08df",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 379.2,
+      "avg_3d_annualized_%": 326.27,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -95,6 +106,7 @@
       "marketId": "0xa8c31843f581b78f392eaa8a9637b3f90cd12c6123444f4cd4ebc5ce9a1df389",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -372.82,
+      "avg_3d_annualized_%": -218.1,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -103,6 +115,7 @@
       "marketId": "0x9e95b6e5f29291dbe1d64eff9ac1fbd63a92124dc9fc7ca5941cbd635a18a410",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -358.24,
+      "avg_3d_annualized_%": -212.01,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -111,6 +124,7 @@
       "marketId": "0xc01d3421d244dc6398524f90c03b20813c7c242827e0596dcb89ee9a44c9a0c4",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 356.9,
+      "avg_3d_annualized_%": 344.34,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -119,6 +133,7 @@
       "marketId": "0x32888951480831259f8552c233fdc815142ca1760fbb541436070fbdae14d993",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 352.38,
+      "avg_3d_annualized_%": 363.98,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -127,6 +142,7 @@
       "marketId": "0x175419012cb57f5dbfcca1fdab43e3ca8078525b313f32b248dcf13de516b35a",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -336.03,
+      "avg_3d_annualized_%": -206.51,
       "current_funding_annualized_%": 13.35,
       "price_change_24h_%": null
     },
@@ -135,6 +151,7 @@
       "marketId": "0xf5328304b9f25c429f60682f5b62c261c78cdcbf62a6f5cc07493837a7cf1c48",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 331.91,
+      "avg_3d_annualized_%": 172.6,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -143,6 +160,7 @@
       "marketId": "0xaea49da65a3676005195f1a255b16b246f6c7dd9b01597354568be1fd11cd21e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -328.74,
+      "avg_3d_annualized_%": -523.17,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -151,6 +169,7 @@
       "marketId": "0x24a275b308b987c2f7d0ecf1ff56607333f8bb6d3adad66475525b4ade88bdfd",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 324.59,
+      "avg_3d_annualized_%": 294.7,
       "current_funding_annualized_%": 200.89,
       "price_change_24h_%": null
     },
@@ -159,6 +178,7 @@
       "marketId": "0xfd8d4d82d3ff91cd266d493b2d99dc49b8eeafdf9fa38bc3f1b804eb6b2e7af4",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -323.64,
+      "avg_3d_annualized_%": -83.9,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -167,6 +187,7 @@
       "marketId": "0x8e0c2e28b065a5e8da93ada8ef6e7ff23e42c62470c14bca3b6059638f9ccf4e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 272.71,
+      "avg_3d_annualized_%": 112.29,
       "current_funding_annualized_%": 26.82,
       "price_change_24h_%": null
     },
@@ -175,6 +196,7 @@
       "marketId": "0x394ba530f29bb10facdbc1eae4f42e20b6a8af4f0d3a4bf7ae233be74ef7afa8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 270.19,
+      "avg_3d_annualized_%": 372.89,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -183,6 +205,7 @@
       "marketId": "0xba13c6b6a748ade761cb56717625dab1624bdecd667c79e70cee185bdd944cd5",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -269.33,
+      "avg_3d_annualized_%": -458.77,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -191,6 +214,7 @@
       "marketId": "0xf817bcfb7b341d3e71f4fa40ebcc83af2578ba4bbcc325b2e50b9ecc72720707",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -268.43,
+      "avg_3d_annualized_%": -462.08,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -199,6 +223,7 @@
       "marketId": "0x643ee90524ecb116f58f45f9c3df7b62b519062331b1072966d062b3650e3bca",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -256.04,
+      "avg_3d_annualized_%": -277.25,
       "current_funding_annualized_%": -224.95,
       "price_change_24h_%": null
     },
@@ -207,6 +232,7 @@
       "marketId": "0xdbde02d14c6ed0d6d5a6d64648dc91bd79187a83e0b704b8592ae6e814f99ba8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 254.63,
+      "avg_3d_annualized_%": 368.68,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -215,6 +241,7 @@
       "marketId": "0x344445d2ba251c19e385e34cc6d5537114fa2ac775d3a7a7c5ef8a65ad6675a7",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 244.47,
+      "avg_3d_annualized_%": 253.26,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -223,6 +250,7 @@
       "marketId": "0x1c9a984f31bcd6eb02cedeaa0119619b6fc2c8a597e1d2467af43f1372a31cea",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -233.08,
+      "avg_3d_annualized_%": -333.78,
       "current_funding_annualized_%": -261.92,
       "price_change_24h_%": null
     },
@@ -231,6 +259,7 @@
       "marketId": "0xa21d2b7f666be098acb3906b86312f80841602b2ee81fdffdfdbcaf032be4e6a",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -225.74,
+      "avg_3d_annualized_%": -221.1,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -239,6 +268,7 @@
       "marketId": "0x7ffeaa2e0ca3c21b9c45124413ef4f6937e0720d656ba28434da957444fbe397",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -208.17,
+      "avg_3d_annualized_%": -295.85,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -247,6 +277,7 @@
       "marketId": "0xe3d49e64f316bcc866d32b9162b7c902e3489025b961c5b6f79996652760bf81",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -206.84,
+      "avg_3d_annualized_%": -311.33,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -255,6 +286,7 @@
       "marketId": "0xfbac3dccccd1197819933265cc4620d420dff9da0d4cf753b8649525603a1637",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -200.6,
+      "avg_3d_annualized_%": -467.03,
       "current_funding_annualized_%": 97.69,
       "price_change_24h_%": null
     },
@@ -263,6 +295,7 @@
       "marketId": "0x341ff04d0bb6185d78a0f427fa06fda7599d98a04d2d6df4fa17d8b50ef0fbc4",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 194.42,
+      "avg_3d_annualized_%": 406.78,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -271,6 +304,7 @@
       "marketId": "0xa99b7df8fb57c69086a69f5900644801c45f949004924105a6f66b80684a5e28",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -188.26,
+      "avg_3d_annualized_%": 5.42,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -279,6 +313,7 @@
       "marketId": "0x23c51abd136f48ebff02a01b6d08848888661294018e84a32e288fb1275e0c89",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -183.62,
+      "avg_3d_annualized_%": -93.39,
       "current_funding_annualized_%": -330.57,
       "price_change_24h_%": null
     },
@@ -287,6 +322,7 @@
       "marketId": "0x8c4d277a0d192c0ffe0a4a0fc5beceaf45c04b37542b7e83f0793e5392eb2428",
       "type": "RWA",
       "avg_7d_annualized_%": 183.4,
+      "avg_3d_annualized_%": 188.91,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -295,6 +331,7 @@
       "marketId": "0x3d39fcb2ccfe95921df5860133e7eb06bcbeccfc3cdd99774c54666589b2ef43",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 158.02,
+      "avg_3d_annualized_%": 1.81,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -303,6 +340,7 @@
       "marketId": "0xff2ff43d84ce9786d8cc342ed6f6f699aef0a5015b7ffd60891448192f8679b7",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 149.81,
+      "avg_3d_annualized_%": 181.06,
       "current_funding_annualized_%": 181.85,
       "price_change_24h_%": null
     },
@@ -311,6 +349,7 @@
       "marketId": "0x142846ceefba05b25d0da3faa67ce6f29a73bf1b2da30d87129b3a16a20d76ec",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 139.2,
+      "avg_3d_annualized_%": 180.14,
       "current_funding_annualized_%": 177.22,
       "price_change_24h_%": null
     },
@@ -319,6 +358,7 @@
       "marketId": "0xea84e5f009d7bc7fc0a100bb11ab7861987eac4899a16034a33dd17a4aa5e140",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 134.69,
+      "avg_3d_annualized_%": 128.13,
       "current_funding_annualized_%": 36.38,
       "price_change_24h_%": null
     },
@@ -327,6 +367,7 @@
       "marketId": "0xcf98ddf04e0d858561f0ecdfbf2ea4bcf8fd60f78481f78a7454b35ec6faf2ea",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 133.84,
+      "avg_3d_annualized_%": 65.7,
       "current_funding_annualized_%": 75.93,
       "price_change_24h_%": null
     },
@@ -335,6 +376,7 @@
       "marketId": "0xeee0f9cf374a8e20a2d0e20b827984f8a398615cf633fcfdec0323d8c1a4877a",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 126.36,
+      "avg_3d_annualized_%": 133.6,
       "current_funding_annualized_%": 149.07,
       "price_change_24h_%": null
     },
@@ -343,6 +385,7 @@
       "marketId": "0x216885a2dd6b748d36f08811d1186d8c7d6cdc4d9bde83752f760e6ccde096e8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -121.13,
+      "avg_3d_annualized_%": -95.29,
       "current_funding_annualized_%": -137.9,
       "price_change_24h_%": null
     },
@@ -351,6 +394,7 @@
       "marketId": "0xeac46d5d3beabb62016573d3560850fa6cac00a3a5fe37a4a04c909877dafe07",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -120.43,
+      "avg_3d_annualized_%": -113.69,
       "current_funding_annualized_%": 60.32,
       "price_change_24h_%": null
     },
@@ -359,6 +403,7 @@
       "marketId": "0x4b4ff60697e518c2c6293860c8fc46d5b79e75225e190d55324b47d68a8cbba2",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -116.26,
+      "avg_3d_annualized_%": -190.0,
       "current_funding_annualized_%": -350.31,
       "price_change_24h_%": null
     },
@@ -367,6 +412,7 @@
       "marketId": "0x77ee9bbe6e178191c4e834aa096252ce789d7a7c26529126831a0196abc68177",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -115.33,
+      "avg_3d_annualized_%": 4.69,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -375,6 +421,7 @@
       "marketId": "0x77b3a8d9acc12616ca6e8ad1e339c27867a7ccc475ca4472a3ee7a8177f8c563",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 108.15,
+      "avg_3d_annualized_%": 246.67,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -383,6 +430,7 @@
       "marketId": "0xaf9b7151b790c5e3b7b449674b336c3caa197d50dd63f3dba29c168db696dc37",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 105.28,
+      "avg_3d_annualized_%": 69.87,
       "current_funding_annualized_%": 242.54,
       "price_change_24h_%": null
     },
@@ -391,6 +439,7 @@
       "marketId": "0xb053195c190b18a6be43af13b8dbfc7d2c816dfb98948d237644586349baf6c6",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 104.31,
+      "avg_3d_annualized_%": 104.42,
       "current_funding_annualized_%": 66.1,
       "price_change_24h_%": null
     },
@@ -399,6 +448,7 @@
       "marketId": "0x19c0675efd59420b4dc7c281305992aa46365002d30ec1494880fae151a30156",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 99.71,
+      "avg_3d_annualized_%": 169.02,
       "current_funding_annualized_%": 167.44,
       "price_change_24h_%": null
     },
@@ -407,6 +457,7 @@
       "marketId": "0x324dd1a31695cb8cd7243f9e04286492653c9c146d7576379fb2848ab7cab76a",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 96.39,
+      "avg_3d_annualized_%": 167.14,
       "current_funding_annualized_%": 164.89,
       "price_change_24h_%": null
     },
@@ -415,6 +466,7 @@
       "marketId": "0x8979ae49df6d12826585b8b2a878c0cce79d38f0d59ce518cb6057fee9cb5df2",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -93.65,
+      "avg_3d_annualized_%": -51.62,
       "current_funding_annualized_%": 140.3,
       "price_change_24h_%": null
     },
@@ -423,6 +475,7 @@
       "marketId": "0x5dec5f8bbd072dd1a361c45856516b0cefcbd74b3ea93a2075b5e208395b4136",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -92.38,
+      "avg_3d_annualized_%": -99.43,
       "current_funding_annualized_%": -138.89,
       "price_change_24h_%": null
     },
@@ -431,6 +484,7 @@
       "marketId": "0x3148930df09777ba6dbbb7af192cad6e40f1ecefe17b6089ee5fe649e9d36740",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 91.17,
+      "avg_3d_annualized_%": 141.13,
       "current_funding_annualized_%": 187.92,
       "price_change_24h_%": null
     },
@@ -439,6 +493,7 @@
       "marketId": "0x1ecae98c2b02aa2871d7ce58380d130b10af87b6254c62635f3d0045835140be",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -89.27,
+      "avg_3d_annualized_%": -263.82,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -447,6 +502,7 @@
       "marketId": "0xae6a59cf878786e337905f34c6bf0142a3f382d9f6153a91dbb0911e0081e76d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 89.1,
+      "avg_3d_annualized_%": 61.46,
       "current_funding_annualized_%": 191.97,
       "price_change_24h_%": null
     },
@@ -455,6 +511,7 @@
       "marketId": "0x771f3b734d5f6b5a5f0d0584a027655744aba77130ca0ea5090d9332a6586c8b",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 88.7,
+      "avg_3d_annualized_%": 126.21,
       "current_funding_annualized_%": 151.85,
       "price_change_24h_%": null
     },
@@ -463,6 +520,7 @@
       "marketId": "0x2fe548e9fa858d14ac005f8d59d61937e88f73b0c5ba4c72e68550f1fddc781e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -84.44,
+      "avg_3d_annualized_%": -24.37,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -471,6 +529,7 @@
       "marketId": "0x771addc2a9701879fc3953846316b2b278964885668eb4ef3d7a857ecbbd7ef7",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -82.7,
+      "avg_3d_annualized_%": -78.69,
       "current_funding_annualized_%": -16.59,
       "price_change_24h_%": null
     },
@@ -479,6 +538,7 @@
       "marketId": "0xf3c1f5f5ba868e5112fe2e0375f8cf00dc2c7b4770b52975591c471c29589dfa",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -82.33,
+      "avg_3d_annualized_%": -176.25,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -487,6 +547,7 @@
       "marketId": "0xc8208842addf64101050b20da6eb3a123b67dee79b01e17dc6b47c7e70a5987d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -79.41,
+      "avg_3d_annualized_%": 4.34,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -495,6 +556,7 @@
       "marketId": "0x4b5d6df8a6f9265dea1e0451493c067f1cfd80b2377ffe912d23ca9c7f24973e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 79.2,
+      "avg_3d_annualized_%": 76.59,
       "current_funding_annualized_%": 200.82,
       "price_change_24h_%": null
     },
@@ -503,6 +565,7 @@
       "marketId": "0x5d379fa10f0a74cd5983391b7391fa72af9cb4c0740a72adb1aed966e78103f3",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 78.89,
+      "avg_3d_annualized_%": 85.28,
       "current_funding_annualized_%": 43.01,
       "price_change_24h_%": null
     },
@@ -511,6 +574,7 @@
       "marketId": "0xae60d32c901e0fcd36951ad9c80947e6a3206d0fabe089064fba5b4dbe87c088",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 77.6,
+      "avg_3d_annualized_%": 70.84,
       "current_funding_annualized_%": 26.78,
       "price_change_24h_%": null
     },
@@ -519,6 +583,7 @@
       "marketId": "0xecf1cefce2e49ee94b5c16353915e73619b8c15d6670e9661bd2697c3bc9fa98",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 77.48,
+      "avg_3d_annualized_%": 124.44,
       "current_funding_annualized_%": 123.93,
       "price_change_24h_%": null
     },
@@ -527,6 +592,7 @@
       "marketId": "0x5803f2b9d7b0a7b33408cb46a52e6b758e590e388342c8daa7554ddcc2289ef8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 73.05,
+      "avg_3d_annualized_%": 5.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -535,6 +601,7 @@
       "marketId": "0x5a0d0e113ab96cf9e2abe318492e1d0191b9724fa6e9607faef62e832660a351",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -71.24,
+      "avg_3d_annualized_%": -171.28,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -543,6 +610,7 @@
       "marketId": "0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 67.14,
+      "avg_3d_annualized_%": 49.96,
       "current_funding_annualized_%": 79.69,
       "price_change_24h_%": null
     },
@@ -551,6 +619,7 @@
       "marketId": "0x3ceb3579ed75d237547590471c5fe69c23dab30afb7bc338d24dd0b25af73c9f",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -66.88,
+      "avg_3d_annualized_%": -59.31,
       "current_funding_annualized_%": -58.51,
       "price_change_24h_%": null
     },
@@ -559,6 +628,7 @@
       "marketId": "0x291f404810c663e5fdd68b50454c1014760227842d420a2315f88311efe6ec41",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 62.56,
+      "avg_3d_annualized_%": 51.33,
       "current_funding_annualized_%": -76.26,
       "price_change_24h_%": null
     },
@@ -567,6 +637,7 @@
       "marketId": "0xb00623441cebadd80325e83b4adf38f6065040825f20e20baef30f5d2cd29eab",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 61.65,
+      "avg_3d_annualized_%": 55.81,
       "current_funding_annualized_%": 178.34,
       "price_change_24h_%": null
     },
@@ -575,6 +646,7 @@
       "marketId": "0xeba500c9b9908cf450c5abfb96aa2a84ed5a2e302d448e28347e9519f26ba691",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -61.18,
+      "avg_3d_annualized_%": -100.32,
       "current_funding_annualized_%": -175.86,
       "price_change_24h_%": null
     },
@@ -583,6 +655,7 @@
       "marketId": "0xaa8380d7fc430481bfe398ab82a9fa0d61ea0bfad45398fc3f02a10fe204e2b8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -57.72,
+      "avg_3d_annualized_%": -114.04,
       "current_funding_annualized_%": 14.94,
       "price_change_24h_%": null
     },
@@ -591,6 +664,7 @@
       "marketId": "0xc5a03089cff2aa0364864b428a11654b8e8e34a0476f9cd81f52fe518fde66e1",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -57.48,
+      "avg_3d_annualized_%": -61.4,
       "current_funding_annualized_%": -33.84,
       "price_change_24h_%": null
     },
@@ -599,6 +673,7 @@
       "marketId": "0xf62b4cc0cbac41c195d3a5c2a43df4045c0d99274caf1a6e69c19ef31f72356a",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -54.2,
+      "avg_3d_annualized_%": -18.89,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -607,6 +682,7 @@
       "marketId": "0x33353622e471d42f4e42334f0dc1f3b49738f18abf4c75b240d4f6ba5f2a52d8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 52.33,
+      "avg_3d_annualized_%": 71.25,
       "current_funding_annualized_%": -172.47,
       "price_change_24h_%": null
     },
@@ -615,6 +691,7 @@
       "marketId": "0xcf0078ac554d3c5ec2bcbec4719ca49ac63e28e1a8b859d87d9aa616cfe7efac",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -48.7,
+      "avg_3d_annualized_%": -52.46,
       "current_funding_annualized_%": 14.06,
       "price_change_24h_%": null
     },
@@ -623,6 +700,7 @@
       "marketId": "0x2ccf2c7d01fc8ff0a728e2578419106c509a48ed87ef083117f8422ab8da390d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -47.51,
+      "avg_3d_annualized_%": 13.5,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -631,6 +709,7 @@
       "marketId": "0x41d0e5acd9be64a1af7b4e1d06e508327dfb58d6d42c8858b700ed82deb0d87c",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 47.02,
+      "avg_3d_annualized_%": 39.2,
       "current_funding_annualized_%": -151.11,
       "price_change_24h_%": null
     },
@@ -639,6 +718,7 @@
       "marketId": "0xaecae1d106b0b189785c9dd600290c94eaca5608d91334a726a1b00b95347edb",
       "type": "RWA",
       "avg_7d_annualized_%": 46.08,
+      "avg_3d_annualized_%": 48.11,
       "current_funding_annualized_%": 48.18,
       "price_change_24h_%": null
     },
@@ -647,6 +727,7 @@
       "marketId": "0x6c1116fb76358f6c7e3925eb0dc3e66a8e34c77af5b2b79b5c2de60c0bd68d43",
       "type": "RWA",
       "avg_7d_annualized_%": 40.48,
+      "avg_3d_annualized_%": 33.94,
       "current_funding_annualized_%": 48.18,
       "price_change_24h_%": null
     },
@@ -655,6 +736,7 @@
       "marketId": "0xca2435ecd0bbd36bb26cda0606c3f1474e3696bf89399fa9ffde2f2636c25876",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 39.78,
+      "avg_3d_annualized_%": 92.56,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -663,6 +745,7 @@
       "marketId": "0x2c6bd0f72de7fedcd57499286c370742b35c77d21443877099e3724b0e7d69cc",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 38.73,
+      "avg_3d_annualized_%": 72.27,
       "current_funding_annualized_%": 163.19,
       "price_change_24h_%": null
     },
@@ -671,6 +754,7 @@
       "marketId": "0xcb036f44ab932a66cd1abd46091d07bda68b5fb9a4c72010a5780030f84bc414",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 36.84,
+      "avg_3d_annualized_%": 6.24,
       "current_funding_annualized_%": -92.78,
       "price_change_24h_%": null
     },
@@ -679,6 +763,7 @@
       "marketId": "0x64346a936e6161c5064574e549ffa2e66837c5632aa8e74429f716c9dff44a59",
       "type": "RWA",
       "avg_7d_annualized_%": -35.86,
+      "avg_3d_annualized_%": -35.0,
       "current_funding_annualized_%": -48.18,
       "price_change_24h_%": null
     },
@@ -687,6 +772,7 @@
       "marketId": "0x59bc9dac7c4d4aa59c603a6dae46a12575ac62b52520052a063ce37ebe4272a5",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -34.73,
+      "avg_3d_annualized_%": -4.88,
       "current_funding_annualized_%": -4.51,
       "price_change_24h_%": null
     },
@@ -695,6 +781,7 @@
       "marketId": "0x0d2883807c80a00aa07ebeb35b27d265b17559c1751fa992fe458795800dc156",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 32.36,
+      "avg_3d_annualized_%": -179.6,
       "current_funding_annualized_%": 8.66,
       "price_change_24h_%": null
     },
@@ -703,6 +790,7 @@
       "marketId": "0xac6bcb0ad6de2b58ba89a2aa0fd316f688e1c372bc88290f9507c61eeab52bb4",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -31.39,
+      "avg_3d_annualized_%": -60.13,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -711,6 +799,7 @@
       "marketId": "0xeabd12f086431eca9a5d8253119cd751af5751c4e580013ad0422a1b92010f89",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 31.25,
+      "avg_3d_annualized_%": -192.0,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -719,6 +808,7 @@
       "marketId": "0x2c266a878426b6cb1a784391706c8c151d46449a517c31e2b7fe7bc327845fac",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 27.82,
+      "avg_3d_annualized_%": -497.47,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -727,6 +817,7 @@
       "marketId": "0x97420a337736c43fe0f0de70ae96e8e7755b68273c2ba9ed1c5a41e9672acf01",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -25.26,
+      "avg_3d_annualized_%": -2.41,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -735,6 +826,7 @@
       "marketId": "0xd04a1ec3af09d0bd6a21abde6c0a50151a9866f91bb7fda6b22cbf04543669f0",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 23.7,
+      "avg_3d_annualized_%": 27.13,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -743,6 +835,7 @@
       "marketId": "0xf9d3299aafcd842e503eba1a5d83d29e26a1e834a27e39b5cbb9a620da6b9922",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -23.59,
+      "avg_3d_annualized_%": -24.09,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -751,6 +844,7 @@
       "marketId": "0x802ff0b7a26a1e5f1665f88919b25db52a5b110d11763e427b9b4875e3b74385",
       "type": "RWA",
       "avg_7d_annualized_%": -23.51,
+      "avg_3d_annualized_%": -23.32,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -759,6 +853,7 @@
       "marketId": "0x7520ff169fd6d47fc718a0d5aa438819512e57daf10d6bc4badf1c8b7751ef2a",
       "type": "RWA",
       "avg_7d_annualized_%": 23.24,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -767,6 +862,7 @@
       "marketId": "0xe19487e57bb19612273e8df2cbaa011906fa6c3aa5b1cefa975b61a732dd1612",
       "type": "RWA",
       "avg_7d_annualized_%": 23.24,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -775,6 +871,7 @@
       "marketId": "0xfc2db80f1b13fc2f4a78b5a7a42d2fc9aad841ea00f3577a86504f959d21a87a",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 23.24,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -783,6 +880,7 @@
       "marketId": "0x3adc53dd63e7040b8a98c2b650cf1ff93ede642c0fb8d60f7490d2fe5232acdb",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 23.12,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -791,6 +889,7 @@
       "marketId": "0xa4b0bde36b2c0d85142b3fb8811adc8655d1a33e06c4a7e551bd4f11e707118a",
       "type": "RWA",
       "avg_7d_annualized_%": 23.12,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -799,6 +898,7 @@
       "marketId": "0x3b5d444451ac85f36088e42b8f7f5e1e2c8b7c4adadb887c70f26db37fb2d226",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 23.12,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -807,6 +907,7 @@
       "marketId": "0xef0d7590315aef7b437aa5aa48f103d3ab1f9f6109ad02c77462bc3573c1888c",
       "type": "RWA",
       "avg_7d_annualized_%": 23.12,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -815,6 +916,7 @@
       "marketId": "0xfc5f29cbe841ae4d0604baad54d784845e0b2fe9d1b453e251e233f14614bd92",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 23.12,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -823,6 +925,7 @@
       "marketId": "0xb72584a107bc664ca7013d294fb54c88eca09bc359409a904bab9f754cb200af",
       "type": "RWA",
       "avg_7d_annualized_%": 23.12,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -831,6 +934,7 @@
       "marketId": "0x8bac3f18fae2f4183837f063c059e2949e36f2111b0e2379dd647f913181d5e1",
       "type": "RWA",
       "avg_7d_annualized_%": 23.12,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -839,6 +943,7 @@
       "marketId": "0x3a21d9dda2ab2b60d356ee72acffb739bbbe4f4a3e2de37500e42a94f14036c6",
       "type": "RWA",
       "avg_7d_annualized_%": 23.09,
+      "avg_3d_annualized_%": 22.9,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -847,6 +952,7 @@
       "marketId": "0xfd852ae8b1feb841fd0327010d65566dda71a5c1a712480badfe4f243bf66c25",
       "type": "RWA",
       "avg_7d_annualized_%": 23.05,
+      "avg_3d_annualized_%": 22.8,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -855,6 +961,7 @@
       "marketId": "0x5d16a48b89e9671bcbb484bbeb196af7f5b98e86c0fb673a7e296ef6dc0507f9",
       "type": "RWA",
       "avg_7d_annualized_%": 22.99,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -863,6 +970,7 @@
       "marketId": "0x220120852298978d37c47c2c7893e7df51e783451fbef1edc7c745a59201c8e5",
       "type": "RWA",
       "avg_7d_annualized_%": 22.96,
+      "avg_3d_annualized_%": 24.09,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -871,6 +979,7 @@
       "marketId": "0x248b847fefba13e848af05da6ae53e79c1ea02a5268f64ee53c8ae517282c28e",
       "type": "RWA",
       "avg_7d_annualized_%": -22.93,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -879,6 +988,7 @@
       "marketId": "0x378324ab5b3adc0952880409f73de9f9f5ca7cbeddc995c7954f2d26a61f1682",
       "type": "RWA",
       "avg_7d_annualized_%": -22.93,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -887,6 +997,7 @@
       "marketId": "0xdd05c6e2da1f5d2d2a29f900ba604eca9bc58dedd3301bf0e64958a19d3aaa0d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -22.93,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -895,6 +1006,7 @@
       "marketId": "0xbd1c119cce4849f6ce18179b9c88ef8e2a47fd617a8e51a59672c337d07f3040",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -22.93,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -903,6 +1015,7 @@
       "marketId": "0x1962f819332b5c66ce0bfe8fb12c4d623aeb310e57cefa838e581e49639b90cd",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 22.87,
+      "avg_3d_annualized_%": 22.1,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -911,6 +1024,7 @@
       "marketId": "0x22028585eb7edc6a853e746832f96e41442b2f65db1d4d22dcb568fa6528b591",
       "type": "RWA",
       "avg_7d_annualized_%": 22.86,
+      "avg_3d_annualized_%": 24.09,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -919,6 +1033,7 @@
       "marketId": "0x6e002abe9615c5b05f2c822cf6e349f336d36d2009ca602d0c01f2bce2566424",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -22.77,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -927,6 +1042,7 @@
       "marketId": "0x88a6a2a04729f86a12f62480eeb67a0957873a02da491e5295cb8691de3c509d",
       "type": "RWA",
       "avg_7d_annualized_%": -22.77,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -935,6 +1051,7 @@
       "marketId": "0xe515a63baabd3a5aca320a73264be48645b42645ec6dc29a342edb18207d2ac8",
       "type": "RWA",
       "avg_7d_annualized_%": -22.77,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -943,6 +1060,7 @@
       "marketId": "0x04d59b37f0be9091edcf488cebac9c41a5856c51b90783ea23a454a9b4a992e6",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -22.77,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -951,6 +1069,7 @@
       "marketId": "0x7dbdd2dbb1644103caf6a6629940f89c6c7c4485a7d22a561a00ad725be58c26",
       "type": "RWA",
       "avg_7d_annualized_%": -22.77,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -959,6 +1078,7 @@
       "marketId": "0xac1ac325ab20d0f59c8d15878db5d0a8769869997c44787d5c6619683c2ae975",
       "type": "RWA",
       "avg_7d_annualized_%": -22.77,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -967,6 +1087,7 @@
       "marketId": "0x8f9c98d80eed58541535a753ec0205d54de760ee1dfb437dad2502e0ad48b7d3",
       "type": "RWA",
       "avg_7d_annualized_%": -22.77,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -975,6 +1096,7 @@
       "marketId": "0x26a0a34124dd2cd6114896dc7f011c92f866c4555799d3a1c7c12c4d98261800",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -22.77,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -983,6 +1105,7 @@
       "marketId": "0xa64b3fd63375bdf5328b5965cec0d1be2f0d25e6ff58f7d3ae778321d0d72327",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 22.75,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -991,6 +1114,7 @@
       "marketId": "0x209c4b20fa7a4ec164df293897960d47ec503c41ec3d165d0aae3d2eefcd94e2",
       "type": "RWA",
       "avg_7d_annualized_%": -21.92,
+      "avg_3d_annualized_%": -24.09,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -999,6 +1123,7 @@
       "marketId": "0xa3d0ef8d845ada306a53baabd04edab9c5525ba9e011648a09aa064db5ca3442",
       "type": "RWA",
       "avg_7d_annualized_%": 21.45,
+      "avg_3d_annualized_%": 24.09,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1007,6 +1132,7 @@
       "marketId": "0x1331b51d12e5911611469ea9c847a8e5f365711b286ad3eb55ba1c930125f26b",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -21.34,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1015,6 +1141,7 @@
       "marketId": "0x866b2956aa0062d65cd85f338da3eb08b7c1276ce62dbc22c09bea000f946c3f",
       "type": "RWA",
       "avg_7d_annualized_%": 20.93,
+      "avg_3d_annualized_%": 19.83,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1023,6 +1150,7 @@
       "marketId": "0x2e5d7a3d498ecc455d8996cd316c08ec673cc19b6b5668e7d29c0c53768048c8",
       "type": "RWA",
       "avg_7d_annualized_%": 20.49,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1031,6 +1159,7 @@
       "marketId": "0xb862ce3f6538b0300bc4f4e4c9dd28b522e6646c4d169ac440511f6ffa6cdf28",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -20.46,
+      "avg_3d_annualized_%": -23.25,
       "current_funding_annualized_%": 19.35,
       "price_change_24h_%": null
     },
@@ -1039,6 +1168,7 @@
       "marketId": "0xcf40fa9f6f7ee66e71d3750d8fb8a69b85cd084c628d804db477274652e6c693",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -20.36,
+      "avg_3d_annualized_%": -32.42,
       "current_funding_annualized_%": -205.31,
       "price_change_24h_%": null
     },
@@ -1047,6 +1177,7 @@
       "marketId": "0x3ecb73f8745e248f77a7cfd6994a1535a7f019a61a8d077dbfae055cc99c03f6",
       "type": "RWA",
       "avg_7d_annualized_%": 19.93,
+      "avg_3d_annualized_%": 15.52,
       "current_funding_annualized_%": 4.6,
       "price_change_24h_%": null
     },
@@ -1055,6 +1186,7 @@
       "marketId": "0x415be76da9e0c16ee9b26b2fc481848e3b461b85b7d4da5803f0bfe4484619f0",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -19.81,
+      "avg_3d_annualized_%": -21.8,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1063,6 +1195,7 @@
       "marketId": "0x5c6a52dc1303df32add16bb9ef18988b84bf287bac918a900904afc257214eb0",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -19.71,
+      "avg_3d_annualized_%": 130.81,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1071,6 +1204,7 @@
       "marketId": "0xc7533ced28e21087f20b0a42a86a9c95fd0e3924329b10dfd217d26692c6d60d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 19.55,
+      "avg_3d_annualized_%": 10.96,
       "current_funding_annualized_%": 12.14,
       "price_change_24h_%": null
     },
@@ -1079,6 +1213,7 @@
       "marketId": "0x46603b7bda6b5729ed03dfbf4e4c89f71145b7604b40f39afc796a4c4bbb7299",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 19.28,
+      "avg_3d_annualized_%": 27.43,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1087,6 +1222,7 @@
       "marketId": "0x81dcfe399699041a80eb51b6d5fa0dce05b9084f55c4923480c6cbb5d403a776",
       "type": "RWA",
       "avg_7d_annualized_%": -19.09,
+      "avg_3d_annualized_%": -19.17,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1095,6 +1231,7 @@
       "marketId": "0x34b37a03ba1f002f25aa804558972aaff44844088acc92b8dce61e8b2103a6f5",
       "type": "RWA",
       "avg_7d_annualized_%": -18.79,
+      "avg_3d_annualized_%": -10.53,
       "current_funding_annualized_%": -48.18,
       "price_change_24h_%": null
     },
@@ -1103,6 +1240,7 @@
       "marketId": "0x8f4ae01ef8027fcefa40b6465638c62da324f71755e7513fad37b2334c9291b5",
       "type": "RWA",
       "avg_7d_annualized_%": -18.63,
+      "avg_3d_annualized_%": -18.89,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1111,6 +1249,7 @@
       "marketId": "0xe6dabcfef0740c4ed55e1499247c4943bd82869fc208cdfa74298f358fc5c008",
       "type": "RWA",
       "avg_7d_annualized_%": -17.23,
+      "avg_3d_annualized_%": -16.73,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1119,6 +1258,7 @@
       "marketId": "0xe86c56114cacff94731de7b29ed1454526de3a08a1719f4232b571487a903ca6",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -17.05,
+      "avg_3d_annualized_%": -1.73,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1127,6 +1267,7 @@
       "marketId": "0x50f6bb0c95b6b6a1b4a4bf7b82e13de934f669a59475f7105595af59bd27bb50",
       "type": "RWA",
       "avg_7d_annualized_%": 17.03,
+      "avg_3d_annualized_%": 21.53,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1135,6 +1276,7 @@
       "marketId": "0x8ddeec9d03a040e9f6d00d0bdae661bc12720289930c0f52b853107ca1804c87",
       "type": "RWA",
       "avg_7d_annualized_%": -16.54,
+      "avg_3d_annualized_%": -15.27,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1143,6 +1285,7 @@
       "marketId": "0x2dd4d0b4f3e8f59fde6bd10dde3c234d45e1fa3e3b122c9f08d313c52aa515e0",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 16.48,
+      "avg_3d_annualized_%": 21.28,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1151,6 +1294,7 @@
       "marketId": "0xbbeeab469a0dd70c6ba3df283f084726a9b9896bdbdffce1432e82f881d756a7",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -16.47,
+      "avg_3d_annualized_%": -17.58,
       "current_funding_annualized_%": -17.84,
       "price_change_24h_%": null
     },
@@ -1159,6 +1303,7 @@
       "marketId": "0x5b9153838957e2ee374baf4e6fd98e96192c33a8cb0635c149218e25730d7330",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -15.34,
+      "avg_3d_annualized_%": -22.19,
       "current_funding_annualized_%": 1.89,
       "price_change_24h_%": null
     },
@@ -1167,6 +1312,7 @@
       "marketId": "0x66daeaa2070a86fdf4e94992dd401fd0dcf95b3099d569aab703d25e2847f50e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 15.25,
+      "avg_3d_annualized_%": 22.78,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1175,6 +1321,7 @@
       "marketId": "0x82bfb76f850b5ec2910b3587024bb68e0157139864aaad9527d6678518e57283",
       "type": "RWA",
       "avg_7d_annualized_%": -13.65,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1183,6 +1330,7 @@
       "marketId": "0xe51f13df270d7c335318a268812772a71c191130e192c031458074da75c520e8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 13.35,
+      "avg_3d_annualized_%": 5.75,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1191,6 +1339,7 @@
       "marketId": "0xc27b4c131562c9b0d3ddcec8cd627dd1199422051adaa2e5986bb605734b5ccc",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -13.01,
+      "avg_3d_annualized_%": 22.46,
       "current_funding_annualized_%": 8.7,
       "price_change_24h_%": null
     },
@@ -1199,6 +1348,7 @@
       "marketId": "0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 12.92,
+      "avg_3d_annualized_%": 15.25,
       "current_funding_annualized_%": 23.45,
       "price_change_24h_%": null
     },
@@ -1207,6 +1357,7 @@
       "marketId": "0x06762bf31ba2a80e0e60ebf85b0895de582e55bfe7f2b49f3e503a1c1bbf3feb",
       "type": "RWA",
       "avg_7d_annualized_%": 12.76,
+      "avg_3d_annualized_%": 24.09,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1215,6 +1366,7 @@
       "marketId": "0x4cbc7740ef7390324d552a911947697fd4adb65af2583769c6bbec0b4a1cf320",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 12.64,
+      "avg_3d_annualized_%": 13.69,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1223,6 +1375,7 @@
       "marketId": "0xbc8fea7113c9802f8eb14304ad16873453dfd6383e19319411f88cda9ab9bc68",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -12.04,
+      "avg_3d_annualized_%": -0.97,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1231,6 +1384,7 @@
       "marketId": "0xd751af620e0e98395b267d18b4678e5f905b48fe5d755095c50ac250b76b2172",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 12.02,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1239,6 +1393,7 @@
       "marketId": "0xdb51e1e2700714c530335a641170f62e03bac440a50c77ba439c3ec1d8bdedfc",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -11.78,
+      "avg_3d_annualized_%": -137.06,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -1247,6 +1402,7 @@
       "marketId": "0xbb1820db6b1def126ed33b7785d6079d31a8d6297c8b2f54013c7cc382fa2595",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -11.75,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1255,6 +1411,7 @@
       "marketId": "0x9d87f4fc7648375f157e4751222710f83ae765897f0286d217265397838f448b",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 11.57,
+      "avg_3d_annualized_%": -148.32,
       "current_funding_annualized_%": -204.73,
       "price_change_24h_%": null
     },
@@ -1263,6 +1420,7 @@
       "marketId": "0xe12e3ba3745fec261bd018511ea683f9784a5c74b86706a35136faa740c4dce4",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 11.27,
+      "avg_3d_annualized_%": 7.43,
       "current_funding_annualized_%": 2.96,
       "price_change_24h_%": null
     },
@@ -1271,6 +1429,7 @@
       "marketId": "0x2365cd365a5ec9954cc172531d05cc938497c7d029590cf349cf762d22813265",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -11.05,
+      "avg_3d_annualized_%": 0.57,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1279,6 +1438,7 @@
       "marketId": "0x900c9ada2fe3445b44ef2fa3be01cf5eda1baee2ef57bc8b353a498912dcb6fe",
       "type": "RWA",
       "avg_7d_annualized_%": 10.99,
+      "avg_3d_annualized_%": 12.72,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1287,6 +1447,7 @@
       "marketId": "0x2109f10e723bec9fc93f83fc5a5ce3e9da1b36c9d9c909712a4f1f6c5b5de083",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 10.6,
+      "avg_3d_annualized_%": 3.69,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1295,6 +1456,7 @@
       "marketId": "0xee74775e0b40c4efcc0e96055ce23e9bad67b91033e49f0e94dd84be5c806530",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -10.27,
+      "avg_3d_annualized_%": -22.55,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1303,6 +1465,7 @@
       "marketId": "0x5a389e89ffeadb0f10114439ef7ea303c79117c2042656785c2b69b904335799",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 10.17,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1311,6 +1474,7 @@
       "marketId": "0x0fed46bbab3ebb2605c83935be16d13c6ed1cf561541d71372599494c44beef0",
       "type": "RWA",
       "avg_7d_annualized_%": -9.5,
+      "avg_3d_annualized_%": -13.25,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1319,6 +1483,7 @@
       "marketId": "0x2c9eff4eccf72313b9cc30a7067c0a0ba3157c9567e73f2f2d6371aaff71ffcb",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 9.4,
+      "avg_3d_annualized_%": 17.7,
       "current_funding_annualized_%": 547.5,
       "price_change_24h_%": null
     },
@@ -1327,6 +1492,7 @@
       "marketId": "0xcfc53ecdb6bdd3fbf36a5837b446161a59ae8cf9bfcdcc52e75bca27aea8919e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 9.09,
+      "avg_3d_annualized_%": 12.47,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1335,6 +1501,7 @@
       "marketId": "0xf443c722ebd4151ab63c9a94a3e64415c399f0826f25ebdf7e542a34425764fe",
       "type": "RWA",
       "avg_7d_annualized_%": 8.56,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1343,6 +1510,7 @@
       "marketId": "0x192c9f1fb14301ef5d52dfdc0201215c389f391a3e213b65e3df67dc14f36492",
       "type": "RWA",
       "avg_7d_annualized_%": -7.81,
+      "avg_3d_annualized_%": -13.75,
       "current_funding_annualized_%": -24.09,
       "price_change_24h_%": null
     },
@@ -1351,6 +1519,7 @@
       "marketId": "0xb9d9202c588e860382c96aee096f9655fce339f6b51833a939a37d2437080c17",
       "type": "RWA",
       "avg_7d_annualized_%": 7.65,
+      "avg_3d_annualized_%": 11.07,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1359,6 +1528,7 @@
       "marketId": "0x986dd7282f10822507f4e02629e9190227aa517b0abb3877b1ad41c9be347e99",
       "type": "RWA",
       "avg_7d_annualized_%": 7.59,
+      "avg_3d_annualized_%": 7.36,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1367,6 +1537,7 @@
       "marketId": "0xeebb20913ea63131fab6b0f9bb25b24432753938cd84df396fd3499486582d4f",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 7.42,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1375,6 +1546,7 @@
       "marketId": "0xabe60a94f2fd0587ce3402ed92c54fb01cff152f0bfdb8edb4d0bb36effc9983",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 7.26,
+      "avg_3d_annualized_%": 7.95,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1383,6 +1555,7 @@
       "marketId": "0x1efdfb318a59e7181007579eea4803f866ce5f6b100faf4428c15bb518a7ad3c",
       "type": "RWA",
       "avg_7d_annualized_%": 7.13,
+      "avg_3d_annualized_%": 23.52,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1391,6 +1564,7 @@
       "marketId": "0x79bf711046e1011a5a57d56633573f5f78b8c24bfac2cc9f6e23e221de382706",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 6.91,
+      "avg_3d_annualized_%": 11.28,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1399,6 +1573,7 @@
       "marketId": "0xa33b69ac608482dcef0a16700816c61ca0780154f3812b0c6588c55f3e349fce",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 6.89,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1407,6 +1582,7 @@
       "marketId": "0x04c873cc1475899664b337e32063caad71333faac01c166347f4dfe7b3a57084",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 6.84,
+      "avg_3d_annualized_%": 7.53,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1415,6 +1591,7 @@
       "marketId": "0x13fb9aa5ce257057788895abaf1ee863b597157190730ba57b8473b0dbff06ad",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 6.77,
+      "avg_3d_annualized_%": 8.39,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1423,6 +1600,7 @@
       "marketId": "0x850d20ea50d8cc80416e668e01768d4344f21a95fbff1454e3e40b9d8720c8d2",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 6.41,
+      "avg_3d_annualized_%": 8.49,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1431,6 +1609,7 @@
       "marketId": "0x5a89b8c08a521127923c1cc025cf17bf73d7fee56e61eed56117ddea6f6b21ad",
       "type": "RWA",
       "avg_7d_annualized_%": 5.92,
+      "avg_3d_annualized_%": 23.24,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1439,6 +1618,7 @@
       "marketId": "0x572c924a7a73d8a1fbc531d28dc5eef49a5dd7384aa815597c81bc956e9bde8e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 5.8,
+      "avg_3d_annualized_%": -14.16,
       "current_funding_annualized_%": -120.96,
       "price_change_24h_%": null
     },
@@ -1447,6 +1627,7 @@
       "marketId": "0x1766d9d61fd40613b9a7ee53f34ebe3c22debe1351af656ac32bdfab5afceb91",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 5.63,
+      "avg_3d_annualized_%": 6.72,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1455,6 +1636,7 @@
       "marketId": "0xc1c9bd65de01f3b58ec8a3912cfab088c57a79ab8b3108606d2d0d94e023bdb7",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 5.43,
+      "avg_3d_annualized_%": 5.62,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1463,6 +1645,7 @@
       "marketId": "0x92ea4e3e57ed8ef75212e255a9f1f2a90a7502a069bba9ffbf2dbe6986b149ce",
       "type": "RWA",
       "avg_7d_annualized_%": -5.06,
+      "avg_3d_annualized_%": 6.74,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1471,6 +1654,7 @@
       "marketId": "0xc61fddd1e6b09137be87af41980d4804c94ab71de96d1c02eaad3356f877978f",
       "type": "RWA",
       "avg_7d_annualized_%": 4.97,
+      "avg_3d_annualized_%": 24.09,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1479,6 +1663,7 @@
       "marketId": "0x380974121c05cc8cb6cf96d1536e4b92feee9bb850e613f0c8841bfc749a98fd",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.83,
+      "avg_3d_annualized_%": 9.67,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1487,6 +1672,7 @@
       "marketId": "0xb562b7a440a435e0065d1a22ab74f1f40f25e35476854cd62ee2897c444a287d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.82,
+      "avg_3d_annualized_%": 9.61,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1495,6 +1681,7 @@
       "marketId": "0xb48092468409f347d53d114977b954b680e00b1257bf33f7d713d47bc6f970d1",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.76,
+      "avg_3d_annualized_%": 5.69,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1503,6 +1690,7 @@
       "marketId": "0x9a8884e98b9d70285d5bf93a9e20b9238259dc926650bf4847e6a1bbfe1a2ad4",
       "type": "RWA",
       "avg_7d_annualized_%": 4.68,
+      "avg_3d_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1511,6 +1699,7 @@
       "marketId": "0x7b3bcf125dfa50ae8d44ecb60119ef5d52a627ad757b727850b0903b55e49b2c",
       "type": "RWA",
       "avg_7d_annualized_%": 4.62,
+      "avg_3d_annualized_%": 4.79,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1519,6 +1708,7 @@
       "marketId": "0xf58bcf3fd958661227f8cad01066fd9ac902cad5a4f390f6408af4803019ec36",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.4,
+      "avg_3d_annualized_%": 6.13,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1527,6 +1717,7 @@
       "marketId": "0x0fa0aa3c7d60f47b448db2d51a47eb9e9cd85682ee8100123b481aa908f32afb",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.34,
+      "avg_3d_annualized_%": 4.44,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1535,6 +1726,7 @@
       "marketId": "0x2e2458e89922f276f02382834f1757b972dc1af04958c7e08f21fdf494433cb9",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.32,
+      "avg_3d_annualized_%": 7.16,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1543,6 +1735,7 @@
       "marketId": "0x57d55fd4f27ebc19c453792a636a7471a473ab616e72c3949121684d5186fe3a",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.1,
+      "avg_3d_annualized_%": 4.14,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1551,6 +1744,7 @@
       "marketId": "0x99c6d0dcc67e95dd9be29a6b393aa0bf6ccc07361dad9e4aec7897d90aeacf4b",
       "type": "RWA",
       "avg_7d_annualized_%": -4.06,
+      "avg_3d_annualized_%": 20.93,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1559,6 +1753,7 @@
       "marketId": "0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.02,
+      "avg_3d_annualized_%": 11.99,
       "current_funding_annualized_%": 19.96,
       "price_change_24h_%": null
     },
@@ -1567,6 +1762,7 @@
       "marketId": "0x9bb30ed3eaa33bac86d4bda305fcd5b7936d20f1fd1c3222468d7db1bd31a445",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -3.94,
+      "avg_3d_annualized_%": -119.72,
       "current_funding_annualized_%": -159.9,
       "price_change_24h_%": null
     },
@@ -1575,6 +1771,7 @@
       "marketId": "0x86a0c374e7abb7cfb916c1b40b0c6018d1ad0d657f12225acee776834add738d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -3.89,
+      "avg_3d_annualized_%": -12.39,
       "current_funding_annualized_%": -11.4,
       "price_change_24h_%": null
     },
@@ -1583,6 +1780,7 @@
       "marketId": "0xcb78a995dd845495d5a7e41a88e41e51dfa34dc763bf45df468f36dbc3a33b43",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.88,
+      "avg_3d_annualized_%": 22.95,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -1591,6 +1789,7 @@
       "marketId": "0x64c8ae573ca7543fbf25e72fd6d9769ccb5ef27eef7b91d8556e42477feddb6e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.88,
+      "avg_3d_annualized_%": 7.33,
       "current_funding_annualized_%": -159.07,
       "price_change_24h_%": null
     },
@@ -1599,6 +1798,7 @@
       "marketId": "0xa61fa8944ea15933d2157e8732a63c02df78d1e0132808f7cf8e7cf052b76a9f",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.83,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1607,6 +1807,7 @@
       "marketId": "0x3bb319ec24cf525578a20b60e1d1354197873fe328b830af94e363e267508a12",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.81,
+      "avg_3d_annualized_%": 4.58,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1615,6 +1816,7 @@
       "marketId": "0x541171a3f095e6e2c4903e360e7acc48c84146d8d85fc05686d2f1726c647312",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.77,
+      "avg_3d_annualized_%": 3.93,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1623,6 +1825,7 @@
       "marketId": "0x78cedc3460fd9037e10ea00a013ad16d8d92053a5a719cf29c774bb8eaa2de15",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.76,
+      "avg_3d_annualized_%": 3.93,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1631,6 +1834,7 @@
       "marketId": "0x9031f3e31fb47dab2cee18fe514e72775228fe2ab869420e59376776fab09af8",
       "type": "RWA",
       "avg_7d_annualized_%": 3.75,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1639,6 +1843,7 @@
       "marketId": "0xe93e481c32428cf165f145e7183d0ae75ca6e4d183a4b223e85e9cc6d25ec354",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.75,
+      "avg_3d_annualized_%": 3.71,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1647,6 +1852,7 @@
       "marketId": "0xf2892cb005f004b923d63ff4bb06e1ffa97b983b376d0b54a5dcc955df4bedd3",
       "type": "RWA",
       "avg_7d_annualized_%": 3.74,
+      "avg_3d_annualized_%": 3.68,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1655,6 +1861,7 @@
       "marketId": "0x630a85177c3fd305d3ccc9bdc7e0fe2af6ae84c0a87e787fa5a5e27f99220622",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.73,
+      "avg_3d_annualized_%": 4.03,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1663,6 +1870,7 @@
       "marketId": "0x55bf38fa40ba0de7cd5c2aa01dd2e58ccd1490d2e9d66862939fe81801d66462",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.72,
+      "avg_3d_annualized_%": 6.03,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1671,6 +1879,7 @@
       "marketId": "0xe33ce901a8da0f8176b438624ce1d5f8d9bb0109a6f5a7c2cfca377d86245f9a",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.72,
+      "avg_3d_annualized_%": 3.55,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1679,6 +1888,7 @@
       "marketId": "0x991af9eb71da2f67e8e57575ae37fa2fccda6058ccc626969d241197ac0ebd44",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.72,
+      "avg_3d_annualized_%": 4.19,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1687,6 +1897,7 @@
       "marketId": "0x19425c35969352fd85db6176e7b90cbce6634027950e4d49c510eb0842e56e1d",
       "type": "RWA",
       "avg_7d_annualized_%": 3.71,
+      "avg_3d_annualized_%": 3.67,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1695,6 +1906,7 @@
       "marketId": "0xd897cc5d124de9ac9ba74fcda616d10e700a072cd1d0b96e23a2dbd3d1a6c75a",
       "type": "RWA",
       "avg_7d_annualized_%": 3.71,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1703,6 +1915,7 @@
       "marketId": "0xf4c5755ddc3b8d9431eccf412b1dd5e65a4666c2ec492dc7168875bc7dc8e397",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.71,
+      "avg_3d_annualized_%": 3.75,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1711,6 +1924,7 @@
       "marketId": "0xdb5d6d1f6b782f9bdb3e28077b98eeeb844f35dce68cd0b1e10343f308247147",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.7,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1719,6 +1933,7 @@
       "marketId": "0x6989581d07cfd1df705545b3c3a7b9e8e804c359fce58b23f0d992d251afe728",
       "type": "RWA",
       "avg_7d_annualized_%": 3.7,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1727,6 +1942,7 @@
       "marketId": "0x61fa7a99cd0b9ffbd3d39151828e23b74f40945ca706ae0247991b2ea91254ef",
       "type": "RWA",
       "avg_7d_annualized_%": 3.7,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1735,6 +1951,7 @@
       "marketId": "0xb9885d06fc29625b85724b122321bed965d0c7e0ee95e48c02cdfc73ebf51aaf",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.7,
+      "avg_3d_annualized_%": 3.67,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1743,6 +1960,7 @@
       "marketId": "0xeb7a8afc9d1544790c88379c793e1e133a0ecc7eedddf23b495e0bd0c9bfe5da",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.7,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1751,6 +1969,7 @@
       "marketId": "0xd9ae44fc9a6cfd77716aa90f763650af69cb458cfa4a1924aeb4d94d0bf29301",
       "type": "RWA",
       "avg_7d_annualized_%": 3.7,
+      "avg_3d_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1759,6 +1978,7 @@
       "marketId": "0x9bca1a2784915a5b453e953f2344e5d9b8aec128c0b8f2f77c19615f0274b890",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.69,
+      "avg_3d_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1767,6 +1987,7 @@
       "marketId": "0xa3c35bcb5289db9576f524a3e5ea030c158f4c5b01a70952fbc8b438988ef198",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.68,
+      "avg_3d_annualized_%": 3.72,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1775,6 +1996,7 @@
       "marketId": "0xd4d23fde3628eef76792ca87cf1ab73e260a8e34aa03578df7448e465e258f88",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.68,
+      "avg_3d_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1783,6 +2005,7 @@
       "marketId": "0xdb44c51fef7de43cd157a8ce4179a1cf028fbe057d30b06737a47ac8f2fd043f",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.68,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1791,6 +2014,7 @@
       "marketId": "0x1cf39369e22cbf0c338fba7b0b5d5eb748ee62b3de66f8e1e1e6566115882c67",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.68,
+      "avg_3d_annualized_%": 3.7,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1799,6 +2023,7 @@
       "marketId": "0x13c06e53d4724d51d351beca43255950747563c9a7e44b69a9136f85ecc3dd3e",
       "type": "RWA",
       "avg_7d_annualized_%": 3.68,
+      "avg_3d_annualized_%": 3.68,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1807,6 +2032,7 @@
       "marketId": "0x8537beb3f3c6c3f0ea73692ba75e1adec35c888d411f32e9a3ecf7e9f3332dd2",
       "type": "RWA",
       "avg_7d_annualized_%": 3.67,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1815,6 +2041,7 @@
       "marketId": "0x218c82cd038ff4ca5aea334557befdccd8f2ab9bd91d5f57df7ab2fccb5b373e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.67,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1823,6 +2050,7 @@
       "marketId": "0xc980874670898d00cfe1af01213032de65ed88322c21de801fbeccd851f75c5d",
       "type": "RWA",
       "avg_7d_annualized_%": 3.67,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1831,6 +2059,7 @@
       "marketId": "0xe21cb3b7482f64934ada8f992653fe59dd5e6241bbdec89027d89ad37dfd2f0e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.67,
+      "avg_3d_annualized_%": 3.67,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1839,6 +2068,7 @@
       "marketId": "0x8ebea45fe21eb170cfd2931ddc10974a5c66a0efde3ee98c4efe56b06445ab20",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.67,
+      "avg_3d_annualized_%": 3.69,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1847,6 +2077,7 @@
       "marketId": "0x4e3b5d88ef44409aebfabc53b763f39be1a8a70d3349a177dc5748ba08b40d64",
       "type": "RWA",
       "avg_7d_annualized_%": 3.66,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1855,6 +2086,7 @@
       "marketId": "0xee6369f6491efb64497e9468865951977c06ba1be73b96fcff1aa125ef7d42d8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.66,
+      "avg_3d_annualized_%": 3.63,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1863,6 +2095,7 @@
       "marketId": "0x1cce6782c0477f46ef1ca79a3ee17a823c50ee5274a89ff3011db731dcd39971",
       "type": "RWA",
       "avg_7d_annualized_%": 3.66,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1871,6 +2104,7 @@
       "marketId": "0x13dfffb735a6fe702d022ae53920aad4a8dfcf1886596394e9a1a312dc45683c",
       "type": "RWA",
       "avg_7d_annualized_%": 3.66,
+      "avg_3d_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1879,6 +2113,7 @@
       "marketId": "0xf64cde65f060b1e7d0e85daa5560c79d249ae5934bf5a82744575a4d0d8227e8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.66,
+      "avg_3d_annualized_%": 4.48,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1887,6 +2122,7 @@
       "marketId": "0x1a24be499fc99ba47bffcc1d5a3b458a168a1e852f28be71a217a8be71f45452",
       "type": "RWA",
       "avg_7d_annualized_%": 3.66,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1895,6 +2131,7 @@
       "marketId": "0x5af215d89dd02e82badfe4c7d08fa78f7adac5e132a30351e07b58003a627331",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.66,
+      "avg_3d_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1903,6 +2140,7 @@
       "marketId": "0xbe159c650c7ef4c91d626e5248b933913f25c3c58c61852a478e28c98808220d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1911,6 +2149,7 @@
       "marketId": "0x7c1ffb60d9874c53741b265acd86fe991862db3dbb6597aaeb8f7a7134150976",
       "type": "RWA",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.68,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1919,6 +2158,7 @@
       "marketId": "0xfac2641165516a01302a84182c4d35b382e76da7c84291d33210a2cf7c6e1338",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1927,6 +2167,7 @@
       "marketId": "0x7f78808c2c57a3082c9cbe46c733e1a7bbffb75c26f5235ebde798b22e15ece9",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1935,6 +2176,7 @@
       "marketId": "0x4e159014d1256b7e02e1fee7caf89e4592fc51995fe0d059a941f92932581da5",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1943,6 +2185,7 @@
       "marketId": "0x4cc199eb5206dd1cade18363efb1728dec92ed61874172027a8caf97f1ca003b",
       "type": "RWA",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1951,6 +2194,7 @@
       "marketId": "0x25a3bb93cc0b5dd1bed9ad5f7a565a41fc34697fea44f3505f79be7d464402fa",
       "type": "RWA",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1959,6 +2203,7 @@
       "marketId": "0xe26d9917ffb0e1b098a8c995b313e1c7a4abf251bc6f609c70dab0e3f7ed8b64",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1967,6 +2212,7 @@
       "marketId": "0xef72e65b7ad97e93808433bda438c2e86afc9b82c4e8d9c99c8622fd5d1cb3cb",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1975,6 +2221,7 @@
       "marketId": "0x03487b5a3be2f68aa8800dd9befceed3609f24366506d5557cddee49ce27588c",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1983,6 +2230,7 @@
       "marketId": "0x9f52af89e8a89378023f486a0d58d2ca7f1163dee34c09da4da140f4cce347a8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.62,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1991,6 +2239,7 @@
       "marketId": "0x02367763611d7492f84fdc5451887d3df7856885c12e1d65addde07bd9ec70ea",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -1999,6 +2248,7 @@
       "marketId": "0x33d12d8a7371684b25852ff177d45661cd71d4062d700f2e3b948027a263504e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2007,6 +2257,7 @@
       "marketId": "0xa5777a35c029ee52489001938b1abb2f4339cb5ef833490e6ba0ae9304847f87",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.63,
+      "avg_3d_annualized_%": 3.61,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2015,6 +2266,7 @@
       "marketId": "0xcbd77ccb1c9a96e0d3d1ede9364ac5e4776e938fac5c9a771f239b574cfd4878",
       "type": "RWA",
       "avg_7d_annualized_%": 3.63,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2023,6 +2275,7 @@
       "marketId": "0xc738d9ebf84118de739974ea3fb7a84dc451822247fa7eec3a49946c45f12ab6",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.63,
+      "avg_3d_annualized_%": 3.63,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2031,6 +2284,7 @@
       "marketId": "0xcc326ac576ada4eec03e33a9b95ad7fc45c0ea9f7a6385db3a7edb7f22542b35",
       "type": "RWA",
       "avg_7d_annualized_%": 3.62,
+      "avg_3d_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2039,6 +2293,7 @@
       "marketId": "0x7649c2558f7f7a0002c39cec05bd03159266449b4504c8a3961d7fd142e490b2",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.61,
+      "avg_3d_annualized_%": 3.54,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2047,6 +2302,7 @@
       "marketId": "0x2195c3c57123f3b6f8e45737487df0614310d24c4b073f7a3aa813d8eeaf88c7",
       "type": "RWA",
       "avg_7d_annualized_%": 3.61,
+      "avg_3d_annualized_%": 3.68,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2055,6 +2311,7 @@
       "marketId": "0x5536284bfcc40fc21ed03a703336d6b29cea67422138d5d7969df34e12028cfb",
       "type": "RWA",
       "avg_7d_annualized_%": 3.6,
+      "avg_3d_annualized_%": 3.81,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2063,6 +2320,7 @@
       "marketId": "0x642ae7036d3c2a16dc9b34357d290c3e4bcaf75ecd238e85a11fbea05acad07a",
       "type": "RWA",
       "avg_7d_annualized_%": 3.57,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2071,6 +2329,7 @@
       "marketId": "0xa996e0f558e156c9e2b95b12f0dfab22398a3164b3bd8d8d89fe9a9899bae9dc",
       "type": "RWA",
       "avg_7d_annualized_%": 3.57,
+      "avg_3d_annualized_%": -7.26,
       "current_funding_annualized_%": 24.09,
       "price_change_24h_%": null
     },
@@ -2079,6 +2338,7 @@
       "marketId": "0x48cce9181a926f199bfa7b2426b7f0fa6690bab6582e2a6111074c251c1ade51",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.54,
+      "avg_3d_annualized_%": 3.21,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2087,6 +2347,7 @@
       "marketId": "0xf3acf931a5e92d3ce00141947682d4a6f9e9607def458f1130997ef34c5790b2",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.53,
+      "avg_3d_annualized_%": 3.52,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2095,6 +2356,7 @@
       "marketId": "0x3cdf314da4868b824697bca1f9d8ed349224e735d437c12cd59a6fadb7992501",
       "type": "RWA",
       "avg_7d_annualized_%": -3.5,
+      "avg_3d_annualized_%": 3.15,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2103,6 +2365,7 @@
       "marketId": "0x2caa0d303f27486c53fe1c631fdd5ebcbd574293ac2cfabce73ca471dbaf94dd",
       "type": "RWA",
       "avg_7d_annualized_%": 3.47,
+      "avg_3d_annualized_%": 3.63,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2111,6 +2374,7 @@
       "marketId": "0xc68b15829faa8e95ddb6d22863b165045ffdc5b60d832500fcdc34a289138f85",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.47,
+      "avg_3d_annualized_%": 3.53,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2119,6 +2383,7 @@
       "marketId": "0xf9ba183ad1aeef762f6b08b1e540382c7b90c660f3886909c7fd420e0af09e6b",
       "type": "RWA",
       "avg_7d_annualized_%": 3.45,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2127,6 +2392,7 @@
       "marketId": "0xe49efde01916e3365056bff1ffc655d7f8301817a0f15b8ba762e5dd0b87daf1",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.36,
+      "avg_3d_annualized_%": 3.95,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2135,6 +2401,7 @@
       "marketId": "0x85d669143d728f24129492ebac1d4b058cd27b77a659dace748d0f23887002e4",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.35,
+      "avg_3d_annualized_%": 3.52,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2143,6 +2410,7 @@
       "marketId": "0x2504901eb9ee1c7f39471f7832036d023a41e276d3f58eb870af259a31960fe2",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -3.32,
+      "avg_3d_annualized_%": -13.08,
       "current_funding_annualized_%": -547.5,
       "price_change_24h_%": null
     },
@@ -2151,6 +2419,7 @@
       "marketId": "0xf1fefa9279bb3cb9eed13d7b0af302d08f77cca3efb0a954603133b04b4d1921",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.27,
+      "avg_3d_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2159,6 +2428,7 @@
       "marketId": "0x3afa6e3e610e4c6464ba81eac88a9958712cb02cc90852414dcc02784694e3f9",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.24,
+      "avg_3d_annualized_%": 3.04,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2167,6 +2437,7 @@
       "marketId": "0x90b420b2cb46c532a1d82f589cd08735e1886dd5a59a60bb3a92a566b2e58f89",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -2.97,
+      "avg_3d_annualized_%": 3.51,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2175,6 +2446,7 @@
       "marketId": "0xd4ba68987f74a0c4fa8604e795b683b4c98700626eb621bde2ba95d1f364bb9a",
       "type": "RWA",
       "avg_7d_annualized_%": 2.95,
+      "avg_3d_annualized_%": 3.66,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2183,6 +2455,7 @@
       "marketId": "0x7f146984a5bc758c6fe98746b33e5f72061aac5b70a40127832493f387991105",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 2.68,
+      "avg_3d_annualized_%": 3.07,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2191,6 +2464,7 @@
       "marketId": "0xed6d8aad45b25a6ba782ea90b3a82d7ed1ac62d7e88f52b52d9ba0b2ff046d5c",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 2.63,
+      "avg_3d_annualized_%": 3.18,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2199,6 +2473,7 @@
       "marketId": "0x97e9255c2ed063e9c3e07ecef08783f8a7ada3c4ece72cf7fb14e5d18affb444",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 2.22,
+      "avg_3d_annualized_%": 2.23,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2207,6 +2482,7 @@
       "marketId": "0x90155855cbe97b32d1380397c289f6265d33bc2c537623d1b0c8a9d25e14e4b9",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 2.21,
+      "avg_3d_annualized_%": 1.81,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2215,6 +2491,7 @@
       "marketId": "0x05973c7c52fa1efa4078b80950387614d2da7573a106bab5e78dd2ca31184829",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 2.21,
+      "avg_3d_annualized_%": 3.04,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2223,6 +2500,7 @@
       "marketId": "0xacaafac6a484ac5a41a7f5914b1c01bff55ea40b67283746447ba29a949ed781",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -2.05,
+      "avg_3d_annualized_%": -68.37,
       "current_funding_annualized_%": -140.89,
       "price_change_24h_%": null
     },
@@ -2231,6 +2509,7 @@
       "marketId": "0xb846b1623674f02ab48faec679d4bd31ed40b6a125f9605be6f99131286e8492",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -1.81,
+      "avg_3d_annualized_%": 32.8,
       "current_funding_annualized_%": -3.44,
       "price_change_24h_%": null
     },
@@ -2239,6 +2518,7 @@
       "marketId": "0x63c88341f8139a4dcf395621d6c9e18da7f27ba021332ab8bb04a10eee3056c0",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 1.57,
+      "avg_3d_annualized_%": 2.46,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2247,6 +2527,7 @@
       "marketId": "0x8552877342d4fc6db2ef3f2080f1e35a7e64ad75e8f1a2cd7f72756e167d11cd",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 1.46,
+      "avg_3d_annualized_%": -1.49,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2255,6 +2536,7 @@
       "marketId": "0xc3831616297b8ccb3904d3b50a31718c13104e46b6cae457f263773ecedb6405",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 1.36,
+      "avg_3d_annualized_%": 1.74,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2263,6 +2545,7 @@
       "marketId": "0x91226cdc538e8293f417e8cebdaad6ddb36d134ba6500922f42f336fd1e949ef",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 0.68,
+      "avg_3d_annualized_%": 4.16,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2271,6 +2554,7 @@
       "marketId": "0x762997886d8c2e159a2edf372dfa5a4e679b37e89cffb3a4717812062f8b651d",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -0.47,
+      "avg_3d_annualized_%": -1.42,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     },
@@ -2279,6 +2563,7 @@
       "marketId": "0x5b8cc3da7181c7eff98176288aa5bacc4a5bd326c90aa75fadebabe7999b2bae",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -0.0,
+      "avg_3d_annualized_%": -3.0,
       "current_funding_annualized_%": 3.65,
       "price_change_24h_%": null
     }
