@@ -33,60 +33,26 @@ def main():
     results = []
 
     for m in markets:
-    try:
-        rates = get_funding_rates(m["marketId"])
-        avg_7d = average_7d_annualized(rates)
+        try:
+            rates = get_funding_rates(m["marketId"])
+            avg_7d = average_7d_annualized(rates)
 
-        # Funding actual
-        last_rate_str = m.get("perpetualMarketFunding", {}).get("lastFundingRate")
-        current_annualized = None
-        if last_rate_str:
-            current_annualized = round(float(last_rate_str) * 8760 * 100, 2)
+            # Funding actual
+            last_rate_str = m.get("perpetualMarketFunding", {}).get("lastFundingRate")
+            current_annualized = None
+            if last_rate_str:
+                current_annualized = round(float(last_rate_str) * 8760 * 100, 2)
 
-        # Cambio 24h (si lo tienes)
-        price_change_24h = None  # o la variable que uses
+            # Cambio 24h (si lo tienes)
+            price_change_24h = None  # o la variable que uses
 
-        if avg_7d is not None:
-            # ---- CLASIFICACIÓN CRYPTO / RWA ----
-            oracle_type = m.get("oracleType", "").lower()
-            ticker_upper = m["ticker"].upper()
+            if avg_7d is not None:
+                # ---- CLASIFICACIÓN CRYPTO / RWA ----
+                oracle_type = m.get("oracleType", "").lower()
+                ticker_upper = m["ticker"].upper()
 
-            is_rwa = (
-                oracle_type == "pythpro" or
-                any(x in ticker_upper for x in [
-                    "AAPL", "NVDA", "TSLA", "MSFT", "META", "AMZN", "GOOGL", "NFLX",
-                    "MSTR", "COIN", "HOOD", "CRCL", "TRADFI", "TTI", "AIX", "SPCX",
-                    "XAU", "XAG", "WTI", "EURUSD"
-                ])
-            )
-            # --------------------------------------
-
-            results.append({
-                "ticker": m["ticker"],
-                "marketId": m["marketId"],
-                "type": "RWA" if is_rwa else "CRYPTO",
-                "avg_7d_annualized_%": avg_7d,
-                "current_funding_annualized_%": current_annualized,
-                "price_change_24h_%": price_change_24h
-            })
-
-    except Exception as e:
-        print(f"Error en {m['ticker']}: {e}")
-    
-    time.sleep(0.12)
-
-    results.sort(key=lambda x: abs(x["avg_7d_annualized_%"]), reverse=True)
-
-    output = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "count": len(results),
-        "data": results
-    }
-
-    with open("funding_7d.json", "w") as f:
-        json.dump(output, f, indent=2)
-
-    print(f"Listo: {len(results)} mercados")
-
-if __name__ == "__main__":
-    main()
+                is_rwa = (
+                    oracle_type == "pythpro" or
+                    any(x in ticker_upper for x in [
+                        "AAPL", "NVDA", "TSLA", "MSFT", "META", "AMZN", "GOOGL", "NFLX",
+                        "MSTR", "
