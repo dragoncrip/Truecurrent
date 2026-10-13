@@ -4,68 +4,37 @@
   <meta charset="UTF-8">
   <title>TrueCurrent Funding 7d</title>
   <style>
-    body { font-family: system-ui; background: #0d1117; color: #c9d1d9; padding: 20px; }
-    table { border-collapse: collapse; width: 100%; max-width: 900px; margin: 20px auto; }
-    th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #30363d; }
-    th { background: #161b22; cursor: pointer; }
-    tr:hover { background: #161b22; }
-    .positive { color: #3fb950; }
-    .negative { color: #f85149; }
+    body { font-family: system-ui, sans-serif; background: #0d1117; color: #c9d1d9; padding: 20px; margin: 0; }
+    h1 { text-align: center; }
+    #updated { text-align: center; color: #8b949e; }
     .controls { text-align: center; margin: 15px 0; }
     button { margin: 0 8px; padding: 8px 16px; background: #238636; color: white; border: none; border-radius: 6px; cursor: pointer; }
+    button:hover { background: #2ea043; }
+    #search { 
+      display: block; 
+      margin: 15px auto; 
+      padding: 10px 16px; 
+      width: 280px; 
+      font-size: 16px; 
+      border-radius: 6px; 
+      border: 1px solid #30363d; 
+      background: #161b22; 
+      color: #c9d1d9; 
+    }
+    table { border-collapse: collapse; width: 100%; max-width: 900px; margin: 10px auto; }
+    th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #30363d; }
+    th { background: #161b22; }
+    tr:hover { background: #161b22; }
+    .positive { color: #3fb950; font-weight: 500; }
+    .negative { color: #f85149; font-weight: 500; }
   </style>
 </head>
 <body>
-  <h1 style="text-align:center">TrueCurrent – Funding Rate Promedio 7 días (Anualizado)</h1>
-  <p style="text-align:center" id="updated">Cargando...</p>
+  <h1>TrueCurrent – Funding Rate Promedio 7 días (Anualizado)</h1>
+  <p id="updated">Cargando...</p>
+
+  <input type="text" id="search" placeholder="Buscar token (ej. FIL, BTC, NVDA...)">
 
   <div class="controls">
     <button onclick="sortData(true)">Mayor a Menor</button>
     <button onclick="sortData(false)">Menor a Mayor</button>
-  </div>
-
-  <table id="table">
-    <thead>
-      <tr>
-        <th>Activo</th>
-        <th>Funding 7d Anualizado</th>
-        <th>Muestras</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-
-  <script>
-    let data = [];
-
-    async function loadData() {
-      const res = await fetch('funding_7d.json');
-      const json = await res.json();
-      data = json.data;
-      document.getElementById('updated').textContent = 
-        `Actualizado: ${new Date(json.updated_at).toLocaleString()} | ${json.count} mercados`;
-      sortData(true); // por defecto de mayor a menor
-    }
-
-    function sortData(desc = true) {
-      const sorted = [...data].sort((a, b) => 
-        desc ? b["avg_7d_annualized_%"] - a["avg_7d_annualized_%"] 
-             : a["avg_7d_annualized_%"] - b["avg_7d_annualized_%"]
-      );
-
-      const tbody = document.querySelector('#table tbody');
-      tbody.innerHTML = sorted.map(r => `
-        <tr>
-          <td>${r.ticker}</td>
-          <td class="${r["avg_7d_annualized_%"] >= 0 ? 'positive' : 'negative'}">
-            ${r["avg_7d_annualized_%"].toFixed(2)}%
-          </td>
-          <td>${r.samples}</td>
-        </tr>
-      `).join('');
-    }
-
-    loadData();
-  </script>
-</body>
-</html>
