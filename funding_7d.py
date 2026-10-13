@@ -66,4 +66,26 @@ def main():
                     "type": "RWA" if is_rwa else "CRYPTO",
                     "avg_7d_annualized_%": avg_7d,
                     "current_funding_annualized_%": current_annualized,
-                    "price_change_24h_%": price_change
+                    "price_change_24h_%": price_change_24h
+                })
+
+        except Exception as e:
+            print(f"Error en {m.get('ticker', 'unknown')}: {e}")
+
+        time.sleep(0.12)
+
+    results.sort(key=lambda x: abs(x["avg_7d_annualized_%"]), reverse=True)
+
+    output = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "count": len(results),
+        "data": results
+    }
+
+    with open("funding_7d.json", "w") as f:
+        json.dump(output, f, indent=2)
+
+    print(f"Listo: {len(results)} mercados guardados en funding_7d.json")
+
+if __name__ == "__main__":
+    main()
