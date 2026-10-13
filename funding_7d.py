@@ -43,11 +43,11 @@ def main():
             if last_rate_str:
                 current_annualized = round(float(last_rate_str) * 8760 * 100, 2)
 
-            # Cambio 24h (si lo tienes)
-            price_change_24h = None  # o la variable que uses
+            # Cambio 24h (por ahora None)
+            price_change_24h = None
 
             if avg_7d is not None:
-                # ---- CLASIFICACIÓN CRYPTO / RWA ----
+                # Clasificación CRYPTO / RWA
                 oracle_type = m.get("oracleType", "").lower()
                 ticker_upper = m["ticker"].upper()
 
@@ -55,4 +55,15 @@ def main():
                     oracle_type == "pythpro" or
                     any(x in ticker_upper for x in [
                         "AAPL", "NVDA", "TSLA", "MSFT", "META", "AMZN", "GOOGL", "NFLX",
-                        "MSTR", "
+                        "MSTR", "COIN", "HOOD", "CRCL", "TRADFI", "TTI", "AIX", "SPCX",
+                        "XAU", "XAG", "WTI", "EURUSD"
+                    ])
+                )
+
+                results.append({
+                    "ticker": m["ticker"],
+                    "marketId": m["marketId"],
+                    "type": "RWA" if is_rwa else "CRYPTO",
+                    "avg_7d_annualized_%": avg_7d,
+                    "current_funding_annualized_%": current_annualized,
+                    "price_change_24h_%": price_change
