@@ -1,126 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-
-
-
-  
   <meta charset="UTF-8">
   <title>TrueCurrent Funding 7d</title>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <style>
-    body { font-family: system-ui, sans-serif; background: #0d1117; color: #c9d1d9; padding: 20px; margin: 0; }
-    h1 { text-align: center; }
-    #updated { text-align: center; color: #8b949e; }
-    .controls { text-align: center; margin: 15px 0; }
-    button { margin: 0 8px; padding: 8px 16px; background: #238636; color: white; border: none; border-radius: 6px; cursor: pointer; }
-    button:hover { background: #2ea043; }
+    body { 
+      font-family: system-ui, sans-serif; 
+      background: #0d1117; 
+      color: #c9d1d9; 
+      padding: 20px; 
+      margin: 0; 
+    }
+    h1 { text-align: center; margin-bottom: 5px; }
+    #updated { text-align: center; color: #8b949e; margin-bottom: 15px; }
     #search { 
       display: block; 
-      margin: 15px auto; 
+      margin: 0 auto 12px; 
       padding: 10px 16px; 
-      width: 280px; 
+      width: 300px; 
       font-size: 16px; 
       border-radius: 6px; 
       border: 1px solid #30363d; 
       background: #161b22; 
       color: #c9d1d9; 
     }
-    table { border-collapse: collapse; width: 100%; max-width: 900px; margin: 10px auto; }
-    th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #30363d; }
-    th { background: #161b22; }
-    tr:hover { background: #161b22; }
-    .positive { color: #3fb950; font-weight: 500; }
-    .negative { color: #f85149; font-weight: 500; }
-  </style>
-</head>
-<body>
-  <h1>TrueCurrent – Funding Rate Promedio 7 días (Anualizado)</h1>
-  <p id="updated">Cargando...</p>
-
-  <input type="text" id="search" placeholder="Buscar token (ej. FIL, BTC, NVDA...)">
-
-  <div class="controls">
-    <button onclick="sortData(true)">Mayor a Menor</button>
-    <button onclick="sortData(false)">Menor a Mayor</button>
-  </div>
-
-  <table id="table">
-    <thead>
-      <tr>
-        <th>Activo</th>
-        <th>Funding 7d Anualizado</th>
-        <th>Muestras</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-
-  <script>
-    let data = [];
-    let currentSortDesc = true;
-
-    // Limpia el ticker: "FIL/USDC PERP" → "FIL"
-    function cleanTicker(ticker) {
-      return ticker
-        .replace('/USDC PERP', '')
-        .replace('/USDT PERP', '')
-        .replace(' PERP', '')
-        .trim();
+    .filters {
+      text-align: center;
+      margin-bottom: 20px;
     }
-
-    async function loadData() {
-      const res = await fetch('funding_7d.json');
-      const json = await res.json();
-      data = json.data.map(item => ({
-        ...item,
-        cleanName: cleanTicker(item.ticker)
-      }));
-      document.getElementById('updated').textContent = 
-        `Actualizado: ${new Date(json.updated_at).toLocaleString()} | ${json.count} mercados`;
-      render();
+    .filters label {
+      margin: 0 15px;
+      cursor: pointer;
+      font-size: 15px;
     }
-
-    function render() {
-      const search = document.getElementById('search').value.toLowerCase().trim();
-      
-      let filtered = data;
-      if (search) {
-        filtered = data.filter(item => 
-          item.cleanName.toLowerCase().includes(search) || 
-          item.ticker.toLowerCase().includes(search)
-        );
-      }
-
-      const sorted = [...filtered].sort((a, b) => 
-        currentSortDesc 
-          ? b["avg_7d_annualized_%"] - a["avg_7d_annualized_%"] 
-          : a["avg_7d_annualized_%"] - b["avg_7d_annualized_%"]
-      );
-
-      const tbody = document.querySelector('#table tbody');
-      tbody.innerHTML = sorted.map(r => `
-        <tr>
-          <td>${r.cleanName}</td>
-          <td class="${r["avg_7d_annualized_%"] >= 0 ? 'positive' : 'negative'}">
-            ${r["avg_7d_annualized_%"].toFixed(2)}%
-          </td>
-          <td>${r.samples}</td>
-        </tr>
-      `).join('');
+    .filters input {
+      margin-right: 6px;
+      transform: scale(1.1);
     }
-
-    function sortData(desc) {
-      currentSortDesc = desc;
-      render();
-    }
-
-    document.getElementById('search').addEventListener('input', render);
-
-    loadData();
-  </script>
-</body>
-</html>
+    .container {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-
