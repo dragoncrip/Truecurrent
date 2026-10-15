@@ -39,6 +39,7 @@ def main():
             rates = get_funding_rates(m["marketId"])
             avg_7d = average_annualized(rates, 168)
             avg_3d = average_annualized(rates, 72)
+            avg_24h = average_annualized(rates, 24)
 
             # Funding actual
             last_rate_str = m.get("perpetualMarketFunding", {}).get("lastFundingRate")
@@ -46,10 +47,7 @@ def main():
             if last_rate_str:
                 current_annualized = round(float(last_rate_str) * 8760 * 100, 2)
 
-            price_change_24h = None
-
             if avg_7d is not None:
-                # Clasificación CRYPTO / RWA
                 ticker_upper = m["ticker"].upper()
                 base = ticker_upper.split("/")[0].split(" ")[0]
 
@@ -75,8 +73,8 @@ def main():
                     "type": "RWA" if is_rwa else "CRYPTO",
                     "avg_7d_annualized_%": avg_7d,
                     "avg_3d_annualized_%": avg_3d,
-                    "current_funding_annualized_%": current_annualized,
-                    "price_change_24h_%": price_change_24h
+                    "avg_24h_annualized_%": avg_24h,
+                    "current_funding_annualized_%": current_annualized
                 })
 
         except Exception as e:
