@@ -12,8 +12,8 @@
     .filters { text-align: center; margin-bottom: 20px; }
     .filters label { margin: 0 15px; cursor: pointer; font-size: 15px; }
     .filters input { margin-right: 6px; transform: scale(1.1); }
-    .container { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; max-width: 1300px; margin: 0 auto; }
-    .column { flex: 1; min-width: 420px; }
+    .container { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; max-width: 1400px; margin: 0 auto; }
+    .column { flex: 1; min-width: 480px; }
     .column h2 { text-align: center; font-size: 1.3rem; margin: 0 0 10px 0; color: #58a6ff; }
     table { border-collapse: collapse; width: 100%; }
     th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid #30363d; }
@@ -53,6 +53,7 @@
             <th>Activo</th>
             <th>Funding 7d</th>
             <th>Funding 3d</th>
+            <th>Funding 24h</th>
             <th>Funding Actual</th>
           </tr>
         </thead>
@@ -67,6 +68,7 @@
             <th>Activo</th>
             <th>Funding 7d</th>
             <th>Funding 3d</th>
+            <th>Funding 24h</th>
             <th>Funding Actual</th>
           </tr>
         </thead>
@@ -108,6 +110,7 @@
     function formatRow(r) {
       const avg7 = r["avg_7d_annualized_%"];
       const avg3 = r["avg_3d_annualized_%"];
+      const avg24 = r["avg_24h_annualized_%"];
       const curr = r["current_funding_annualized_%"];
 
       const avg7Html = avg7 != null 
@@ -116,6 +119,10 @@
 
       const avg3Html = avg3 != null 
         ? `<span class="${avg3 >= 0 ? 'positive' : 'negative'}">${Number(avg3).toFixed(2)}%</span>` 
+        : '—';
+
+      const avg24Html = avg24 != null 
+        ? `<span class="${avg24 >= 0 ? 'positive' : 'negative'}">${Number(avg24).toFixed(2)}%</span>` 
         : '—';
 
       const currHtml = curr != null 
@@ -131,6 +138,7 @@
           <td>${r.cleanName}${badge}</td>
           <td>${avg7Html}</td>
           <td>${avg3Html}</td>
+          <td>${avg24Html}</td>
           <td>${currHtml}</td>
         </tr>
       `;
@@ -155,8 +163,8 @@
         (a["avg_7d_annualized_%"] ?? 9999) - (b["avg_7d_annualized_%"] ?? 9999)
       );
 
-      document.getElementById('tbody-high').innerHTML = high.map(formatRow).join('') || '<tr><td colspan="4">Sin resultados</td></tr>';
-      document.getElementById('tbody-low').innerHTML = low.map(formatRow).join('') || '<tr><td colspan="4">Sin resultados</td></tr>';
+      document.getElementById('tbody-high').innerHTML = high.map(formatRow).join('') || '<tr><td colspan="5">Sin resultados</td></tr>';
+      document.getElementById('tbody-low').innerHTML = low.map(formatRow).join('') || '<tr><td colspan="5">Sin resultados</td></tr>';
     }
 
     document.getElementById('search').addEventListener('input', render);
