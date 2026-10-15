@@ -30,6 +30,36 @@ def average_annualized(rates, hours):
     avg = statistics.mean(hourly)
     return round(avg * 8760 * 100, 2)
 
+def calculate_stability_and_score(avg_7d, avg_3d, avg_24h, current):
+    values = [avg_7d, avg_3d, avg_24h, current]
+    valid = [v for v in values if v is not None]
+    
+    if len(valid) < 2:
+        return 0, 0.0
+    
+    abs_values = [abs(v) for v in valid]
+    mean_abs = statistics.mean(abs_values)
+    
+    if mean_abs == 0:
+        return 50, 0.0
+    
+    std_abs = statistics.pstdev(abs_values) if len(abs_values) > 1 else 0
+    rel_std = std_abs / mean_abs
+    
+    # Estabilidad base (menor variación relativa = más estable)
+    stability = max(0, min(100, round(100 - rel_std * 70)))
+    
+    # Bonus si todos tienen el mismo signo
+    signs = [1 if v >= 0 else -1 for v in valid]
+    if len(set(signs)) == 1:
+        stability = min(100, stability + 18)
+    
+    # Score de oportunidad: magnitud 7d * estabilidad
+    base_magnitude = abs(avg_7d) if avg_7d is not None else 0
+    score = round(base_magnitude * (stability / 100), 2)
+    
+    return stability, score
+
 def main():
     markets = get_markets()
     results = []
@@ -41,7 +71,6 @@ def main():
             avg_3d = average_annualized(rates, 72)
             avg_24h = average_annualized(rates, 24)
 
-            # Funding actual
             last_rate_str = m.get("perpetualMarketFunding", {}).get("lastFundingRate")
             current_annualized = None
             if last_rate_str:
@@ -67,6 +96,10 @@ def main():
 
                 is_rwa = base in rwa_keywords
 
+                stability, score = calculate_stability_and_score(
+                    avg_7d, avg_3d, avg_24h, current_annualized
+                )
+
                 results.append({
                     "ticker": m["ticker"],
                     "marketId": m["marketId"],
@@ -74,7 +107,9 @@ def main():
                     "avg_7d_annualized_%": avg_7d,
                     "avg_3d_annualized_%": avg_3d,
                     "avg_24h_annualized_%": avg_24h,
-                    "current_funding_annualized_%": current_annualized
+                    "current_funding_annualized_%": current_annualized,
+                    "stability": stability,
+                    "score": score
                 })
 
         except Exception as e:
@@ -82,7 +117,8 @@ def main():
 
         time.sleep(0.12)
 
-    results.sort(key=lambda x: abs(x["avg_7d_annualized_%"]), reverse=True)
+    # Ordenar por score de oportunidad (mejor funding estable primero)
+    results.sort(key=lambda x: x["score"], reverse=True)
 
     output = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
