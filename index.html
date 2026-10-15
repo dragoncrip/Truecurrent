@@ -12,12 +12,12 @@
     .filters { text-align: center; margin-bottom: 20px; }
     .filters label { margin: 0 15px; cursor: pointer; font-size: 15px; }
     .filters input { margin-right: 6px; transform: scale(1.1); }
-    .container { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; max-width: 1400px; margin: 0 auto; }
-    .column { flex: 1; min-width: 480px; }
-    .column h2 { text-align: center; font-size: 1.3rem; margin: 0 0 10px 0; color: #58a6ff; }
+    .container { max-width: 1100px; margin: 0 auto; }
     table { border-collapse: collapse; width: 100%; }
-    th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid #30363d; }
-    th { background: #161b22; }
+    th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #30363d; }
+    th { background: #161b22; cursor: pointer; user-select: none; }
+    th:hover { background: #1f2630; }
+    th .arrow { font-size: 10px; margin-left: 4px; opacity: 0.6; }
     tr:hover { background: #161b22; }
     .positive { color: #3fb950; font-weight: 500; }
     .negative { color: #f85149; font-weight: 500; }
@@ -45,40 +45,24 @@
   </div>
 
   <div class="container">
-    <div class="column">
-      <h2>Mayor a Menor</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Activo</th>
-            <th>Funding 7d</th>
-            <th>Funding 3d</th>
-            <th>Funding 24h</th>
-            <th>Funding Actual</th>
-          </tr>
-        </thead>
-        <tbody id="tbody-high"></tbody>
-      </table>
-    </div>
-    <div class="column">
-      <h2>Menor a Mayor</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Activo</th>
-            <th>Funding 7d</th>
-            <th>Funding 3d</th>
-            <th>Funding 24h</th>
-            <th>Funding Actual</th>
-          </tr>
-        </thead>
-        <tbody id="tbody-low"></tbody>
-      </table>
-    </div>
+    <table>
+      <thead>
+        <tr>
+          <th data-key="cleanName">Activo</th>
+          <th data-key="avg_7d_annualized_%">Funding 7d <span class="arrow"></span></th>
+          <th data-key="avg_3d_annualized_%">Funding 3d <span class="arrow"></span></th>
+          <th data-key="avg_24h_annualized_%">Funding 24h <span class="arrow"></span></th>
+          <th data-key="current_funding_annualized_%">Funding Actual <span class="arrow"></span></th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
   </div>
 
   <script>
     let data = [];
+    let currentSortKey = "avg_7d_annualized_%";
+    let currentSortDesc = true;
 
     function cleanTicker(ticker) {
       return (ticker || "")
@@ -107,28 +91,13 @@
       }
     }
 
+    function formatValue(value) {
+      if (value == null) return '—';
+      const num = Number(value);
+      return `<span class="${num >= 0 ? 'positive' : 'negative'}">${num.toFixed(2)}%</span>`;
+    }
+
     function formatRow(r) {
-      const avg7 = r["avg_7d_annualized_%"];
-      const avg3 = r["avg_3d_annualized_%"];
-      const avg24 = r["avg_24h_annualized_%"];
-      const curr = r["current_funding_annualized_%"];
-
-      const avg7Html = avg7 != null 
-        ? `<span class="${avg7 >= 0 ? 'positive' : 'negative'}">${Number(avg7).toFixed(2)}%</span>` 
-        : '—';
-
-      const avg3Html = avg3 != null 
-        ? `<span class="${avg3 >= 0 ? 'positive' : 'negative'}">${Number(avg3).toFixed(2)}%</span>` 
-        : '—';
-
-      const avg24Html = avg24 != null 
-        ? `<span class="${avg24 >= 0 ? 'positive' : 'negative'}">${Number(avg24).toFixed(2)}%</span>` 
-        : '—';
-
-      const currHtml = curr != null 
-        ? `<span class="${curr >= 0 ? 'positive' : 'negative'}">${Number(curr).toFixed(2)}%</span>` 
-        : '—';
-
       const badge = r.type === "RWA" 
         ? '<span class="badge badge-rwa">RWA</span>' 
         : '<span class="badge badge-crypto">CRYPTO</span>';
@@ -136,10 +105,10 @@
       return `
         <tr>
           <td>${r.cleanName}${badge}</td>
-          <td>${avg7Html}</td>
-          <td>${avg3Html}</td>
-          <td>${avg24Html}</td>
-          <td>${currHtml}</td>
+          <td>${formatValue(r["avg_7d_annualized_%"])}</td>
+          <td>${formatValue(r["avg_3d_annualized_%"])}</td>
+          <td>${formatValue(r["avg_24h_annualized_%"])}</td>
+          <td>${formatValue(r["current_funding_annualized_%"])}</td>
         </tr>
       `;
     }
@@ -156,20 +125,41 @@
         return true;
       });
 
-      const high = [...filtered].sort((a, b) => 
-        (b["avg_7d_annualized_%"] ?? -9999) - (a["avg_7d_annualized_%"] ?? -9999)
-      );
-      const low = [...filtered].sort((a, b) => 
-        (a["avg_7d_annualized_%"] ?? 9999) - (b["avg_7d_annualized_%"] ?? 9999)
-      );
+      filtered.sort((a, b) => {
+        let va = a[currentSortKey];
+        let vb = b[currentSortKey];
+        if (va == null) va = currentSortDesc ? -Infinity : Infinity;
+        if (vb == null) vb = currentSortDesc ? -Infinity : Infinity;
+        if (typeof va === "string") {
+          return currentSortDesc ? vb.localeCompare(va) : va.localeCompare(vb);
+        }
+        return currentSortDesc ? vb - va : va - vb;
+      });
 
-      document.getElementById('tbody-high').innerHTML = high.map(formatRow).join('') || '<tr><td colspan="5">Sin resultados</td></tr>';
-      document.getElementById('tbody-low').innerHTML = low.map(formatRow).join('') || '<tr><td colspan="5">Sin resultados</td></tr>';
+      document.getElementById('tbody').innerHTML = filtered.map(formatRow).join('') || '<tr><td colspan="5">Sin resultados</td></tr>';
+
+      // Actualizar flechas
+      document.querySelectorAll('th .arrow').forEach(el => el.textContent = '');
+      const activeTh = document.querySelector(`th[data-key="${currentSortKey}"] .arrow`);
+      if (activeTh) activeTh.textContent = currentSortDesc ? '▼' : '▲';
     }
 
     document.getElementById('search').addEventListener('input', render);
     document.getElementById('filter-crypto').addEventListener('change', render);
     document.getElementById('filter-rwa').addEventListener('change', render);
+
+    document.querySelectorAll('th[data-key]').forEach(th => {
+      th.addEventListener('click', () => {
+        const key = th.dataset.key;
+        if (currentSortKey === key) {
+          currentSortDesc = !currentSortDesc;
+        } else {
+          currentSortKey = key;
+          currentSortDesc = true;
+        }
+        render();
+      });
+    });
 
     loadData();
   </script>
