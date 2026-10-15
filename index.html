@@ -12,7 +12,7 @@
     .filters { text-align: center; margin-bottom: 20px; }
     .filters label { margin: 0 15px; cursor: pointer; font-size: 15px; }
     .filters input { margin-right: 6px; transform: scale(1.1); }
-    .container { max-width: 1100px; margin: 0 auto; }
+    .container { max-width: 1300px; margin: 0 auto; }
     table { border-collapse: collapse; width: 100%; }
     th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #30363d; }
     th { background: #161b22; cursor: pointer; user-select: none; }
@@ -32,6 +32,10 @@
     }
     .badge-crypto { background: #238636; color: white; }
     .badge-rwa { background: #9e6a03; color: white; }
+    .stability-high { color: #3fb950; }
+    .stability-mid { color: #d29922; }
+    .stability-low { color: #f85149; }
+    .score { font-weight: 600; color: #58a6ff; }
   </style>
 </head>
 <body>
@@ -42,6 +46,7 @@
   <div class="filters">
     <label><input type="checkbox" id="filter-crypto" checked> Crypto</label>
     <label><input type="checkbox" id="filter-rwa" checked> RWA</label>
+    <label><input type="checkbox" id="filter-stable"> Solo estables (≥70)</label>
   </div>
 
   <div class="container">
@@ -53,6 +58,8 @@
           <th data-key="avg_3d_annualized_%">Funding 3d <span class="arrow"></span></th>
           <th data-key="avg_24h_annualized_%">Funding 24h <span class="arrow"></span></th>
           <th data-key="current_funding_annualized_%">Funding Actual <span class="arrow"></span></th>
+          <th data-key="stability">Estabilidad <span class="arrow"></span></th>
+          <th data-key="score">Score <span class="arrow"></span></th>
         </tr>
       </thead>
       <tbody id="tbody"></tbody>
@@ -61,7 +68,7 @@
 
   <script>
     let data = [];
-    let currentSortKey = "avg_7d_annualized_%";
+    let currentSortKey = "score";
     let currentSortDesc = true;
 
     function cleanTicker(ticker) {
@@ -80,7 +87,9 @@
         data = (json.data || []).map(item => ({
           ...item,
           cleanName: cleanTicker(item.ticker),
-          type: item.type || "CRYPTO"
+          type: item.type || "CRYPTO",
+          stability: item.stability ?? 0,
+          score: item.score ?? 0
         }));
         document.getElementById('updated').textContent = 
           `Actualizado: ${json.updated_at ? new Date(json.updated_at).toLocaleString() : '—'} | ${json.count || data.length} mercados`;
@@ -97,6 +106,15 @@
       return `<span class="${num >= 0 ? 'positive' : 'negative'}">${num.toFixed(2)}%</span>`;
     }
 
+    function formatStability(value) {
+      if (value == null) return '—';
+      const num = Number(value);
+      let cls = 'stability-low';
+      if (num >= 70) cls = 'stability-high';
+      else if (num >= 45) cls = 'stability-mid';
+      return `<span class="${cls}">${num}</span>`;
+    }
+
     function formatRow(r) {
       const badge = r.type === "RWA" 
         ? '<span class="badge badge-rwa">RWA</span>' 
@@ -109,6 +127,8 @@
           <td>${formatValue(r["avg_3d_annualized_%"])}</td>
           <td>${formatValue(r["avg_24h_annualized_%"])}</td>
           <td>${formatValue(r["current_funding_annualized_%"])}</td>
+          <td>${formatStability(r.stability)}</td>
+          <td class="score">${r.score != null ? r.score.toFixed(1) : '—'}</td>
         </tr>
       `;
     }
@@ -117,10 +137,12 @@
       const search = document.getElementById('search').value.toLowerCase().trim();
       const showCrypto = document.getElementById('filter-crypto').checked;
       const showRwa = document.getElementById('filter-rwa').checked;
+      const onlyStable = document.getElementById('filter-stable').checked;
 
       let filtered = data.filter(item => {
         if (item.type === "CRYPTO" && !showCrypto) return false;
         if (item.type === "RWA" && !showRwa) return false;
+        if (onlyStable && (item.stability || 0) < 70) return false;
         if (search && !item.cleanName.toLowerCase().includes(search)) return false;
         return true;
       });
@@ -136,9 +158,8 @@
         return currentSortDesc ? vb - va : va - vb;
       });
 
-      document.getElementById('tbody').innerHTML = filtered.map(formatRow).join('') || '<tr><td colspan="5">Sin resultados</td></tr>';
+      document.getElementById('tbody').innerHTML = filtered.map(formatRow).join('') || '<tr><td colspan="7">Sin resultados</td></tr>';
 
-      // Actualizar flechas
       document.querySelectorAll('th .arrow').forEach(el => el.textContent = '');
       const activeTh = document.querySelector(`th[data-key="${currentSortKey}"] .arrow`);
       if (activeTh) activeTh.textContent = currentSortDesc ? '▼' : '▲';
@@ -147,6 +168,7 @@
     document.getElementById('search').addEventListener('input', render);
     document.getElementById('filter-crypto').addEventListener('change', render);
     document.getElementById('filter-rwa').addEventListener('change', render);
+    document.getElementById('filter-stable').addEventListener('change', render);
 
     document.querySelectorAll('th[data-key]').forEach(th => {
       th.addEventListener('click', () => {
