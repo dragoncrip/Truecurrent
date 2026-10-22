@@ -2,7 +2,7 @@ name: Update Funding 7d
 
 on:
   schedule:
-    - cron: '0 * * * *'   # cada hora
+     - cron: '7,22,37,52 * * * *'   # ~cada 15 min, minutos impares
   workflow_dispatch:
 
 permissions:
