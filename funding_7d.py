@@ -30,6 +30,34 @@ def average_annualized(rates, hours):
     avg = statistics.mean(hourly)
     return round(avg * 8760 * 100, 2)
 
+def calculate_current_funding_annualized(m):
+    """Calcula el funding rate actual (próximo) según la fórmula de Injective."""
+    try:
+        info = m.get("perpetualMarketInfo") or {}
+        funding = m.get("perpetualMarketFunding") or {}
+
+        cumulative_price = float(funding.get("cumulativePrice") or 0)
+        last_timestamp = int(funding.get("lastTimestamp") or 0)
+        next_funding_timestamp = int(info.get("nextFundingTimestamp") or 0)
+        funding_interval = int(info.get("fundingInterval") or 3600)
+        hourly_interest_rate = float(info.get("hourlyInterestRate") or 0)
+        hourly_funding_rate_cap = float(info.get("hourlyFundingRateCap") or 0.000625)
+
+        starting_timestamp = next_funding_timestamp - funding_interval
+        time_interval = last_timestamp - starting_timestamp
+
+        if time_interval <= 0:
+            twap = 0.0
+        else:
+            twap = cumulative_price / (time_interval * 24)
+
+        raw_rate = twap + hourly_interest_rate
+        capped_rate = max(min(raw_rate, hourly_funding_rate_cap), -hourly_funding_rate_cap)
+
+        return round(capped_rate * 8760 * 100, 2)
+    except Exception:
+        return None
+
 def calculate_stability_and_score(avg_7d, avg_3d, avg_24h, current):
     values = [avg_7d, avg_3d, avg_24h, current]
     valid = [v for v in values if v is not None]
@@ -46,15 +74,12 @@ def calculate_stability_and_score(avg_7d, avg_3d, avg_24h, current):
     std_abs = statistics.pstdev(abs_values) if len(abs_values) > 1 else 0
     rel_std = std_abs / mean_abs
     
-    # Estabilidad base (menor variación relativa = más estable)
     stability = max(0, min(100, round(100 - rel_std * 70)))
     
-    # Bonus si todos tienen el mismo signo
     signs = [1 if v >= 0 else -1 for v in valid]
     if len(set(signs)) == 1:
         stability = min(100, stability + 18)
     
-    # Score de oportunidad: magnitud 7d * estabilidad
     base_magnitude = abs(avg_7d) if avg_7d is not None else 0
     score = round(base_magnitude * (stability / 100), 2)
     
@@ -71,23 +96,8 @@ def main():
             avg_3d = average_annualized(rates, 72)
             avg_24h = average_annualized(rates, 24)
 
-            # Funding actual (preferir el más reciente del historial)
-            current_annualized = None
-            if rates:
-                try:
-                    latest_rate = float(rates[0]["rate"])
-                    current_annualized = round(latest_rate * 8760 * 100, 2)
-                except (KeyError, ValueError, TypeError):
-                    pass
-
-            # Fallback al lastFundingRate del market si no hay historial
-            if current_annualized is None:
-                last_rate_str = m.get("perpetualMarketFunding", {}).get("lastFundingRate")
-                if last_rate_str:
-                    try:
-                        current_annualized = round(float(last_rate_str) * 8760 * 100, 2)
-                    except (ValueError, TypeError):
-                        pass
+            # Funding actual (el que muestra la UI de TrueCurrent)
+            current_annualized = calculate_current_funding_annualized(m)
 
             if avg_7d is not None:
                 ticker_upper = m["ticker"].upper()
@@ -130,7 +140,6 @@ def main():
 
         time.sleep(0.12)
 
-    # Ordenar por score de oportunidad (mejor funding estable primero)
     results.sort(key=lambda x: x["score"], reverse=True)
 
     output = {
