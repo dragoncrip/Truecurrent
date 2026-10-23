@@ -31,7 +31,9 @@ def average_annualized(rates, hours):
     return round(avg * 8760 * 100, 2)
 
 def calculate_current_funding_annualized(m):
-    """Calcula el funding rate actual (próximo) según la fórmula de Injective."""
+    """Calcula el funding actual (próximo) según la fórmula de Injective.
+    Si el valor es extremo o poco confiable, usa lastFundingRate.
+    """
     try:
         info = m.get("perpetualMarketInfo") or {}
         funding = m.get("perpetualMarketFunding") or {}
@@ -43,20 +45,45 @@ def calculate_current_funding_annualized(m):
         hourly_interest_rate = float(info.get("hourlyInterestRate") or 0)
         hourly_funding_rate_cap = float(info.get("hourlyFundingRateCap") or 0.000625)
 
-        starting_timestamp = next_funding_timestamp - funding_interval
-        time_interval = last_timestamp - starting_timestamp
-
-        if time_interval <= 0:
-            twap = 0.0
+        # Sin premium acumulado o intervalo sin trades → solo interest rate
+        if abs(cumulative_price) < 1e-8 or last_timestamp <= (next_funding_timestamp - funding_interval):
+            rate = hourly_interest_rate
         else:
-            twap = cumulative_price / (time_interval * 24)
+            starting_timestamp = next_funding_timestamp - funding_interval
+            time_interval = last_timestamp - starting_timestamp
+            if time_interval <= 0:
+                rate = hourly_interest_rate
+            else:
+                twap = cumulative_price / (time_interval * 24)
+                rate = twap + hourly_interest_rate
 
-        raw_rate = twap + hourly_interest_rate
-        capped_rate = max(min(raw_rate, hourly_funding_rate_cap), -hourly_funding_rate_cap)
+        # Aplicar cap
+        rate = max(min(rate, hourly_funding_rate_cap), -hourly_funding_rate_cap)
+        annualized = round(rate * 8760 * 100, 2)
 
-        return round(capped_rate * 8760 * 100, 2)
+        # Si el valor calculado es muy extremo comparado con lastFundingRate, preferir el last
+        last_rate_str = funding.get("lastFundingRate")
+        if last_rate_str:
+            try:
+                last_ann = round(float(last_rate_str) * 8760 * 100, 2)
+                # Si la diferencia es enorme, el snapshot actual puede ser muy volátil
+                if abs(annualized) > abs(last_ann) * 5 and abs(annualized) > 200:
+                    return last_ann
+            except (ValueError, TypeError):
+                pass
+
+        return annualized
     except Exception:
-        return None
+        pass
+
+    # Fallback final
+    last_rate_str = (m.get("perpetualMarketFunding") or {}).get("lastFundingRate")
+    if last_rate_str:
+        try:
+            return round(float(last_rate_str) * 8760 * 100, 2)
+        except (ValueError, TypeError):
+            pass
+    return None
 
 def calculate_stability_and_score(avg_7d, avg_3d, avg_24h, current):
     values = [avg_7d, avg_3d, avg_24h, current]
@@ -96,7 +123,6 @@ def main():
             avg_3d = average_annualized(rates, 72)
             avg_24h = average_annualized(rates, 24)
 
-            # Funding actual (el que muestra la UI de TrueCurrent)
             current_annualized = calculate_current_funding_annualized(m)
 
             if avg_7d is not None:
