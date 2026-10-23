@@ -71,10 +71,23 @@ def main():
             avg_3d = average_annualized(rates, 72)
             avg_24h = average_annualized(rates, 24)
 
-            last_rate_str = m.get("perpetualMarketFunding", {}).get("lastFundingRate")
+            # Funding actual (preferir el más reciente del historial)
             current_annualized = None
-            if last_rate_str:
-                current_annualized = round(float(last_rate_str) * 8760 * 100, 2)
+            if rates:
+                try:
+                    latest_rate = float(rates[0]["rate"])
+                    current_annualized = round(latest_rate * 8760 * 100, 2)
+                except (KeyError, ValueError, TypeError):
+                    pass
+
+            # Fallback al lastFundingRate del market si no hay historial
+            if current_annualized is None:
+                last_rate_str = m.get("perpetualMarketFunding", {}).get("lastFundingRate")
+                if last_rate_str:
+                    try:
+                        current_annualized = round(float(last_rate_str) * 8760 * 100, 2)
+                    except (ValueError, TypeError):
+                        pass
 
             if avg_7d is not None:
                 ticker_upper = m["ticker"].upper()
