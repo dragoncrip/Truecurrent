@@ -9,10 +9,13 @@
     h1 { text-align: center; margin-bottom: 5px; }
     #updated { text-align: center; color: #8b949e; margin-bottom: 15px; }
     #search { display: block; margin: 0 auto 12px; padding: 10px 16px; width: 300px; font-size: 16px; border-radius: 6px; border: 1px solid #30363d; background: #161b22; color: #c9d1d9; }
-    .filters { text-align: center; margin-bottom: 20px; }
-    .filters label { margin: 0 15px; cursor: pointer; font-size: 15px; }
-    .filters input { margin-right: 6px; transform: scale(1.1); }
-    .container { max-width: 1300px; margin: 0 auto; }
+    .filters { text-align: center; margin-bottom: 15px; }
+    .filters label { margin: 0 12px; cursor: pointer; font-size: 14px; }
+    .filters input[type="checkbox"] { margin-right: 5px; transform: scale(1.1); }
+    .volume-filter { text-align: center; margin-bottom: 18px; }
+    .volume-filter label { font-size: 14px; margin-right: 8px; }
+    .volume-filter input { padding: 6px 10px; width: 120px; border-radius: 5px; border: 1px solid #30363d; background: #161b22; color: #c9d1d9; }
+    .container { max-width: 1400px; margin: 0 auto; }
     table { border-collapse: collapse; width: 100%; }
     th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #30363d; }
     th { background: #161b22; cursor: pointer; user-select: none; }
@@ -21,21 +24,14 @@
     tr:hover { background: #161b22; }
     .positive { color: #3fb950; font-weight: 500; }
     .negative { color: #f85149; font-weight: 500; }
-    .badge { 
-      display: inline-block; 
-      font-size: 9px; 
-      padding: 1px 4px; 
-      border-radius: 3px; 
-      margin-left: 5px; 
-      font-weight: 600; 
-      vertical-align: middle;
-    }
+    .badge { display: inline-block; font-size: 9px; padding: 1px 4px; border-radius: 3px; margin-left: 5px; font-weight: 600; vertical-align: middle; }
     .badge-crypto { background: #238636; color: white; }
     .badge-rwa { background: #9e6a03; color: white; }
     .stability-high { color: #3fb950; }
     .stability-mid { color: #d29922; }
     .stability-low { color: #f85149; }
     .score { font-weight: 600; color: #58a6ff; }
+    .volume { color: #8b949e; font-variant-numeric: tabular-nums; }
   </style>
 </head>
 <body>
@@ -49,6 +45,11 @@
     <label><input type="checkbox" id="filter-stable"> Solo estables (≥70)</label>
   </div>
 
+  <div class="volume-filter">
+    <label for="min-volume">Volumen mínimo 24h (USDC):</label>
+    <input type="number" id="min-volume" placeholder="ej. 10000" min="0" step="1000">
+  </div>
+
   <div class="container">
     <table>
       <thead>
@@ -60,6 +61,7 @@
           <th data-key="current_funding_annualized_%">Funding Actual <span class="arrow"></span></th>
           <th data-key="stability">Estabilidad <span class="arrow"></span></th>
           <th data-key="score">Score <span class="arrow"></span></th>
+          <th data-key="volume_24h">Vol 24h <span class="arrow"></span></th>
         </tr>
       </thead>
       <tbody id="tbody"></tbody>
@@ -79,6 +81,13 @@
         .trim();
     }
 
+    function formatVolume(v) {
+      if (v == null || v === 0) return '—';
+      if (v >= 1_000_000) return (v / 1_000_000).toFixed(2) + 'M';
+      if (v >= 1_000) return (v / 1_000).toFixed(1) + 'k';
+      return v.toFixed(0);
+    }
+
     async function loadData() {
       try {
         const res = await fetch('funding_7d.json?v=' + Date.now());
@@ -89,7 +98,8 @@
           cleanName: cleanTicker(item.ticker),
           type: item.type || "CRYPTO",
           stability: item.stability ?? 0,
-          score: item.score ?? 0
+          score: item.score ?? 0,
+          volume_24h: item.volume_24h ?? 0
         }));
         document.getElementById('updated').textContent = 
           `Actualizado: ${json.updated_at ? new Date(json.updated_at).toLocaleString() : '—'} | ${json.count || data.length} mercados`;
@@ -129,6 +139,7 @@
           <td>${formatValue(r["current_funding_annualized_%"])}</td>
           <td>${formatStability(r.stability)}</td>
           <td class="score">${r.score != null ? r.score.toFixed(1) : '—'}</td>
+          <td class="volume">${formatVolume(r.volume_24h)}</td>
         </tr>
       `;
     }
@@ -138,11 +149,13 @@
       const showCrypto = document.getElementById('filter-crypto').checked;
       const showRwa = document.getElementById('filter-rwa').checked;
       const onlyStable = document.getElementById('filter-stable').checked;
+      const minVolume = parseFloat(document.getElementById('min-volume').value) || 0;
 
       let filtered = data.filter(item => {
         if (item.type === "CRYPTO" && !showCrypto) return false;
         if (item.type === "RWA" && !showRwa) return false;
         if (onlyStable && (item.stability || 0) < 70) return false;
+        if ((item.volume_24h || 0) < minVolume) return false;
         if (search && !item.cleanName.toLowerCase().includes(search)) return false;
         return true;
       });
@@ -158,7 +171,7 @@
         return currentSortDesc ? vb - va : va - vb;
       });
 
-      document.getElementById('tbody').innerHTML = filtered.map(formatRow).join('') || '<tr><td colspan="7">Sin resultados</td></tr>';
+      document.getElementById('tbody').innerHTML = filtered.map(formatRow).join('') || '<tr><td colspan="8">Sin resultados</td></tr>';
 
       document.querySelectorAll('th .arrow').forEach(el => el.textContent = '');
       const activeTh = document.querySelector(`th[data-key="${currentSortKey}"] .arrow`);
@@ -169,6 +182,7 @@
     document.getElementById('filter-crypto').addEventListener('change', render);
     document.getElementById('filter-rwa').addEventListener('change', render);
     document.getElementById('filter-stable').addEventListener('change', render);
+    document.getElementById('min-volume').addEventListener('input', render);
 
     document.querySelectorAll('th[data-key]').forEach(th => {
       th.addEventListener('click', () => {
