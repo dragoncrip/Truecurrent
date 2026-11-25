@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T02:39:19.037652+00:00",
+  "updated_at": "2026-11-25T11:44:30.300639+00:00",
   "count": 307,
   "data": [
     {
@@ -12,439 +12,475 @@
       "current_funding_annualized_%": -547.5,
       "stability": 100,
       "score": 537.75,
-      "volume_24h": 82985.19
-    },
-    {
-      "ticker": "SAND/USDC PERP",
-      "marketId": "0x7cc7a591783edfc16faac20ad71c01109466e4521d07713c3a66119434b8716d",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 514.37,
-      "avg_3d_annualized_%": 470.49,
-      "avg_24h_annualized_%": 319.78,
-      "current_funding_annualized_%": 3.65,
-      "stability": 75,
-      "score": 385.78,
-      "volume_24h": 63386.78
+      "volume_24h": 82941.48
     },
     {
       "ticker": "TWT/USDC PERP",
       "marketId": "0x47c5c22a0eec3a9c275d282a1c67b5f1ec277174aeb1804d21fd03589faa55f9",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -377.84,
-      "avg_3d_annualized_%": -443.51,
-      "avg_24h_annualized_%": -331.15,
-      "current_funding_annualized_%": -197.82,
-      "stability": 99,
-      "score": 374.06,
-      "volume_24h": 90.71
+      "avg_7d_annualized_%": -365.21,
+      "avg_3d_annualized_%": -397.47,
+      "avg_24h_annualized_%": -193.03,
+      "current_funding_annualized_%": -206.75,
+      "stability": 96,
+      "score": 350.6,
+      "volume_24h": 91.07
     },
     {
       "ticker": "H/USDC PERP",
       "marketId": "0xef72e65b7ad97e93808433bda438c2e86afc9b82c4e8d9c99c8622fd5d1cb3cb",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 296.54,
-      "avg_3d_annualized_%": 370.42,
-      "avg_24h_annualized_%": 372.84,
-      "current_funding_annualized_%": 211.82,
+      "avg_7d_annualized_%": 305.98,
+      "avg_3d_annualized_%": 348.6,
+      "avg_24h_annualized_%": 234.95,
+      "current_funding_annualized_%": 199.04,
       "stability": 100,
-      "score": 296.54,
-      "volume_24h": 3278.89
+      "score": 305.98,
+      "volume_24h": 82.66
+    },
+    {
+      "ticker": "SAND/USDC PERP",
+      "marketId": "0x7cc7a591783edfc16faac20ad71c01109466e4521d07713c3a66119434b8716d",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 485.23,
+      "avg_3d_annualized_%": 402.51,
+      "avg_24h_annualized_%": 115.83,
+      "current_funding_annualized_%": 3.65,
+      "stability": 63,
+      "score": 305.69,
+      "volume_24h": 29630.42
     },
     {
       "ticker": "IO/USDC PERP",
       "marketId": "0x3afa6e3e610e4c6464ba81eac88a9958712cb02cc90852414dcc02784694e3f9",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -251.69,
-      "avg_3d_annualized_%": -291.73,
-      "avg_24h_annualized_%": -369.91,
-      "current_funding_annualized_%": -300.03,
+      "avg_7d_annualized_%": -252.37,
+      "avg_3d_annualized_%": -293.47,
+      "avg_24h_annualized_%": -256.9,
+      "current_funding_annualized_%": -269.55,
       "stability": 100,
-      "score": 251.69,
-      "volume_24h": 119367.62
+      "score": 252.37,
+      "volume_24h": 119348.56
     },
     {
       "ticker": "WLFI/USDC PERP",
       "marketId": "0x3d39fcb2ccfe95921df5860133e7eb06bcbeccfc3cdd99774c54666589b2ef43",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -229.23,
-      "avg_3d_annualized_%": -424.74,
-      "avg_24h_annualized_%": -317.84,
-      "current_funding_annualized_%": -122.54,
-      "stability": 90,
-      "score": 206.31,
-      "volume_24h": 34926.02
-    },
-    {
-      "ticker": "XPL/USDC PERP",
-      "marketId": "0x2b1c487c92a3b92249bc6da0848e8691101e2f81402ac5615ee1b024dd56a12e",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -180.35,
-      "avg_3d_annualized_%": -321.23,
-      "avg_24h_annualized_%": -345.78,
-      "current_funding_annualized_%": -547.5,
-      "stability": 92,
-      "score": 165.92,
-      "volume_24h": 31320.37
+      "avg_7d_annualized_%": -235.29,
+      "avg_3d_annualized_%": -370.18,
+      "avg_24h_annualized_%": -154.16,
+      "current_funding_annualized_%": -152.6,
+      "stability": 91,
+      "score": 214.11,
+      "volume_24h": 19026.63
     },
     {
       "ticker": "NEIRO/USDC PERP",
       "marketId": "0x1414729cb335c2bf55f48c3ad0097bf871b5af557da8365468675d7ad6b62250",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -184.49,
-      "avg_3d_annualized_%": -408.58,
-      "avg_24h_annualized_%": -315.86,
-      "current_funding_annualized_%": -112.58,
-      "stability": 87,
-      "score": 160.51,
-      "volume_24h": 29182.31
+      "avg_7d_annualized_%": -213.14,
+      "avg_3d_annualized_%": -357.67,
+      "avg_24h_annualized_%": -156.08,
+      "current_funding_annualized_%": -176.04,
+      "stability": 94,
+      "score": 200.35,
+      "volume_24h": 13328.86
+    },
+    {
+      "ticker": "XPL/USDC PERP",
+      "marketId": "0x2b1c487c92a3b92249bc6da0848e8691101e2f81402ac5615ee1b024dd56a12e",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -208.54,
+      "avg_3d_annualized_%": -386.99,
+      "avg_24h_annualized_%": -336.4,
+      "current_funding_annualized_%": -547.5,
+      "stability": 95,
+      "score": 198.11,
+      "volume_24h": 32527.22
     },
     {
       "ticker": "LUNC/USDC PERP",
       "marketId": "0xf7ab5e5ed92d3a2cccd4b0bfb312b9b19abb9003f2c833b61afedbd89077455b",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -177.83,
-      "avg_3d_annualized_%": -304.79,
-      "avg_24h_annualized_%": -322.71,
+      "avg_7d_annualized_%": -200.89,
+      "avg_3d_annualized_%": -325.58,
+      "avg_24h_annualized_%": -383.28,
       "current_funding_annualized_%": -547.5,
-      "stability": 90,
-      "score": 160.05,
-      "volume_24h": 4327.52
+      "stability": 94,
+      "score": 188.84,
+      "volume_24h": 228.36
+    },
+    {
+      "ticker": "DYDX/USDC PERP",
+      "marketId": "0x59bc9dac7c4d4aa59c603a6dae46a12575ac62b52520052a063ce37ebe4272a5",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 138.86,
+      "avg_3d_annualized_%": 318.98,
+      "avg_24h_annualized_%": 479.22,
+      "current_funding_annualized_%": 547.5,
+      "stability": 88,
+      "score": 122.2,
+      "volume_24h": 91358.56
+    },
+    {
+      "ticker": "CAKE/USDC PERP",
+      "marketId": "0xb053195c190b18a6be43af13b8dbfc7d2c816dfb98948d237644586349baf6c6",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 131.78,
+      "avg_3d_annualized_%": 303.04,
+      "avg_24h_annualized_%": 478.65,
+      "current_funding_annualized_%": 547.5,
+      "stability": 87,
+      "score": 114.65,
+      "volume_24h": 62718.52
+    },
+    {
+      "ticker": "APE/USDC PERP",
+      "marketId": "0x504bf606268cca5fd3dac7419c75a3a6527e65589f0b96b9480e2416ec1367ca",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 124.51,
+      "avg_3d_annualized_%": 288.2,
+      "avg_24h_annualized_%": 474.36,
+      "current_funding_annualized_%": 547.5,
+      "stability": 86,
+      "score": 107.08,
+      "volume_24h": 19044.59
+    },
+    {
+      "ticker": "CRV/USDC PERP",
+      "marketId": "0xabe60a94f2fd0587ce3402ed92c54fb01cff152f0bfdb8edb4d0bb36effc9983",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -107.08,
+      "avg_3d_annualized_%": -188.09,
+      "avg_24h_annualized_%": -142.12,
+      "current_funding_annualized_%": -120.73,
+      "stability": 100,
+      "score": 107.08,
+      "volume_24h": 68432.24
     },
     {
       "ticker": "ARB/USDC PERP",
       "marketId": "0x771f3b734d5f6b5a5f0d0584a027655744aba77130ca0ea5090d9332a6586c8b",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 96.15,
-      "avg_3d_annualized_%": 80.42,
-      "avg_24h_annualized_%": 98.52,
-      "current_funding_annualized_%": 82.18,
+      "avg_7d_annualized_%": 95.23,
+      "avg_3d_annualized_%": 68.76,
+      "avg_24h_annualized_%": 80.18,
+      "current_funding_annualized_%": 101.78,
       "stability": 100,
-      "score": 96.15,
-      "volume_24h": 227494.5
+      "score": 95.23,
+      "volume_24h": 187849.29
+    },
+    {
+      "ticker": "JUP/USDC PERP",
+      "marketId": "0xca2435ecd0bbd36bb26cda0606c3f1474e3696bf89399fa9ffde2f2636c25876",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -94.52,
+      "avg_3d_annualized_%": -160.41,
+      "avg_24h_annualized_%": -137.65,
+      "current_funding_annualized_%": -117.16,
+      "stability": 100,
+      "score": 94.52,
+      "volume_24h": 77714.06
     },
     {
       "ticker": "AERO/USDC PERP",
       "marketId": "0xfbac3dccccd1197819933265cc4620d420dff9da0d4cf753b8649525603a1637",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 184.67,
-      "avg_3d_annualized_%": 207.64,
-      "avg_24h_annualized_%": 5.3,
+      "avg_3d_annualized_%": 139.66,
+      "avg_24h_annualized_%": 4.44,
       "current_funding_annualized_%": 3.65,
-      "stability": 51,
-      "score": 94.18,
-      "volume_24h": 110945.09
-    },
-    {
-      "ticker": "CRV/USDC PERP",
-      "marketId": "0xabe60a94f2fd0587ce3402ed92c54fb01cff152f0bfdb8edb4d0bb36effc9983",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -101.24,
-      "avg_3d_annualized_%": -192.03,
-      "avg_24h_annualized_%": -241.88,
-      "current_funding_annualized_%": -102.16,
-      "stability": 92,
-      "score": 93.14,
-      "volume_24h": 125546.01
-    },
-    {
-      "ticker": "DYDX/USDC PERP",
-      "marketId": "0x59bc9dac7c4d4aa59c603a6dae46a12575ac62b52520052a063ce37ebe4272a5",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 109.72,
-      "avg_3d_annualized_%": 251.0,
-      "avg_24h_annualized_%": 479.22,
-      "current_funding_annualized_%": 547.5,
-      "stability": 83,
-      "score": 91.07,
-      "volume_24h": 91494.34
+      "stability": 50,
+      "score": 92.33,
+      "volume_24h": 55308.21
     },
     {
       "ticker": "RAY/USDC PERP",
       "marketId": "0xa33b69ac608482dcef0a16700816c61ca0780154f3812b0c6588c55f3e349fce",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 160.51,
-      "avg_3d_annualized_%": -70.52,
-      "avg_24h_annualized_%": -154.07,
+      "avg_7d_annualized_%": 131.93,
+      "avg_3d_annualized_%": -60.62,
+      "avg_24h_annualized_%": -104.3,
       "current_funding_annualized_%": 3.65,
-      "stability": 53,
-      "score": 85.07,
-      "volume_24h": 138106.82
-    },
-    {
-      "ticker": "CAKE/USDC PERP",
-      "marketId": "0xb053195c190b18a6be43af13b8dbfc7d2c816dfb98948d237644586349baf6c6",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 102.65,
-      "avg_3d_annualized_%": 235.05,
-      "avg_24h_annualized_%": 445.81,
-      "current_funding_annualized_%": 547.5,
-      "stability": 81,
-      "score": 83.15,
-      "volume_24h": 124041.58
-    },
-    {
-      "ticker": "JUP/USDC PERP",
-      "marketId": "0xca2435ecd0bbd36bb26cda0606c3f1474e3696bf89399fa9ffde2f2636c25876",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -88.12,
-      "avg_3d_annualized_%": -158.88,
-      "avg_24h_annualized_%": -230.83,
-      "current_funding_annualized_%": -101.56,
-      "stability": 91,
-      "score": 80.19,
-      "volume_24h": 152492.05
-    },
-    {
-      "ticker": "APE/USDC PERP",
-      "marketId": "0x504bf606268cca5fd3dac7419c75a3a6527e65589f0b96b9480e2416ec1367ca",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 95.97,
-      "avg_3d_annualized_%": 220.22,
-      "avg_24h_annualized_%": 474.36,
-      "current_funding_annualized_%": 547.5,
-      "stability": 80,
-      "score": 76.78,
-      "volume_24h": 19043.8
-    },
-    {
-      "ticker": "TRUMP/USDC PERP",
-      "marketId": "0xff2ff43d84ce9786d8cc342ed6f6f699aef0a5015b7ffd60891448192f8679b7",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 74.03,
-      "avg_3d_annualized_%": 76.7,
-      "avg_24h_annualized_%": 37.15,
-      "current_funding_annualized_%": 51.29,
-      "stability": 99,
-      "score": 73.29,
-      "volume_24h": 52730.01
+      "stability": 55,
+      "score": 72.56,
+      "volume_24h": 62764.77
     },
     {
       "ticker": "SUI/USDC PERP",
       "marketId": "0xcf98ddf04e0d858561f0ecdfbf2ea4bcf8fd60f78481f78a7454b35ec6faf2ea",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 70.94,
-      "avg_3d_annualized_%": 68.89,
-      "avg_24h_annualized_%": 93.83,
-      "current_funding_annualized_%": 126.11,
+      "avg_7d_annualized_%": 70.7,
+      "avg_3d_annualized_%": 78.53,
+      "avg_24h_annualized_%": 97.39,
+      "current_funding_annualized_%": 74.76,
       "stability": 100,
-      "score": 70.94,
-      "volume_24h": 109109.6
+      "score": 70.7,
+      "volume_24h": 122683.91
     },
     {
       "ticker": "OP/USDC PERP",
       "marketId": "0xb846b1623674f02ab48faec679d4bd31ed40b6a125f9605be6f99131286e8492",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -66.39,
-      "avg_3d_annualized_%": -63.85,
-      "avg_24h_annualized_%": -47.54,
-      "current_funding_annualized_%": -36.87,
+      "avg_7d_annualized_%": -65.83,
+      "avg_3d_annualized_%": -54.51,
+      "avg_24h_annualized_%": -45.48,
+      "current_funding_annualized_%": -71.71,
       "stability": 100,
-      "score": 66.39,
-      "volume_24h": 110845.19
-    },
-    {
-      "ticker": "TAO/USDC PERP",
-      "marketId": "0xae60d32c901e0fcd36951ad9c80947e6a3206d0fabe089064fba5b4dbe87c088",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 58.18,
-      "avg_3d_annualized_%": 55.2,
-      "avg_24h_annualized_%": 61.54,
-      "current_funding_annualized_%": 31.23,
-      "stability": 100,
-      "score": 58.18,
-      "volume_24h": 228825.66
-    },
-    {
-      "ticker": "PUMP/USDC PERP",
-      "marketId": "0xc5a03089cff2aa0364864b428a11654b8e8e34a0476f9cd81f52fe518fde66e1",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -56.6,
-      "avg_3d_annualized_%": -55.36,
-      "avg_24h_annualized_%": -56.77,
-      "current_funding_annualized_%": -57.86,
-      "stability": 100,
-      "score": 56.6,
-      "volume_24h": 13164.06
-    },
-    {
-      "ticker": "ZEC/USDC PERP",
-      "marketId": "0xecf1cefce2e49ee94b5c16353915e73619b8c15d6670e9661bd2697c3bc9fa98",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -51.9,
-      "avg_3d_annualized_%": -56.66,
-      "avg_24h_annualized_%": -44.84,
-      "current_funding_annualized_%": -60.24,
-      "stability": 100,
-      "score": 51.9,
-      "volume_24h": 243134.79
-    },
-    {
-      "ticker": "ATOM/USDC PERP",
-      "marketId": "0x33353622e471d42f4e42334f0dc1f3b49738f18abf4c75b240d4f6ba5f2a52d8",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 51.59,
-      "avg_3d_annualized_%": 60.48,
-      "avg_24h_annualized_%": 55.09,
-      "current_funding_annualized_%": 98.83,
-      "stability": 98,
-      "score": 50.56,
-      "volume_24h": 103024.32
-    },
-    {
-      "ticker": "NEAR/USDC PERP",
-      "marketId": "0x8e0c2e28b065a5e8da93ada8ef6e7ff23e42c62470c14bca3b6059638f9ccf4e",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -50.55,
-      "avg_3d_annualized_%": -97.42,
-      "avg_24h_annualized_%": -96.78,
-      "current_funding_annualized_%": -49.73,
-      "stability": 96,
-      "score": 48.53,
-      "volume_24h": 428695.95
-    },
-    {
-      "ticker": "TAIKO/USDC PERP",
-      "marketId": "0xcfc53ecdb6bdd3fbf36a5837b446161a59ae8cf9bfcdcc52e75bca27aea8919e",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -57.34,
-      "avg_3d_annualized_%": -125.52,
-      "avg_24h_annualized_%": -311.27,
-      "current_funding_annualized_%": -215.03,
-      "stability": 80,
-      "score": 45.87,
-      "volume_24h": 79578.29
-    },
-    {
-      "ticker": "INJ/USDC PERP",
-      "marketId": "0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 55.02,
-      "avg_3d_annualized_%": 42.98,
-      "avg_24h_annualized_%": 13.86,
-      "current_funding_annualized_%": 19.57,
-      "stability": 82,
-      "score": 45.12,
-      "volume_24h": 73148.34
-    },
-    {
-      "ticker": "AVAX/USDC PERP",
-      "marketId": "0xc27b4c131562c9b0d3ddcec8cd627dd1199422051adaa2e5986bb605734b5ccc",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -58.36,
-      "avg_3d_annualized_%": -41.2,
-      "avg_24h_annualized_%": 17.6,
-      "current_funding_annualized_%": 62.91,
-      "stability": 72,
-      "score": 42.02,
-      "volume_24h": 97591.91
-    },
-    {
-      "ticker": "FLUID/USDC PERP",
-      "marketId": "0xb345ddbfa97678e0702ba804bfe1cc2c6197fdf07c93f7b38919be3f6f81a420",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -51.07,
-      "avg_3d_annualized_%": -123.93,
-      "avg_24h_annualized_%": -313.68,
-      "current_funding_annualized_%": -227.56,
-      "stability": 79,
-      "score": 40.35,
-      "volume_24h": 11414.68
-    },
-    {
-      "ticker": "STRK/USDC PERP",
-      "marketId": "0x7ffeaa2e0ca3c21b9c45124413ef4f6937e0720d656ba28434da957444fbe397",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -52.24,
-      "avg_3d_annualized_%": -121.12,
-      "avg_24h_annualized_%": -333.39,
-      "current_funding_annualized_%": -225.51,
-      "stability": 77,
-      "score": 40.22,
-      "volume_24h": 100342.98
-    },
-    {
-      "ticker": "ORCA/USDC PERP",
-      "marketId": "0x22387f2e1d74261c539cd175b9af21fac2987ca232325ce608a7b746d33ee71a",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -73.08,
-      "avg_3d_annualized_%": -155.81,
-      "avg_24h_annualized_%": -149.49,
-      "current_funding_annualized_%": 3.65,
-      "stability": 54,
-      "score": 39.46,
-      "volume_24h": 65630.89
-    },
-    {
-      "ticker": "FET/USDC PERP",
-      "marketId": "0x4cbc7740ef7390324d552a911947697fd4adb65af2583769c6bbec0b4a1cf320",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -50.01,
-      "avg_3d_annualized_%": -118.82,
-      "avg_24h_annualized_%": -252.27,
-      "current_funding_annualized_%": -81.97,
-      "stability": 75,
-      "score": 37.51,
-      "volume_24h": 36984.12
+      "score": 65.83,
+      "volume_24h": 110771.19
     },
     {
       "ticker": "ZK/USDC PERP",
       "marketId": "0xc1c9bd65de01f3b58ec8a3912cfab088c57a79ab8b3108606d2d0d94e023bdb7",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -57.62,
-      "avg_3d_annualized_%": -135.21,
-      "avg_24h_annualized_%": -384.45,
-      "current_funding_annualized_%": -93.45,
-      "stability": 65,
-      "score": 37.45,
-      "volume_24h": 60812.57
+      "avg_7d_annualized_%": -63.85,
+      "avg_3d_annualized_%": -142.1,
+      "avg_24h_annualized_%": -245.38,
+      "current_funding_annualized_%": -203.93,
+      "stability": 89,
+      "score": 56.83,
+      "volume_24h": 58452.08
+    },
+    {
+      "ticker": "STRK/USDC PERP",
+      "marketId": "0x7ffeaa2e0ca3c21b9c45124413ef4f6937e0720d656ba28434da957444fbe397",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -61.49,
+      "avg_3d_annualized_%": -142.71,
+      "avg_24h_annualized_%": -191.49,
+      "current_funding_annualized_%": -214.04,
+      "stability": 91,
+      "score": 55.96,
+      "volume_24h": 100302.58
+    },
+    {
+      "ticker": "FLUID/USDC PERP",
+      "marketId": "0xb345ddbfa97678e0702ba804bfe1cc2c6197fdf07c93f7b38919be3f6f81a420",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -59.72,
+      "avg_3d_annualized_%": -144.1,
+      "avg_24h_annualized_%": -177.89,
+      "current_funding_annualized_%": -196.41,
+      "stability": 93,
+      "score": 55.54,
+      "volume_24h": 10943.16
+    },
+    {
+      "ticker": "PUMP/USDC PERP",
+      "marketId": "0xc5a03089cff2aa0364864b428a11654b8e8e34a0476f9cd81f52fe518fde66e1",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -55.27,
+      "avg_3d_annualized_%": -56.51,
+      "avg_24h_annualized_%": -49.53,
+      "current_funding_annualized_%": -81.12,
+      "stability": 100,
+      "score": 55.27,
+      "volume_24h": 20548.77
+    },
+    {
+      "ticker": "NEAR/USDC PERP",
+      "marketId": "0x8e0c2e28b065a5e8da93ada8ef6e7ff23e42c62470c14bca3b6059638f9ccf4e",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -54.39,
+      "avg_3d_annualized_%": -65.37,
+      "avg_24h_annualized_%": -77.41,
+      "current_funding_annualized_%": -57.09,
+      "stability": 100,
+      "score": 54.39,
+      "volume_24h": 130534.12
+    },
+    {
+      "ticker": "FET/USDC PERP",
+      "marketId": "0x4cbc7740ef7390324d552a911947697fd4adb65af2583769c6bbec0b4a1cf320",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -54.86,
+      "avg_3d_annualized_%": -130.13,
+      "avg_24h_annualized_%": -148.04,
+      "current_funding_annualized_%": -89.51,
+      "stability": 94,
+      "score": 51.57,
+      "volume_24h": 34423.58
+    },
+    {
+      "ticker": "ZEC/USDC PERP",
+      "marketId": "0xecf1cefce2e49ee94b5c16353915e73619b8c15d6670e9661bd2697c3bc9fa98",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -50.51,
+      "avg_3d_annualized_%": -59.67,
+      "avg_24h_annualized_%": -31.08,
+      "current_funding_annualized_%": -55.91,
+      "stability": 100,
+      "score": 50.51,
+      "volume_24h": 149348.01
+    },
+    {
+      "ticker": "TAO/USDC PERP",
+      "marketId": "0xae60d32c901e0fcd36951ad9c80947e6a3206d0fabe089064fba5b4dbe87c088",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 56.71,
+      "avg_3d_annualized_%": 60.86,
+      "avg_24h_annualized_%": 37.35,
+      "current_funding_annualized_%": 14.55,
+      "stability": 88,
+      "score": 49.9,
+      "volume_24h": 128462.53
+    },
+    {
+      "ticker": "TRUMP/USDC PERP",
+      "marketId": "0xff2ff43d84ce9786d8cc342ed6f6f699aef0a5015b7ffd60891448192f8679b7",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 69.32,
+      "avg_3d_annualized_%": 54.85,
+      "avg_24h_annualized_%": 24.44,
+      "current_funding_annualized_%": -95.29,
+      "stability": 71,
+      "score": 49.22,
+      "volume_24h": 57167.23
+    },
+    {
+      "ticker": "CVX/USDC PERP",
+      "marketId": "0x32888951480831259f8552c233fdc815142ca1760fbb541436070fbdae14d993",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 70.98,
+      "avg_3d_annualized_%": 340.36,
+      "avg_24h_annualized_%": 106.19,
+      "current_funding_annualized_%": 85.1,
+      "stability": 67,
+      "score": 47.56,
+      "volume_24h": 118595.87
+    },
+    {
+      "ticker": "TAIKO/USDC PERP",
+      "marketId": "0xcfc53ecdb6bdd3fbf36a5837b446161a59ae8cf9bfcdcc52e75bca27aea8919e",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -62.48,
+      "avg_3d_annualized_%": -131.79,
+      "avg_24h_annualized_%": -142.38,
+      "current_funding_annualized_%": -13.23,
+      "stability": 76,
+      "score": 47.48,
+      "volume_24h": 79318.93
+    },
+    {
+      "ticker": "ATOM/USDC PERP",
+      "marketId": "0x33353622e471d42f4e42334f0dc1f3b49738f18abf4c75b240d4f6ba5f2a52d8",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 47.95,
+      "avg_3d_annualized_%": 33.61,
+      "avg_24h_annualized_%": 37.45,
+      "current_funding_annualized_%": 72.85,
+      "stability": 96,
+      "score": 46.03,
+      "volume_24h": 83517.77
+    },
+    {
+      "ticker": "INJ/USDC PERP",
+      "marketId": "0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 52.22,
+      "avg_3d_annualized_%": 38.57,
+      "avg_24h_annualized_%": 8.46,
+      "current_funding_annualized_%": 20.68,
+      "stability": 79,
+      "score": 41.25,
+      "volume_24h": 2661581.03
     },
     {
       "ticker": "TIA/USDC PERP",
       "marketId": "0xeee0f9cf374a8e20a2d0e20b827984f8a398615cf633fcfdec0323d8c1a4877a",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -35.52,
-      "avg_3d_annualized_%": -63.58,
-      "avg_24h_annualized_%": -46.37,
-      "current_funding_annualized_%": -54.11,
+      "avg_7d_annualized_%": -38.92,
+      "avg_3d_annualized_%": -62.4,
+      "avg_24h_annualized_%": -40.64,
+      "current_funding_annualized_%": -34.33,
       "stability": 100,
-      "score": 35.52,
-      "volume_24h": 149161.68
+      "score": 38.92,
+      "volume_24h": 157181.24
     },
     {
-      "ticker": "HYPE/USDC PERP",
-      "marketId": "0x5d379fa10f0a74cd5983391b7391fa72af9cb4c0740a72adb1aed966e78103f3",
+      "ticker": "FARTCOIN/USDC PERP",
+      "marketId": "0x380974121c05cc8cb6cf96d1536e4b92feee9bb850e613f0c8841bfc749a98fd",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 34.92,
-      "avg_3d_annualized_%": 20.26,
-      "avg_24h_annualized_%": 17.38,
-      "current_funding_annualized_%": 30.49,
-      "stability": 98,
-      "score": 34.22,
-      "volume_24h": 124066.89
+      "avg_7d_annualized_%": -37.23,
+      "avg_3d_annualized_%": -94.88,
+      "avg_24h_annualized_%": -94.93,
+      "current_funding_annualized_%": -75.9,
+      "stability": 96,
+      "score": 35.74,
+      "volume_24h": 68098.24
     },
     {
-      "ticker": "POPCAT/USDC PERP",
-      "marketId": "0xf58bcf3fd958661227f8cad01066fd9ac902cad5a4f390f6408af4803019ec36",
+      "ticker": "RPL/USDC PERP",
+      "marketId": "0x79bf711046e1011a5a57d56633573f5f78b8c24bfac2cc9f6e23e221de382706",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 124.17,
-      "avg_3d_annualized_%": -25.99,
-      "avg_24h_annualized_%": -24.87,
-      "current_funding_annualized_%": 3.65,
-      "stability": 27,
-      "score": 33.53,
-      "volume_24h": 82268.94
+      "avg_7d_annualized_%": -39.79,
+      "avg_3d_annualized_%": -97.02,
+      "avg_24h_annualized_%": -170.68,
+      "current_funding_annualized_%": -155.02,
+      "stability": 87,
+      "score": 34.62,
+      "volume_24h": 112477.56
+    },
+    {
+      "ticker": "AVAX/USDC PERP",
+      "marketId": "0xc27b4c131562c9b0d3ddcec8cd627dd1199422051adaa2e5986bb605734b5ccc",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -50.53,
+      "avg_3d_annualized_%": -17.16,
+      "avg_24h_annualized_%": 76.75,
+      "current_funding_annualized_%": 85.52,
+      "stability": 68,
+      "score": 34.36,
+      "volume_24h": 80293.62
     },
     {
       "ticker": "LTC/USDC PERP",
       "marketId": "0x4b5d6df8a6f9265dea1e0451493c067f1cfd80b2377ffe912d23ca9c7f24973e",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -47.85,
-      "avg_3d_annualized_%": -34.01,
-      "avg_24h_annualized_%": 19.32,
-      "current_funding_annualized_%": 77.07,
+      "avg_7d_annualized_%": -41.01,
+      "avg_3d_annualized_%": -18.65,
+      "avg_24h_annualized_%": 63.45,
+      "current_funding_annualized_%": 68.06,
+      "stability": 71,
+      "score": 29.12,
+      "volume_24h": 127096.64
+    },
+    {
+      "ticker": "FIL/USDC PERP",
+      "marketId": "0xf31cfea157a343462fd5388cc77738339951340c3ab221708cf2ec285c4defc7",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -32.25,
+      "avg_3d_annualized_%": -33.66,
+      "avg_24h_annualized_%": -102.64,
+      "current_funding_annualized_%": -82.51,
+      "stability": 84,
+      "score": 27.09,
+      "volume_24h": 52786.93
+    },
+    {
+      "ticker": "HYPE/USDC PERP",
+      "marketId": "0x5d379fa10f0a74cd5983391b7391fa72af9cb4c0740a72adb1aed966e78103f3",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 33.34,
+      "avg_3d_annualized_%": 20.94,
+      "avg_24h_annualized_%": 31.86,
+      "current_funding_annualized_%": 87.46,
+      "stability": 76,
+      "score": 25.34,
+      "volume_24h": 119784.5
+    },
+    {
+      "ticker": "DOGE/USDC PERP",
+      "marketId": "0xb562b7a440a435e0065d1a22ab74f1f40f25e35476854cd62ee2897c444a287d",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -36.99,
+      "avg_3d_annualized_%": -22.79,
+      "avg_24h_annualized_%": 66.12,
+      "current_funding_annualized_%": 88.52,
       "stability": 67,
-      "score": 32.06,
-      "volume_24h": 111343.59
+      "score": 24.78,
+      "volume_24h": 90876.56
     },
     {
       "ticker": "CMG/USDC PERP",
@@ -456,7 +492,7 @@
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 23.8,
-      "volume_24h": 24364.49
+      "volume_24h": 24330.11
     },
     {
       "ticker": "USDNOK/USDC PERP",
@@ -468,7 +504,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.72,
-      "volume_24h": 83.03
+      "volume_24h": 82.09
     },
     {
       "ticker": "OKLO/USDC PERP",
@@ -480,7 +516,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.72,
-      "volume_24h": 12201.19
+      "volume_24h": 12198.97
     },
     {
       "ticker": "KKR/USDC PERP",
@@ -492,7 +528,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.72,
-      "volume_24h": 113.68
+      "volume_24h": 113.93
     },
     {
       "ticker": "XPEV/USDC PERP",
@@ -504,7 +540,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.72,
-      "volume_24h": 81.05
+      "volume_24h": 81.69
     },
     {
       "ticker": "SCHW/USDC PERP",
@@ -516,7 +552,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.72,
-      "volume_24h": 114.07
+      "volume_24h": 114.9
     },
     {
       "ticker": "C/USDC PERP",
@@ -528,7 +564,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.72,
-      "volume_24h": 82.38
+      "volume_24h": 82.23
     },
     {
       "ticker": "TEM/USDC PERP",
@@ -540,7 +576,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.72,
-      "volume_24h": 33416.02
+      "volume_24h": 33428.98
     },
     {
       "ticker": "CRDO/USDC PERP",
@@ -552,7 +588,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.72,
-      "volume_24h": 1298.15
+      "volume_24h": 83.13
     },
     {
       "ticker": "NVO/USDC PERP",
@@ -564,7 +600,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.7,
-      "volume_24h": 16988.26
+      "volume_24h": 16983.24
     },
     {
       "ticker": "IBM/USDC PERP",
@@ -576,7 +612,7 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 23.62,
-      "volume_24h": 85.13
+      "volume_24h": 84.69
     },
     {
       "ticker": "WFC/USDC PERP",
@@ -588,7 +624,7 @@
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 23.59,
-      "volume_24h": 31013.7
+      "volume_24h": 31014.32
     },
     {
       "ticker": "LYV/USDC PERP",
@@ -600,7 +636,7 @@
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 23.59,
-      "volume_24h": 84.25
+      "volume_24h": 86.23
     },
     {
       "ticker": "SNAP/USDC PERP",
@@ -612,7 +648,7 @@
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 23.59,
-      "volume_24h": 86.8
+      "volume_24h": 86.64
     },
     {
       "ticker": "HIMS/USDC PERP",
@@ -624,7 +660,7 @@
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 23.59,
-      "volume_24h": 82.14
+      "volume_24h": 85.49
     },
     {
       "ticker": "LULU/USDC PERP",
@@ -636,7 +672,7 @@
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 23.59,
-      "volume_24h": 35237.0
+      "volume_24h": 35234.77
     },
     {
       "ticker": "SNOW/USDC PERP",
@@ -648,31 +684,7 @@
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 23.59,
-      "volume_24h": 78.61
-    },
-    {
-      "ticker": "FARTCOIN/USDC PERP",
-      "marketId": "0x380974121c05cc8cb6cf96d1536e4b92feee9bb850e613f0c8841bfc749a98fd",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -34.17,
-      "avg_3d_annualized_%": -87.74,
-      "avg_24h_annualized_%": -194.63,
-      "current_funding_annualized_%": -45.97,
-      "stability": 69,
-      "score": 23.58,
-      "volume_24h": 115437.43
-    },
-    {
-      "ticker": "RPL/USDC PERP",
-      "marketId": "0x79bf711046e1011a5a57d56633573f5f78b8c24bfac2cc9f6e23e221de382706",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -31.78,
-      "avg_3d_annualized_%": -78.32,
-      "avg_24h_annualized_%": -243.16,
-      "current_funding_annualized_%": -166.25,
-      "stability": 74,
-      "score": 23.52,
-      "volume_24h": 143506.0
+      "volume_24h": 77.86
     },
     {
       "ticker": "HPE/USDC PERP",
@@ -684,7 +696,7 @@
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 23.47,
-      "volume_24h": 130.55
+      "volume_24h": 103.18
     },
     {
       "ticker": "VRT/USDC PERP",
@@ -696,31 +708,7 @@
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 23.45,
-      "volume_24h": 83.83
-    },
-    {
-      "ticker": "OKB/USDC PERP",
-      "marketId": "0xa3c35bcb5289db9576f524a3e5ea030c158f4c5b01a70952fbc8b438988ef198",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -38.24,
-      "avg_3d_annualized_%": -94.07,
-      "avg_24h_annualized_%": -289.5,
-      "current_funding_annualized_%": -547.5,
-      "stability": 60,
-      "score": 22.94,
-      "volume_24h": 5752.96
-    },
-    {
-      "ticker": "FIL/USDC PERP",
-      "marketId": "0xf31cfea157a343462fd5388cc77738339951340c3ab221708cf2ec285c4defc7",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -28.05,
-      "avg_3d_annualized_%": -23.86,
-      "avg_24h_annualized_%": -88.8,
-      "current_funding_annualized_%": -67.36,
-      "stability": 81,
-      "score": 22.72,
-      "volume_24h": 95882.86
+      "volume_24h": 83.72
     },
     {
       "ticker": "UBER/USDC PERP",
@@ -732,127 +720,175 @@
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 22.62,
-      "volume_24h": 77.2
+      "volume_24h": 76.62
     },
     {
       "ticker": "PLTR/USDC PERP",
       "marketId": "0x192c9f1fb14301ef5d52dfdc0201215c389f391a3e213b65e3df67dc14f36492",
       "type": "RWA",
       "avg_7d_annualized_%": -22.46,
-      "avg_3d_annualized_%": -20.66,
+      "avg_3d_annualized_%": -21.05,
       "avg_24h_annualized_%": -19.77,
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 22.46,
-      "volume_24h": 128695.55
+      "volume_24h": 128696.55
+    },
+    {
+      "ticker": "MSTR/USDC PERP",
+      "marketId": "0x6c1116fb76358f6c7e3925eb0dc3e66a8e34c77af5b2b79b5c2de60c0bd68d43",
+      "type": "RWA",
+      "avg_7d_annualized_%": 22.33,
+      "avg_3d_annualized_%": 46.32,
+      "avg_24h_annualized_%": 42.61,
+      "current_funding_annualized_%": 48.18,
+      "stability": 100,
+      "score": 22.33,
+      "volume_24h": 18000.97
     },
     {
       "ticker": "XOM/USDC PERP",
       "marketId": "0x9212385ff13f4c922b4a860298472593207f41e26ca894aca9e6dbfc82659fd2",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 21.44,
-      "avg_3d_annualized_%": 18.03,
+      "avg_3d_annualized_%": 19.16,
       "avg_24h_annualized_%": 21.53,
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 21.44,
-      "volume_24h": 11213.02
+      "volume_24h": 1779.8
+    },
+    {
+      "ticker": "POPCAT/USDC PERP",
+      "marketId": "0xf58bcf3fd958661227f8cad01066fd9ac902cad5a4f390f6408af4803019ec36",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 95.5,
+      "avg_3d_annualized_%": -25.0,
+      "avg_24h_annualized_%": 8.65,
+      "current_funding_annualized_%": 3.65,
+      "stability": 22,
+      "score": 21.01,
+      "volume_24h": 78796.76
     },
     {
       "ticker": "GME/USDC PERP",
       "marketId": "0x0fed46bbab3ebb2605c83935be16d13c6ed1cf561541d71372599494c44beef0",
       "type": "RWA",
       "avg_7d_annualized_%": 20.8,
-      "avg_3d_annualized_%": 19.82,
+      "avg_3d_annualized_%": 22.37,
       "avg_24h_annualized_%": 21.48,
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 20.8,
-      "volume_24h": 23302.18
+      "volume_24h": 23303.05
+    },
+    {
+      "ticker": "PEPE/USDC PERP",
+      "marketId": "0xae6a59cf878786e337905f34c6bf0142a3f382d9f6153a91dbb0911e0081e76d",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 28.5,
+      "avg_3d_annualized_%": 6.71,
+      "avg_24h_annualized_%": 82.92,
+      "current_funding_annualized_%": 95.9,
+      "stability": 70,
+      "score": 19.95,
+      "volume_24h": 63908.45
     },
     {
       "ticker": "NVDA/USDC PERP",
       "marketId": "0xb9d9202c588e860382c96aee096f9655fce339f6b51833a939a37d2437080c17",
       "type": "RWA",
       "avg_7d_annualized_%": 19.69,
-      "avg_3d_annualized_%": 16.97,
+      "avg_3d_annualized_%": 18.52,
       "avg_24h_annualized_%": 11.41,
       "current_funding_annualized_%": 24.09,
       "stability": 100,
       "score": 19.69,
-      "volume_24h": 321561.45
+      "volume_24h": 126878.48
     },
     {
-      "ticker": "MSTR/USDC PERP",
-      "marketId": "0x6c1116fb76358f6c7e3925eb0dc3e66a8e34c77af5b2b79b5c2de60c0bd68d43",
+      "ticker": "ORCA/USDC PERP",
+      "marketId": "0x22387f2e1d74261c539cd175b9af21fac2987ca232325ce608a7b746d33ee71a",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -72.72,
+      "avg_3d_annualized_%": -154.95,
+      "avg_24h_annualized_%": 5.93,
+      "current_funding_annualized_%": 3.65,
+      "stability": 27,
+      "score": 19.63,
+      "volume_24h": 38137.75
+    },
+    {
+      "ticker": "CRCL/USDC PERP",
+      "marketId": "0x99c6d0dcc67e95dd9be29a6b393aa0bf6ccc07361dad9e4aec7897d90aeacf4b",
       "type": "RWA",
-      "avg_7d_annualized_%": 19.95,
-      "avg_3d_annualized_%": 43.84,
-      "avg_24h_annualized_%": 42.61,
+      "avg_7d_annualized_%": 19.63,
+      "avg_3d_annualized_%": 46.94,
+      "avg_24h_annualized_%": 44.47,
       "current_funding_annualized_%": 48.18,
-      "stability": 98,
-      "score": 19.55,
-      "volume_24h": 32465.41
+      "stability": 97,
+      "score": 19.04,
+      "volume_24h": 52054.55
     },
     {
       "ticker": "META/USDC PERP",
       "marketId": "0xc61fddd1e6b09137be87af41980d4804c94ab71de96d1c02eaad3356f877978f",
       "type": "RWA",
       "avg_7d_annualized_%": -18.19,
-      "avg_3d_annualized_%": -21.92,
+      "avg_3d_annualized_%": -22.08,
       "avg_24h_annualized_%": -20.62,
       "current_funding_annualized_%": -24.09,
       "stability": 100,
       "score": 18.19,
-      "volume_24h": 91002.15
-    },
-    {
-      "ticker": "DOGE/USDC PERP",
-      "marketId": "0xb562b7a440a435e0065d1a22ab74f1f40f25e35476854cd62ee2897c444a287d",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -43.89,
-      "avg_3d_annualized_%": -44.04,
-      "avg_24h_annualized_%": 2.25,
-      "current_funding_annualized_%": 131.74,
-      "stability": 40,
-      "score": 17.56,
-      "volume_24h": 83591.85
+      "volume_24h": 43044.26
     },
     {
       "ticker": "XMR/USDC PERP",
       "marketId": "0x771addc2a9701879fc3953846316b2b278964885668eb4ef3d7a857ecbbd7ef7",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 35.96,
-      "avg_3d_annualized_%": -7.58,
-      "avg_24h_annualized_%": -69.61,
-      "current_funding_annualized_%": -9.87,
-      "stability": 43,
-      "score": 15.46,
-      "volume_24h": 317549.37
-    },
-    {
-      "ticker": "QCOM/USDC PERP",
-      "marketId": "0x88a6a2a04729f86a12f62480eeb67a0957873a02da491e5295cb8691de3c509d",
-      "type": "RWA",
-      "avg_7d_annualized_%": -14.83,
-      "avg_3d_annualized_%": -24.09,
-      "avg_24h_annualized_%": -24.09,
-      "current_funding_annualized_%": -24.09,
-      "stability": 100,
-      "score": 14.83,
-      "volume_24h": 8908.49
+      "avg_7d_annualized_%": 28.74,
+      "avg_3d_annualized_%": -24.55,
+      "avg_24h_annualized_%": -96.4,
+      "current_funding_annualized_%": -61.73,
+      "stability": 62,
+      "score": 17.82,
+      "volume_24h": 185490.46
     },
     {
       "ticker": "DELL/USDC PERP",
       "marketId": "0xa996e0f558e156c9e2b95b12f0dfab22398a3164b3bd8d8d89fe9a9899bae9dc",
       "type": "RWA",
-      "avg_7d_annualized_%": 16.98,
-      "avg_3d_annualized_%": 21.73,
-      "avg_24h_annualized_%": 19.56,
-      "current_funding_annualized_%": 3.65,
-      "stability": 86,
-      "score": 14.6,
-      "volume_24h": 222876.56
+      "avg_7d_annualized_%": 17.76,
+      "avg_3d_annualized_%": 19.46,
+      "avg_24h_annualized_%": 12.75,
+      "current_funding_annualized_%": 24.09,
+      "stability": 100,
+      "score": 17.76,
+      "volume_24h": 223625.29
+    },
+    {
+      "ticker": "QCOM/USDC PERP",
+      "marketId": "0x88a6a2a04729f86a12f62480eeb67a0957873a02da491e5295cb8691de3c509d",
+      "type": "RWA",
+      "avg_7d_annualized_%": -16.32,
+      "avg_3d_annualized_%": -24.09,
+      "avg_24h_annualized_%": -24.09,
+      "current_funding_annualized_%": -24.09,
+      "stability": 100,
+      "score": 16.32,
+      "volume_24h": 4357.74
+    },
+    {
+      "ticker": "TSM/USDC PERP",
+      "marketId": "0xcc326ac576ada4eec03e33a9b95ad7fc45c0ea9f7a6385db3a7edb7f22542b35",
+      "type": "RWA",
+      "avg_7d_annualized_%": 16.69,
+      "avg_3d_annualized_%": 6.82,
+      "avg_24h_annualized_%": 14.43,
+      "current_funding_annualized_%": 24.09,
+      "stability": 90,
+      "score": 15.02,
+      "volume_24h": 2433.47
     },
     {
       "ticker": "DRIFT/USDC PERP",
@@ -867,52 +903,40 @@
       "volume_24h": 18836.13
     },
     {
-      "ticker": "CVX/USDC PERP",
-      "marketId": "0x32888951480831259f8552c233fdc815142ca1760fbb541436070fbdae14d993",
+      "ticker": "RENDER/USDC PERP",
+      "marketId": "0x216885a2dd6b748d36f08811d1186d8c7d6cdc4d9bde83752f760e6ccde096e8",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 40.96,
-      "avg_3d_annualized_%": 308.15,
-      "avg_24h_annualized_%": 136.76,
-      "current_funding_annualized_%": -8.87,
-      "stability": 34,
-      "score": 13.93,
-      "volume_24h": 119213.81
-    },
-    {
-      "ticker": "CRCL/USDC PERP",
-      "marketId": "0x99c6d0dcc67e95dd9be29a6b393aa0bf6ccc07361dad9e4aec7897d90aeacf4b",
-      "type": "RWA",
-      "avg_7d_annualized_%": 14.46,
-      "avg_3d_annualized_%": 46.94,
-      "avg_24h_annualized_%": 44.47,
-      "current_funding_annualized_%": 48.18,
-      "stability": 93,
-      "score": 13.45,
-      "volume_24h": 52052.69
-    },
-    {
-      "ticker": "SOL/USDC PERP",
-      "marketId": "0x291f404810c663e5fdd68b50454c1014760227842d420a2315f88311efe6ec41",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 22.65,
-      "avg_3d_annualized_%": -4.21,
-      "avg_24h_annualized_%": -34.91,
-      "current_funding_annualized_%": -53.79,
-      "stability": 56,
-      "score": 12.68,
-      "volume_24h": 100845.96
-    },
-    {
-      "ticker": "WIF/USDC PERP",
-      "marketId": "0x142846ceefba05b25d0da3faa67ce6f29a73bf1b2da30d87129b3a16a20d76ec",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 15.83,
-      "avg_3d_annualized_%": 49.65,
-      "avg_24h_annualized_%": 99.04,
-      "current_funding_annualized_%": 127.98,
+      "avg_7d_annualized_%": -18.55,
+      "avg_3d_annualized_%": -47.77,
+      "avg_24h_annualized_%": -129.89,
+      "current_funding_annualized_%": -109.71,
       "stability": 77,
-      "score": 12.19,
-      "volume_24h": 75857.05
+      "score": 14.28,
+      "volume_24h": 45005.21
+    },
+    {
+      "ticker": "OKB/USDC PERP",
+      "marketId": "0xa3c35bcb5289db9576f524a3e5ea030c158f4c5b01a70952fbc8b438988ef198",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -48.09,
+      "avg_3d_annualized_%": -117.03,
+      "avg_24h_annualized_%": -340.82,
+      "current_funding_annualized_%": 3.65,
+      "stability": 29,
+      "score": 13.95,
+      "volume_24h": 66.74
+    },
+    {
+      "ticker": "NBIS/USDC PERP",
+      "marketId": "0x7c6bd29ef029f613d0bd621c66f6b0eeb9780cabf8d6b93be9debe4aff4b447a",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 13.36,
+      "avg_3d_annualized_%": 23.52,
+      "avg_24h_annualized_%": 22.39,
+      "current_funding_annualized_%": 24.09,
+      "stability": 100,
+      "score": 13.36,
+      "volume_24h": 21366.31
     },
     {
       "ticker": "BCH/USDC PERP",
@@ -920,35 +944,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 21.33,
       "avg_3d_annualized_%": 42.8,
-      "avg_24h_annualized_%": 4.83,
+      "avg_24h_annualized_%": 4.53,
       "current_funding_annualized_%": 3.65,
-      "stability": 57,
-      "score": 12.16,
-      "volume_24h": 75109.6
-    },
-    {
-      "ticker": "ORCL/USDC PERP",
-      "marketId": "0x7f146984a5bc758c6fe98746b33e5f72061aac5b70a40127832493f387991105",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 13.91,
-      "avg_3d_annualized_%": 4.79,
-      "avg_24h_annualized_%": 5.35,
-      "current_funding_annualized_%": 3.65,
-      "stability": 77,
-      "score": 10.71,
-      "volume_24h": 131380.51
-    },
-    {
-      "ticker": "NBIS/USDC PERP",
-      "marketId": "0x7c6bd29ef029f613d0bd621c66f6b0eeb9780cabf8d6b93be9debe4aff4b447a",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 10.78,
-      "avg_3d_annualized_%": 23.52,
-      "avg_24h_annualized_%": 22.39,
-      "current_funding_annualized_%": 24.09,
-      "stability": 99,
-      "score": 10.67,
-      "volume_24h": 22649.02
+      "stability": 56,
+      "score": 11.94,
+      "volume_24h": 35067.31
     },
     {
       "ticker": "VVV/USDC PERP",
@@ -963,6 +963,30 @@
       "volume_24h": 119792.71
     },
     {
+      "ticker": "AVGO/USDC PERP",
+      "marketId": "0xbb1820db6b1def126ed33b7785d6079d31a8d6297c8b2f54013c7cc382fa2595",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -10.67,
+      "avg_3d_annualized_%": -22.93,
+      "avg_24h_annualized_%": -20.62,
+      "current_funding_annualized_%": -24.09,
+      "stability": 99,
+      "score": 10.56,
+      "volume_24h": 107868.92
+    },
+    {
+      "ticker": "ORCL/USDC PERP",
+      "marketId": "0x7f146984a5bc758c6fe98746b33e5f72061aac5b70a40127832493f387991105",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 12.82,
+      "avg_3d_annualized_%": 4.79,
+      "avg_24h_annualized_%": 5.35,
+      "current_funding_annualized_%": 3.65,
+      "stability": 80,
+      "score": 10.26,
+      "volume_24h": 131380.51
+    },
+    {
       "ticker": "UNI/USDC PERP",
       "marketId": "0x1766d9d61fd40613b9a7ee53f34ebe3c22debe1351af656ac32bdfab5afceb91",
       "type": "CRYPTO",
@@ -975,52 +999,28 @@
       "volume_24h": 157261.91
     },
     {
-      "ticker": "BNB/USDC PERP",
-      "marketId": "0x3ceb3579ed75d237547590471c5fe69c23dab30afb7bc338d24dd0b25af73c9f",
+      "ticker": "SOL/USDC PERP",
+      "marketId": "0x291f404810c663e5fdd68b50454c1014760227842d420a2315f88311efe6ec41",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 15.05,
-      "avg_3d_annualized_%": -4.68,
-      "avg_24h_annualized_%": -11.97,
-      "current_funding_annualized_%": -5.0,
-      "stability": 66,
-      "score": 9.93,
-      "volume_24h": 350998.77
+      "avg_7d_annualized_%": 16.98,
+      "avg_3d_annualized_%": -10.72,
+      "avg_24h_annualized_%": -50.28,
+      "current_funding_annualized_%": -58.23,
+      "stability": 58,
+      "score": 9.85,
+      "volume_24h": 56380.21
     },
     {
-      "ticker": "RENDER/USDC PERP",
-      "marketId": "0x216885a2dd6b748d36f08811d1186d8c7d6cdc4d9bde83752f760e6ccde096e8",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -13.22,
-      "avg_3d_annualized_%": -35.34,
-      "avg_24h_annualized_%": -107.98,
-      "current_funding_annualized_%": -93.48,
-      "stability": 74,
-      "score": 9.78,
-      "volume_24h": 88535.03
-    },
-    {
-      "ticker": "PEPE/USDC PERP",
-      "marketId": "0xae6a59cf878786e337905f34c6bf0142a3f382d9f6153a91dbb0911e0081e76d",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 28.74,
-      "avg_3d_annualized_%": -4.67,
-      "avg_24h_annualized_%": 27.83,
-      "current_funding_annualized_%": 112.89,
-      "stability": 34,
-      "score": 9.77,
-      "volume_24h": 60661.49
-    },
-    {
-      "ticker": "TSM/USDC PERP",
-      "marketId": "0xcc326ac576ada4eec03e33a9b95ad7fc45c0ea9f7a6385db3a7edb7f22542b35",
+      "ticker": "AAPL/USDC PERP",
+      "marketId": "0xa3d0ef8d845ada306a53baabd04edab9c5525ba9e011648a09aa064db5ca3442",
       "type": "RWA",
-      "avg_7d_annualized_%": 16.69,
-      "avg_3d_annualized_%": 6.82,
-      "avg_24h_annualized_%": -3.63,
-      "current_funding_annualized_%": 24.09,
-      "stability": 56,
-      "score": 9.35,
-      "volume_24h": 1445.6
+      "avg_7d_annualized_%": -9.74,
+      "avg_3d_annualized_%": -19.49,
+      "avg_24h_annualized_%": -24.09,
+      "current_funding_annualized_%": -24.09,
+      "stability": 97,
+      "score": 9.45,
+      "volume_24h": 156323.1
     },
     {
       "ticker": "USDJPY/USDC PERP",
@@ -1035,18 +1035,6 @@
       "volume_24h": 0.0
     },
     {
-      "ticker": "AVGO/USDC PERP",
-      "marketId": "0xbb1820db6b1def126ed33b7785d6079d31a8d6297c8b2f54013c7cc382fa2595",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -9.19,
-      "avg_3d_annualized_%": -22.93,
-      "avg_24h_annualized_%": -20.62,
-      "current_funding_annualized_%": -24.09,
-      "stability": 96,
-      "score": 8.82,
-      "volume_24h": 207354.78
-    },
-    {
       "ticker": "SAFE/USDC PERP",
       "marketId": "0x04c873cc1475899664b337e32063caad71333faac01c166347f4dfe7b3a57084",
       "type": "CRYPTO",
@@ -1059,16 +1047,16 @@
       "volume_24h": 79934.49
     },
     {
-      "ticker": "AAPL/USDC PERP",
-      "marketId": "0xa3d0ef8d845ada306a53baabd04edab9c5525ba9e011648a09aa064db5ca3442",
-      "type": "RWA",
-      "avg_7d_annualized_%": -8.52,
-      "avg_3d_annualized_%": -19.0,
-      "avg_24h_annualized_%": -24.09,
-      "current_funding_annualized_%": -24.09,
-      "stability": 94,
-      "score": 8.01,
-      "volume_24h": 149636.17
+      "ticker": "BNB/USDC PERP",
+      "marketId": "0x3ceb3579ed75d237547590471c5fe69c23dab30afb7bc338d24dd0b25af73c9f",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 10.44,
+      "avg_3d_annualized_%": -18.46,
+      "avg_24h_annualized_%": -25.13,
+      "current_funding_annualized_%": -24.87,
+      "stability": 79,
+      "score": 8.25,
+      "volume_24h": 115098.0
     },
     {
       "ticker": "FLOW/USDC PERP",
@@ -1083,28 +1071,40 @@
       "volume_24h": 30624.21
     },
     {
-      "ticker": "COIN/USDC PERP",
-      "marketId": "0x64346a936e6161c5064574e549ffa2e66837c5632aa8e74429f716c9dff44a59",
+      "ticker": "GOOGL/USDC PERP",
+      "marketId": "0x3a21d9dda2ab2b60d356ee72acffb739bbbe4f4a3e2de37500e42a94f14036c6",
       "type": "RWA",
-      "avg_7d_annualized_%": 15.31,
-      "avg_3d_annualized_%": -1.45,
-      "avg_24h_annualized_%": -42.59,
-      "current_funding_annualized_%": -48.18,
-      "stability": 50,
-      "score": 7.66,
-      "volume_24h": 49700.9
+      "avg_7d_annualized_%": -8.25,
+      "avg_3d_annualized_%": -14.86,
+      "avg_24h_annualized_%": -19.41,
+      "current_funding_annualized_%": -24.09,
+      "stability": 93,
+      "score": 7.67,
+      "volume_24h": 76562.99
     },
     {
-      "ticker": "TSLA/USDC PERP",
-      "marketId": "0x802ff0b7a26a1e5f1665f88919b25db52a5b110d11763e427b9b4875e3b74385",
+      "ticker": "WIF/USDC PERP",
+      "marketId": "0x142846ceefba05b25d0da3faa67ce6f29a73bf1b2da30d87129b3a16a20d76ec",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 12.82,
+      "avg_3d_annualized_%": 42.52,
+      "avg_24h_annualized_%": 43.25,
+      "current_funding_annualized_%": -93.65,
+      "stability": 58,
+      "score": 7.44,
+      "volume_24h": 86514.95
+    },
+    {
+      "ticker": "MRNA/USDC PERP",
+      "marketId": "0x25a3bb93cc0b5dd1bed9ad5f7a565a41fc34697fea44f3505f79be7d464402fa",
       "type": "RWA",
-      "avg_7d_annualized_%": 12.84,
-      "avg_3d_annualized_%": 0.39,
-      "avg_24h_annualized_%": -22.93,
-      "current_funding_annualized_%": -24.09,
-      "stability": 56,
-      "score": 7.19,
-      "volume_24h": 111815.05
+      "avg_7d_annualized_%": 8.04,
+      "avg_3d_annualized_%": 13.87,
+      "avg_24h_annualized_%": 21.53,
+      "current_funding_annualized_%": 24.09,
+      "stability": 92,
+      "score": 7.4,
+      "volume_24h": 138.37
     },
     {
       "ticker": "USELESS/USDC PERP",
@@ -1112,11 +1112,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 7.26,
       "avg_3d_annualized_%": 3.75,
-      "avg_24h_annualized_%": 5.12,
+      "avg_24h_annualized_%": 6.22,
       "current_funding_annualized_%": 3.65,
       "stability": 97,
       "score": 7.04,
-      "volume_24h": 6452.82
+      "volume_24h": 2690.63
     },
     {
       "ticker": "ZETA/USDC PERP",
@@ -1136,11 +1136,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 8.21,
       "avg_3d_annualized_%": 11.52,
-      "avg_24h_annualized_%": 3.63,
+      "avg_24h_annualized_%": 3.79,
       "current_funding_annualized_%": 3.65,
       "stability": 84,
       "score": 6.9,
-      "volume_24h": 105804.54
+      "volume_24h": 48469.87
     },
     {
       "ticker": "AMZN/USDC PERP",
@@ -1155,100 +1155,136 @@
       "volume_24h": 103563.01
     },
     {
-      "ticker": "MORPHO/USDC PERP",
-      "marketId": "0xeac46d5d3beabb62016573d3560850fa6cac00a3a5fe37a4a04c909877dafe07",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 9.13,
-      "avg_3d_annualized_%": 14.53,
-      "avg_24h_annualized_%": 2.66,
-      "current_funding_annualized_%": 3.65,
-      "stability": 74,
-      "score": 6.76,
-      "volume_24h": 116681.8
-    },
-    {
-      "ticker": "WLD/USDC PERP",
-      "marketId": "0x86a0c374e7abb7cfb916c1b40b0c6018d1ad0d657f12225acee776834add738d",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 218.27,
-      "avg_3d_annualized_%": -33.18,
-      "avg_24h_annualized_%": 3.19,
-      "current_funding_annualized_%": 3.65,
-      "stability": 3,
-      "score": 6.55,
-      "volume_24h": 124522.63
-    },
-    {
-      "ticker": "XRP/USDC PERP",
-      "marketId": "0x3148930df09777ba6dbbb7af192cad6e40f1ecefe17b6089ee5fe649e9d36740",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 6.42,
-      "avg_3d_annualized_%": 6.3,
-      "avg_24h_annualized_%": 4.29,
-      "current_funding_annualized_%": 3.65,
-      "stability": 100,
-      "score": 6.42,
-      "volume_24h": 89292.95
-    },
-    {
-      "ticker": "GOOGL/USDC PERP",
-      "marketId": "0x3a21d9dda2ab2b60d356ee72acffb739bbbe4f4a3e2de37500e42a94f14036c6",
+      "ticker": "PFE/USDC PERP",
+      "marketId": "0x92ea4e3e57ed8ef75212e255a9f1f2a90a7502a069bba9ffbf2dbe6986b149ce",
       "type": "RWA",
-      "avg_7d_annualized_%": -6.79,
-      "avg_3d_annualized_%": -14.2,
-      "avg_24h_annualized_%": -19.41,
+      "avg_7d_annualized_%": -7.23,
+      "avg_3d_annualized_%": -22.93,
+      "avg_24h_annualized_%": -20.62,
       "current_funding_annualized_%": -24.09,
-      "stability": 90,
-      "score": 6.11,
-      "volume_24h": 78135.61
+      "stability": 93,
+      "score": 6.72,
+      "volume_24h": 85.05
     },
     {
-      "ticker": "MRNA/USDC PERP",
-      "marketId": "0x25a3bb93cc0b5dd1bed9ad5f7a565a41fc34697fea44f3505f79be7d464402fa",
+      "ticker": "TSLA/USDC PERP",
+      "marketId": "0x802ff0b7a26a1e5f1665f88919b25db52a5b110d11763e427b9b4875e3b74385",
       "type": "RWA",
-      "avg_7d_annualized_%": 6.94,
-      "avg_3d_annualized_%": 11.31,
-      "avg_24h_annualized_%": 21.53,
-      "current_funding_annualized_%": 24.09,
-      "stability": 87,
-      "score": 6.04,
-      "volume_24h": 134.63
+      "avg_7d_annualized_%": 10.26,
+      "avg_3d_annualized_%": -5.64,
+      "avg_24h_annualized_%": -22.93,
+      "current_funding_annualized_%": -24.09,
+      "stability": 65,
+      "score": 6.67,
+      "volume_24h": 114149.16
     },
     {
       "ticker": "LINK/USDC PERP",
       "marketId": "0x19c0675efd59420b4dc7c281305992aa46365002d30ec1494880fae151a30156",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 7.26,
-      "avg_3d_annualized_%": 13.3,
-      "avg_24h_annualized_%": 18.23,
+      "avg_7d_annualized_%": 9.66,
+      "avg_3d_annualized_%": 16.22,
+      "avg_24h_annualized_%": 35.01,
       "current_funding_annualized_%": 3.65,
-      "stability": 81,
-      "score": 5.88,
-      "volume_24h": 114955.43
+      "stability": 67,
+      "score": 6.47,
+      "volume_24h": 128078.61
     },
     {
-      "ticker": "CASHCAT/USDC PERP",
-      "marketId": "0x90b420b2cb46c532a1d82f589cd08735e1886dd5a59a60bb3a92a566b2e58f89",
+      "ticker": "COIN/USDC PERP",
+      "marketId": "0x64346a936e6161c5064574e549ffa2e66837c5632aa8e74429f716c9dff44a59",
+      "type": "RWA",
+      "avg_7d_annualized_%": 10.78,
+      "avg_3d_annualized_%": -13.5,
+      "avg_24h_annualized_%": -42.59,
+      "current_funding_annualized_%": -48.18,
+      "stability": 59,
+      "score": 6.36,
+      "volume_24h": 49649.04
+    },
+    {
+      "ticker": "MON/USDC PERP",
+      "marketId": "0xa99b7df8fb57c69086a69f5900644801c45f949004924105a6f66b80684a5e28",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 5.72,
-      "avg_3d_annualized_%": 3.81,
-      "avg_24h_annualized_%": 3.66,
+      "avg_7d_annualized_%": 11.14,
+      "avg_3d_annualized_%": 18.29,
+      "avg_24h_annualized_%": 47.29,
+      "current_funding_annualized_%": 119.4,
+      "stability": 57,
+      "score": 6.35,
+      "volume_24h": 41989.07
+    },
+    {
+      "ticker": "XRP/USDC PERP",
+      "marketId": "0x3148930df09777ba6dbbb7af192cad6e40f1ecefe17b6089ee5fe649e9d36740",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 6.22,
+      "avg_3d_annualized_%": 5.85,
+      "avg_24h_annualized_%": 2.89,
       "current_funding_annualized_%": 3.65,
-      "stability": 100,
-      "score": 5.72,
-      "volume_24h": 9752.4
+      "stability": 97,
+      "score": 6.03,
+      "volume_24h": 89529.57
+    },
+    {
+      "ticker": "COST/USDC PERP",
+      "marketId": "0x1cce6782c0477f46ef1ca79a3ee17a823c50ee5274a89ff3011db731dcd39971",
+      "type": "RWA",
+      "avg_7d_annualized_%": -11.57,
+      "avg_3d_annualized_%": -5.17,
+      "avg_24h_annualized_%": 1.33,
+      "current_funding_annualized_%": 3.65,
+      "stability": 51,
+      "score": 5.9,
+      "volume_24h": 31506.81
+    },
+    {
+      "ticker": "MORPHO/USDC PERP",
+      "marketId": "0xeac46d5d3beabb62016573d3560850fa6cac00a3a5fe37a4a04c909877dafe07",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 8.07,
+      "avg_3d_annualized_%": 14.53,
+      "avg_24h_annualized_%": 2.66,
+      "current_funding_annualized_%": 3.65,
+      "stability": 73,
+      "score": 5.89,
+      "volume_24h": 116681.8
+    },
+    {
+      "ticker": "ZRO/USDC PERP",
+      "marketId": "0x5dec5f8bbd072dd1a361c45856516b0cefcbd74b3ea93a2075b5e208395b4136",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -8.73,
+      "avg_3d_annualized_%": -13.35,
+      "avg_24h_annualized_%": -51.5,
+      "current_funding_annualized_%": -80.51,
+      "stability": 65,
+      "score": 5.67,
+      "volume_24h": 78777.81
     },
     {
       "ticker": "NIGHT/USDC PERP",
       "marketId": "0xc8208842addf64101050b20da6eb3a123b67dee79b01e17dc6b47c7e70a5987d",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -9.12,
+      "avg_7d_annualized_%": -9.37,
       "avg_3d_annualized_%": 2.38,
       "avg_24h_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
-      "stability": 61,
-      "score": 5.56,
+      "stability": 60,
+      "score": 5.62,
       "volume_24h": 30603.43
+    },
+    {
+      "ticker": "MSFT/USDC PERP",
+      "marketId": "0x06762bf31ba2a80e0e60ebf85b0895de582e55bfe7f2b49f3e503a1c1bbf3feb",
+      "type": "RWA",
+      "avg_7d_annualized_%": -6.27,
+      "avg_3d_annualized_%": -5.9,
+      "avg_24h_annualized_%": 6.02,
+      "current_funding_annualized_%": 3.65,
+      "stability": 86,
+      "score": 5.39,
+      "volume_24h": 107921.92
     },
     {
       "ticker": "DYM/USDC PERP",
@@ -1263,52 +1299,16 @@
       "volume_24h": 37736.97
     },
     {
-      "ticker": "COST/USDC PERP",
-      "marketId": "0x1cce6782c0477f46ef1ca79a3ee17a823c50ee5274a89ff3011db731dcd39971",
-      "type": "RWA",
-      "avg_7d_annualized_%": -13.05,
-      "avg_3d_annualized_%": -5.17,
-      "avg_24h_annualized_%": 0.32,
-      "current_funding_annualized_%": 3.65,
-      "stability": 41,
-      "score": 5.35,
-      "volume_24h": 31506.81
-    },
-    {
-      "ticker": "GRAM/USDC PERP",
-      "marketId": "0xcf40fa9f6f7ee66e71d3750d8fb8a69b85cd084c628d804db477274652e6c693",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 9.2,
-      "avg_3d_annualized_%": -60.96,
-      "avg_24h_annualized_%": -89.21,
-      "current_funding_annualized_%": -124.47,
-      "stability": 58,
-      "score": 5.34,
-      "volume_24h": 123326.79
-    },
-    {
-      "ticker": "PFE/USDC PERP",
-      "marketId": "0x92ea4e3e57ed8ef75212e255a9f1f2a90a7502a069bba9ffbf2dbe6986b149ce",
-      "type": "RWA",
-      "avg_7d_annualized_%": -5.9,
-      "avg_3d_annualized_%": -22.93,
-      "avg_24h_annualized_%": -20.62,
-      "current_funding_annualized_%": -24.09,
-      "stability": 90,
-      "score": 5.31,
-      "volume_24h": 118.67
-    },
-    {
       "ticker": "ETC/USDC PERP",
       "marketId": "0x9bb30ed3eaa33bac86d4bda305fcd5b7936d20f1fd1c3222468d7db1bd31a445",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 5.27,
       "avg_3d_annualized_%": 4.61,
-      "avg_24h_annualized_%": 5.68,
+      "avg_24h_annualized_%": 4.35,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 5.27,
-      "volume_24h": 46007.9
+      "volume_24h": 25901.56
     },
     {
       "ticker": "TRX/USDC PERP",
@@ -1316,11 +1316,23 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 5.11,
       "avg_3d_annualized_%": 4.86,
-      "avg_24h_annualized_%": 5.77,
+      "avg_24h_annualized_%": 4.98,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 5.11,
-      "volume_24h": 100998.1
+      "volume_24h": 51363.4
+    },
+    {
+      "ticker": "CASHCAT/USDC PERP",
+      "marketId": "0x90b420b2cb46c532a1d82f589cd08735e1886dd5a59a60bb3a92a566b2e58f89",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 5.06,
+      "avg_3d_annualized_%": 3.81,
+      "avg_24h_annualized_%": 3.66,
+      "current_funding_annualized_%": 3.65,
+      "stability": 100,
+      "score": 5.06,
+      "volume_24h": 9752.4
     },
     {
       "ticker": "XLM/USDC PERP",
@@ -1328,11 +1340,35 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.86,
       "avg_3d_annualized_%": 4.02,
-      "avg_24h_annualized_%": 3.52,
+      "avg_24h_annualized_%": 4.67,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 4.86,
-      "volume_24h": 79661.43
+      "volume_24h": 34832.2
+    },
+    {
+      "ticker": "LQTY/USDC PERP",
+      "marketId": "0x8e41a2658c3b384463b995e0cfb466816c7bf79ea943e9789cda42dec6989709",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -14.22,
+      "avg_3d_annualized_%": -37.15,
+      "avg_24h_annualized_%": -124.07,
+      "current_funding_annualized_%": -547.5,
+      "stability": 34,
+      "score": 4.83,
+      "volume_24h": 7338.65
+    },
+    {
+      "ticker": "USUAL/USDC PERP",
+      "marketId": "0xb00623441cebadd80325e83b4adf38f6065040825f20e20baef30f5d2cd29eab",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -13.68,
+      "avg_3d_annualized_%": -33.26,
+      "avg_24h_annualized_%": 2.42,
+      "current_funding_annualized_%": 3.65,
+      "stability": 35,
+      "score": 4.79,
+      "volume_24h": 91277.24
     },
     {
       "ticker": "USTECH/USDC PERP",
@@ -1340,11 +1376,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.77,
       "avg_3d_annualized_%": 4.5,
-      "avg_24h_annualized_%": 5.35,
+      "avg_24h_annualized_%": 4.5,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 4.77,
-      "volume_24h": 220847.23
+      "volume_24h": 109769.98
     },
     {
       "ticker": "ORDI/USDC PERP",
@@ -1359,52 +1395,16 @@
       "volume_24h": 68808.39
     },
     {
-      "ticker": "USUAL/USDC PERP",
-      "marketId": "0xb00623441cebadd80325e83b4adf38f6065040825f20e20baef30f5d2cd29eab",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -13.41,
-      "avg_3d_annualized_%": -34.16,
-      "avg_24h_annualized_%": 2.84,
-      "current_funding_annualized_%": 3.65,
-      "stability": 35,
-      "score": 4.69,
-      "volume_24h": 86142.28
-    },
-    {
-      "ticker": "ANT/USDC PERP",
-      "marketId": "0x87ec50155e8843b5d7e979ee21139a07423858ff8a6d74741a2d199702031cce",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 8.55,
-      "avg_3d_annualized_%": -5.24,
-      "avg_24h_annualized_%": -19.05,
-      "current_funding_annualized_%": 3.65,
-      "stability": 54,
-      "score": 4.62,
-      "volume_24h": 26768.12
-    },
-    {
       "ticker": "US500/USDC PERP",
       "marketId": "0x7b3bcf125dfa50ae8d44ecb60119ef5d52a627ad757b727850b0903b55e49b2c",
       "type": "RWA",
       "avg_7d_annualized_%": 4.56,
       "avg_3d_annualized_%": 4.79,
-      "avg_24h_annualized_%": 5.35,
+      "avg_24h_annualized_%": 4.5,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 4.56,
-      "volume_24h": 220246.88
-    },
-    {
-      "ticker": "MSFT/USDC PERP",
-      "marketId": "0x06762bf31ba2a80e0e60ebf85b0895de582e55bfe7f2b49f3e503a1c1bbf3feb",
-      "type": "RWA",
-      "avg_7d_annualized_%": -5.67,
-      "avg_3d_annualized_%": -8.55,
-      "avg_24h_annualized_%": 6.1,
-      "current_funding_annualized_%": 3.65,
-      "stability": 80,
-      "score": 4.54,
-      "volume_24h": 160205.71
+      "volume_24h": 119763.02
     },
     {
       "ticker": "MEW/USDC PERP",
@@ -1424,11 +1424,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.5,
       "avg_3d_annualized_%": 5.39,
-      "avg_24h_annualized_%": 3.61,
+      "avg_24h_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 4.5,
-      "volume_24h": 8787.38
+      "volume_24h": 0.0
     },
     {
       "ticker": "MOVE/USDC PERP",
@@ -1436,11 +1436,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.45,
       "avg_3d_annualized_%": 4.41,
-      "avg_24h_annualized_%": 4.97,
+      "avg_24h_annualized_%": 4.75,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 4.45,
-      "volume_24h": 34752.37
+      "volume_24h": 18475.2
     },
     {
       "ticker": "ILMN/USDC PERP",
@@ -1455,6 +1455,18 @@
       "volume_24h": 0.0
     },
     {
+      "ticker": "ANT/USDC PERP",
+      "marketId": "0x87ec50155e8843b5d7e979ee21139a07423858ff8a6d74741a2d199702031cce",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 7.82,
+      "avg_3d_annualized_%": -5.24,
+      "avg_24h_annualized_%": -18.07,
+      "current_funding_annualized_%": 3.65,
+      "stability": 55,
+      "score": 4.3,
+      "volume_24h": 11238.8
+    },
+    {
       "ticker": "BSV/USDC PERP",
       "marketId": "0xf817bcfb7b341d3e71f4fa40ebcc83af2578ba4bbcc325b2e50b9ecc72720707",
       "type": "CRYPTO",
@@ -1467,16 +1479,16 @@
       "volume_24h": 0.0
     },
     {
-      "ticker": "SHAZ/USDC PERP",
-      "marketId": "0xed1704b8154a3503bedc439cce636e08ae7df484d92e21c44e1714ca5a76ede3",
+      "ticker": "SCR/USDC PERP",
+      "marketId": "0x190fe9419c623610ecab416e582b16bbca794b64f04f216348d6f5159e6363be",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 4.92,
-      "avg_3d_annualized_%": 7.14,
-      "avg_24h_annualized_%": 11.86,
+      "avg_7d_annualized_%": 4.42,
+      "avg_3d_annualized_%": 2.62,
+      "avg_24h_annualized_%": 1.7,
       "current_funding_annualized_%": 3.65,
-      "stability": 86,
-      "score": 4.23,
-      "volume_24h": 16927.7
+      "stability": 95,
+      "score": 4.2,
+      "volume_24h": 22277.74
     },
     {
       "ticker": "XAG/USDC PERP",
@@ -1484,11 +1496,11 @@
       "type": "RWA",
       "avg_7d_annualized_%": 4.2,
       "avg_3d_annualized_%": 4.58,
-      "avg_24h_annualized_%": 5.77,
+      "avg_24h_annualized_%": 5.35,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 4.2,
-      "volume_24h": 263179.87
+      "volume_24h": 129857.86
     },
     {
       "ticker": "CC/USDC PERP",
@@ -1503,16 +1515,52 @@
       "volume_24h": 6505.49
     },
     {
+      "ticker": "NIO/USDC PERP",
+      "marketId": "0x5d16a48b89e9671bcbb484bbeb196af7f5b98e86c0fb673a7e296ef6dc0507f9",
+      "type": "RWA",
+      "avg_7d_annualized_%": 4.1,
+      "avg_3d_annualized_%": 4.3,
+      "avg_24h_annualized_%": 5.6,
+      "current_funding_annualized_%": 3.65,
+      "stability": 100,
+      "score": 4.1,
+      "volume_24h": 4299.01
+    },
+    {
       "ticker": "ICP/USDC PERP",
       "marketId": "0xba13c6b6a748ade761cb56717625dab1624bdecd667c79e70cee185bdd944cd5",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 4.05,
       "avg_3d_annualized_%": 3.84,
-      "avg_24h_annualized_%": 3.66,
+      "avg_24h_annualized_%": 3.48,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 4.05,
-      "volume_24h": 133906.34
+      "volume_24h": 70369.36
+    },
+    {
+      "ticker": "SHAZ/USDC PERP",
+      "marketId": "0xed1704b8154a3503bedc439cce636e08ae7df484d92e21c44e1714ca5a76ede3",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 5.16,
+      "avg_3d_annualized_%": 7.7,
+      "avg_24h_annualized_%": 12.71,
+      "current_funding_annualized_%": 24.09,
+      "stability": 77,
+      "score": 3.97,
+      "volume_24h": 16939.36
+    },
+    {
+      "ticker": "MCD/USDC PERP",
+      "marketId": "0x167ba8422df84ce2b507cd459e1f79baf737e4e1a592d91f5bbe371f72f23255",
+      "type": "RWA",
+      "avg_7d_annualized_%": 5.12,
+      "avg_3d_annualized_%": 7.19,
+      "avg_24h_annualized_%": 13.57,
+      "current_funding_annualized_%": 24.09,
+      "stability": 77,
+      "score": 3.94,
+      "volume_24h": 1174.76
     },
     {
       "ticker": "TGT/USDC PERP",
@@ -1532,11 +1580,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.89,
       "avg_3d_annualized_%": 3.24,
-      "avg_24h_annualized_%": 3.17,
+      "avg_24h_annualized_%": 3.63,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 3.89,
-      "volume_24h": 65361.19
+      "volume_24h": 32577.34
     },
     {
       "ticker": "IREN/USDC PERP",
@@ -1664,11 +1712,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.73,
       "avg_3d_annualized_%": 4.31,
-      "avg_24h_annualized_%": 4.16,
+      "avg_24h_annualized_%": 3.29,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 3.73,
-      "volume_24h": 14440.78
+      "volume_24h": 12020.76
     },
     {
       "ticker": "EEM/USDC PERP",
@@ -1693,18 +1741,6 @@
       "stability": 100,
       "score": 3.72,
       "volume_24h": 28376.88
-    },
-    {
-      "ticker": "SKY/USDC PERP",
-      "marketId": "0xac6bcb0ad6de2b58ba89a2aa0fd316f688e1c372bc88290f9507c61eeab52bb4",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -4.64,
-      "avg_3d_annualized_%": -5.03,
-      "avg_24h_annualized_%": -2.21,
-      "current_funding_annualized_%": 3.65,
-      "stability": 80,
-      "score": 3.71,
-      "volume_24h": 105212.0
     },
     {
       "ticker": "ARKK/USDC PERP",
@@ -1796,11 +1832,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.67,
       "avg_3d_annualized_%": 3.64,
-      "avg_24h_annualized_%": 3.63,
+      "avg_24h_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 3.67,
-      "volume_24h": 540650.53
+      "volume_24h": 1059687.24
     },
     {
       "ticker": "DIA/USDC PERP",
@@ -2036,11 +2072,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.65,
       "avg_3d_annualized_%": 3.65,
-      "avg_24h_annualized_%": 3.66,
+      "avg_24h_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 3.65,
-      "volume_24h": 270827.75
+      "volume_24h": 0.0
     },
     {
       "ticker": "BILI/USDC PERP",
@@ -2504,11 +2540,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.63,
       "avg_3d_annualized_%": 3.63,
-      "avg_24h_annualized_%": 3.61,
+      "avg_24h_annualized_%": 3.67,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 3.63,
-      "volume_24h": 273186.36
+      "volume_24h": 191925.96
     },
     {
       "ticker": "GLD/USDC PERP",
@@ -2521,6 +2557,18 @@
       "stability": 100,
       "score": 3.63,
       "volume_24h": 13949.65
+    },
+    {
+      "ticker": "SEI/USDC PERP",
+      "marketId": "0xacaafac6a484ac5a41a7f5914b1c01bff55ea40b67283746447ba29a949ed781",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 6.59,
+      "avg_3d_annualized_%": 11.95,
+      "avg_24h_annualized_%": 37.96,
+      "current_funding_annualized_%": 3.65,
+      "stability": 55,
+      "score": 3.62,
+      "volume_24h": 105095.09
     },
     {
       "ticker": "MELI/USDC PERP",
@@ -2648,11 +2696,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.57,
       "avg_3d_annualized_%": 3.64,
-      "avg_24h_annualized_%": 3.61,
+      "avg_24h_annualized_%": 3.64,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 3.57,
-      "volume_24h": 28019.73
+      "volume_24h": 21191.33
     },
     {
       "ticker": "PI/USDC PERP",
@@ -2677,6 +2725,18 @@
       "stability": 100,
       "score": 3.52,
       "volume_24h": 0.0
+    },
+    {
+      "ticker": "APT/USDC PERP",
+      "marketId": "0x2c6bd0f72de7fedcd57499286c370742b35c77d21443877099e3724b0e7d69cc",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 6.36,
+      "avg_3d_annualized_%": 15.56,
+      "avg_24h_annualized_%": 41.82,
+      "current_funding_annualized_%": 3.65,
+      "stability": 55,
+      "score": 3.5,
+      "volume_24h": 98820.45
     },
     {
       "ticker": "ENPH/USDC PERP",
@@ -2787,6 +2847,18 @@
       "volume_24h": 189544.47
     },
     {
+      "ticker": "ICE/USDC PERP",
+      "marketId": "0x3fcdb72a3fd382c3964788215d2bbda8729108d74a0db727ed49e2f67c580d58",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 3.44,
+      "avg_3d_annualized_%": 3.65,
+      "avg_24h_annualized_%": 3.65,
+      "current_funding_annualized_%": 3.65,
+      "stability": 100,
+      "score": 3.44,
+      "volume_24h": 0.0
+    },
+    {
       "ticker": "SMCI/USDC PERP",
       "marketId": "0x7dbdd2dbb1644103caf6a6629940f89c6c7c4485a7d22a561a00ad725be58c26",
       "type": "RWA",
@@ -2799,16 +2871,16 @@
       "volume_24h": 17979.99
     },
     {
-      "ticker": "SEI/USDC PERP",
-      "marketId": "0xacaafac6a484ac5a41a7f5914b1c01bff55ea40b67283746447ba29a949ed781",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 6.24,
-      "avg_3d_annualized_%": 11.12,
-      "avg_24h_annualized_%": 35.48,
-      "current_funding_annualized_%": 3.65,
-      "stability": 55,
+      "ticker": "SPCX/USDC PERP",
+      "marketId": "0xaecae1d106b0b189785c9dd600290c94eaca5608d91334a726a1b00b95347edb",
+      "type": "RWA",
+      "avg_7d_annualized_%": 4.4,
+      "avg_3d_annualized_%": 26.64,
+      "avg_24h_annualized_%": 46.94,
+      "current_funding_annualized_%": 48.18,
+      "stability": 78,
       "score": 3.43,
-      "volume_24h": 102477.04
+      "volume_24h": 124584.63
     },
     {
       "ticker": "RSR/USDC PERP",
@@ -2816,23 +2888,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.37,
       "avg_3d_annualized_%": 3.46,
-      "avg_24h_annualized_%": 2.4,
+      "avg_24h_annualized_%": 2.66,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 3.37,
-      "volume_24h": 54631.75
-    },
-    {
-      "ticker": "ICE/USDC PERP",
-      "marketId": "0x3fcdb72a3fd382c3964788215d2bbda8729108d74a0db727ed49e2f67c580d58",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 3.28,
-      "avg_3d_annualized_%": 3.65,
-      "avg_24h_annualized_%": 3.65,
-      "current_funding_annualized_%": 3.65,
-      "stability": 100,
-      "score": 3.28,
-      "volume_24h": 0.0
+      "volume_24h": 31523.07
     },
     {
       "ticker": "PENGU/USDC PERP",
@@ -2840,11 +2900,23 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 3.25,
       "avg_3d_annualized_%": 1.65,
-      "avg_24h_annualized_%": 2.47,
+      "avg_24h_annualized_%": 3.3,
       "current_funding_annualized_%": 3.65,
-      "stability": 99,
-      "score": 3.22,
-      "volume_24h": 72317.21
+      "stability": 100,
+      "score": 3.25,
+      "volume_24h": 29581.08
+    },
+    {
+      "ticker": "GMX/USDC PERP",
+      "marketId": "0x2fe548e9fa858d14ac005f8d59d61937e88f73b0c5ba4c72e68550f1fddc781e",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 3.17,
+      "avg_3d_annualized_%": 2.45,
+      "avg_24h_annualized_%": 1.76,
+      "current_funding_annualized_%": 3.65,
+      "stability": 100,
+      "score": 3.17,
+      "volume_24h": 65291.77
     },
     {
       "ticker": "ISRG/USDC PERP",
@@ -2869,30 +2941,6 @@
       "stability": 100,
       "score": 3.12,
       "volume_24h": 69865.65
-    },
-    {
-      "ticker": "AMD/USDC PERP",
-      "marketId": "0xe19487e57bb19612273e8df2cbaa011906fa6c3aa5b1cefa975b61a732dd1612",
-      "type": "RWA",
-      "avg_7d_annualized_%": -6.43,
-      "avg_3d_annualized_%": -0.85,
-      "avg_24h_annualized_%": 21.53,
-      "current_funding_annualized_%": 24.09,
-      "stability": 48,
-      "score": 3.09,
-      "volume_24h": 83.34
-    },
-    {
-      "ticker": "AAVE/USDC PERP",
-      "marketId": "0x324dd1a31695cb8cd7243f9e04286492653c9c146d7576379fb2848ab7cab76a",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 5.04,
-      "avg_3d_annualized_%": -23.59,
-      "avg_24h_annualized_%": -42.82,
-      "current_funding_annualized_%": -43.25,
-      "stability": 61,
-      "score": 3.07,
-      "volume_24h": 160447.76
     },
     {
       "ticker": "KAS/USDC PERP",
@@ -2931,16 +2979,16 @@
       "volume_24h": 0.0
     },
     {
-      "ticker": "GMX/USDC PERP",
-      "marketId": "0x2fe548e9fa858d14ac005f8d59d61937e88f73b0c5ba4c72e68550f1fddc781e",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 3.17,
-      "avg_3d_annualized_%": 2.45,
-      "avg_24h_annualized_%": 1.18,
-      "current_funding_annualized_%": 3.65,
-      "stability": 93,
-      "score": 2.95,
-      "volume_24h": 126570.23
+      "ticker": "AMD/USDC PERP",
+      "marketId": "0xe19487e57bb19612273e8df2cbaa011906fa6c3aa5b1cefa975b61a732dd1612",
+      "type": "RWA",
+      "avg_7d_annualized_%": -5.34,
+      "avg_3d_annualized_%": 5.17,
+      "avg_24h_annualized_%": 21.53,
+      "current_funding_annualized_%": 24.09,
+      "stability": 56,
+      "score": 2.99,
+      "volume_24h": 105.75
     },
     {
       "ticker": "LINEA/USDC PERP",
@@ -2960,11 +3008,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 2.94,
       "avg_3d_annualized_%": 3.41,
-      "avg_24h_annualized_%": 2.93,
+      "avg_24h_annualized_%": 3.27,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 2.94,
-      "volume_24h": 132049.99
+      "volume_24h": 74462.65
     },
     {
       "ticker": "CELO/USDC PERP",
@@ -2979,16 +3027,28 @@
       "volume_24h": 126279.23
     },
     {
+      "ticker": "SKY/USDC PERP",
+      "marketId": "0xac6bcb0ad6de2b58ba89a2aa0fd316f688e1c372bc88290f9507c61eeab52bb4",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -4.64,
+      "avg_3d_annualized_%": -5.03,
+      "avg_24h_annualized_%": 0.36,
+      "current_funding_annualized_%": 3.65,
+      "stability": 62,
+      "score": 2.88,
+      "volume_24h": 56476.96
+    },
+    {
       "ticker": "SUSHI/USDC PERP",
       "marketId": "0x572c924a7a73d8a1fbc531d28dc5eef49a5dd7384aa815597c81bc956e9bde8e",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 2.72,
       "avg_3d_annualized_%": 3.45,
-      "avg_24h_annualized_%": 3.53,
+      "avg_24h_annualized_%": 3.56,
       "current_funding_annualized_%": 3.65,
       "stability": 100,
       "score": 2.72,
-      "volume_24h": 43998.18
+      "volume_24h": 24059.37
     },
     {
       "ticker": "TURBO/USDC PERP",
@@ -3020,11 +3080,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 2.99,
       "avg_3d_annualized_%": 0.7,
-      "avg_24h_annualized_%": 3.46,
+      "avg_24h_annualized_%": 3.78,
       "current_funding_annualized_%": 3.65,
       "stability": 87,
       "score": 2.6,
-      "volume_24h": 80051.59
+      "volume_24h": 39723.56
     },
     {
       "ticker": "CHZ/USDC PERP",
@@ -3051,76 +3111,16 @@
       "volume_24h": 32513.69
     },
     {
-      "ticker": "SCR/USDC PERP",
-      "marketId": "0x190fe9419c623610ecab416e582b16bbca794b64f04f216348d6f5159e6363be",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 4.42,
-      "avg_3d_annualized_%": 2.62,
-      "avg_24h_annualized_%": -0.01,
-      "current_funding_annualized_%": 3.65,
-      "stability": 56,
-      "score": 2.48,
-      "volume_24h": 45208.07
-    },
-    {
-      "ticker": "MCD/USDC PERP",
-      "marketId": "0x167ba8422df84ce2b507cd459e1f79baf737e4e1a592d91f5bbe371f72f23255",
-      "type": "RWA",
-      "avg_7d_annualized_%": 4.15,
-      "avg_3d_annualized_%": 4.63,
-      "avg_24h_annualized_%": 5.9,
-      "current_funding_annualized_%": 24.09,
-      "stability": 58,
-      "score": 2.41,
-      "volume_24h": 1134.59
-    },
-    {
-      "ticker": "MON/USDC PERP",
-      "marketId": "0xa99b7df8fb57c69086a69f5900644801c45f949004924105a6f66b80684a5e28",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 6.84,
-      "avg_3d_annualized_%": 8.26,
-      "avg_24h_annualized_%": 17.21,
-      "current_funding_annualized_%": 102.12,
-      "stability": 35,
-      "score": 2.39,
-      "volume_24h": 41951.63
-    },
-    {
-      "ticker": "BRETT/USDC PERP",
-      "marketId": "0xef711a98876a7a44812984434ef64f68bf91baf7bae84bc190aa30de766c08df",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 2.47,
-      "avg_3d_annualized_%": 4.46,
-      "avg_24h_annualized_%": 5.97,
-      "current_funding_annualized_%": 3.65,
-      "stability": 96,
-      "score": 2.37,
-      "volume_24h": 15137.17
-    },
-    {
       "ticker": "ENJ/USDC PERP",
       "marketId": "0xe4452b2cf01b0afbd56df4adcc478ec0cbfe310ec31831fae5b7a7f866bd807a",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 2.43,
       "avg_3d_annualized_%": 2.42,
-      "avg_24h_annualized_%": 1.51,
+      "avg_24h_annualized_%": 2.01,
       "current_funding_annualized_%": 3.65,
-      "stability": 97,
-      "score": 2.36,
-      "volume_24h": 21518.09
-    },
-    {
-      "ticker": "LQTY/USDC PERP",
-      "marketId": "0x8e41a2658c3b384463b995e0cfb466816c7bf79ea943e9789cda42dec6989709",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 2.88,
-      "avg_3d_annualized_%": 2.74,
-      "avg_24h_annualized_%": -5.23,
-      "current_funding_annualized_%": 3.65,
-      "stability": 81,
-      "score": 2.33,
-      "volume_24h": 11093.81
+      "stability": 100,
+      "score": 2.43,
+      "volume_24h": 12311.67
     },
     {
       "ticker": "MANA/USDC PERP",
@@ -3147,18 +3147,6 @@
       "volume_24h": 130929.07
     },
     {
-      "ticker": "ZRO/USDC PERP",
-      "marketId": "0x5dec5f8bbd072dd1a361c45856516b0cefcbd74b3ea93a2075b5e208395b4136",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -4.75,
-      "avg_3d_annualized_%": -4.75,
-      "avg_24h_annualized_%": -25.62,
-      "current_funding_annualized_%": -70.96,
-      "stability": 47,
-      "score": 2.23,
-      "volume_24h": 122071.53
-    },
-    {
       "ticker": "METIS/USDC PERP",
       "marketId": "0x630a85177c3fd305d3ccc9bdc7e0fe2af6ae84c0a87e787fa5a5e27f99220622",
       "type": "CRYPTO",
@@ -3171,16 +3159,16 @@
       "volume_24h": 109491.7
     },
     {
-      "ticker": "BTC/USDC PERP",
-      "marketId": "0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee",
+      "ticker": "BRETT/USDC PERP",
+      "marketId": "0xef711a98876a7a44812984434ef64f68bf91baf7bae84bc190aa30de766c08df",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 3.13,
-      "avg_3d_annualized_%": 1.97,
-      "avg_24h_annualized_%": 16.64,
-      "current_funding_annualized_%": 9.02,
-      "stability": 65,
-      "score": 2.03,
-      "volume_24h": 2999442.19
+      "avg_7d_annualized_%": 2.06,
+      "avg_3d_annualized_%": 4.46,
+      "avg_24h_annualized_%": 4.06,
+      "current_funding_annualized_%": 3.65,
+      "stability": 100,
+      "score": 2.06,
+      "volume_24h": 8123.31
     },
     {
       "ticker": "SNX/USDC PERP",
@@ -3195,6 +3183,18 @@
       "volume_24h": 72120.72
     },
     {
+      "ticker": "PENDLE/USDC PERP",
+      "marketId": "0xea84e5f009d7bc7fc0a100bb11ab7861987eac4899a16034a33dd17a4aa5e140",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 1.99,
+      "avg_3d_annualized_%": 4.62,
+      "avg_24h_annualized_%": 3.99,
+      "current_funding_annualized_%": 3.65,
+      "stability": 99,
+      "score": 1.97,
+      "volume_24h": 62408.9
+    },
+    {
       "ticker": "A/USDC PERP",
       "marketId": "0xbbeeab469a0dd70c6ba3df283f084726a9b9896bdbdffce1432e82f881d756a7",
       "type": "CRYPTO",
@@ -3207,16 +3207,16 @@
       "volume_24h": 101469.14
     },
     {
-      "ticker": "PENDLE/USDC PERP",
-      "marketId": "0xea84e5f009d7bc7fc0a100bb11ab7861987eac4899a16034a33dd17a4aa5e140",
+      "ticker": "WLD/USDC PERP",
+      "marketId": "0x86a0c374e7abb7cfb916c1b40b0c6018d1ad0d657f12225acee776834add738d",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 1.99,
-      "avg_3d_annualized_%": 4.62,
-      "avg_24h_annualized_%": 5.38,
+      "avg_7d_annualized_%": 189.13,
+      "avg_3d_annualized_%": -24.86,
+      "avg_24h_annualized_%": 3.19,
       "current_funding_annualized_%": 3.65,
-      "stability": 95,
+      "stability": 1,
       "score": 1.89,
-      "volume_24h": 127455.91
+      "volume_24h": 124522.63
     },
     {
       "ticker": "COPPER/USDC PERP",
@@ -3243,40 +3243,64 @@
       "volume_24h": 34441.63
     },
     {
-      "ticker": "INTC/USDC PERP",
-      "marketId": "0x50f6bb0c95b6b6a1b4a4bf7b82e13de934f669a59475f7105595af59bd27bb50",
-      "type": "RWA",
-      "avg_7d_annualized_%": 3.66,
-      "avg_3d_annualized_%": 0.77,
-      "avg_24h_annualized_%": -22.93,
-      "current_funding_annualized_%": -24.09,
-      "stability": 42,
-      "score": 1.54,
-      "volume_24h": 268097.63
-    },
-    {
       "ticker": "HBAR/USDC PERP",
       "marketId": "0xdb51e1e2700714c530335a641170f62e03bac440a50c77ba439c3ec1d8bdedfc",
       "type": "CRYPTO",
       "avg_7d_annualized_%": 1.56,
       "avg_3d_annualized_%": 3.93,
-      "avg_24h_annualized_%": 4.56,
+      "avg_24h_annualized_%": 3.99,
       "current_funding_annualized_%": 3.65,
-      "stability": 95,
-      "score": 1.48,
-      "volume_24h": 69884.5
+      "stability": 97,
+      "score": 1.51,
+      "volume_24h": 29695.54
     },
     {
-      "ticker": "APT/USDC PERP",
-      "marketId": "0x2c6bd0f72de7fedcd57499286c370742b35c77d21443877099e3724b0e7d69cc",
+      "ticker": "ALGO/USDC PERP",
+      "marketId": "0x175419012cb57f5dbfcca1fdab43e3ca8078525b313f32b248dcf13de516b35a",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": 1.65,
-      "avg_3d_annualized_%": 4.56,
-      "avg_24h_annualized_%": 8.84,
+      "avg_7d_annualized_%": 1.51,
+      "avg_3d_annualized_%": 2.77,
+      "avg_24h_annualized_%": 1.65,
       "current_funding_annualized_%": 3.65,
-      "stability": 79,
-      "score": 1.3,
-      "volume_24h": 87986.01
+      "stability": 92,
+      "score": 1.39,
+      "volume_24h": 69800.45
+    },
+    {
+      "ticker": "HNT/USDC PERP",
+      "marketId": "0x5b8cc3da7181c7eff98176288aa5bacc4a5bd326c90aa75fadebabe7999b2bae",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -1.97,
+      "avg_3d_annualized_%": 0.97,
+      "avg_24h_annualized_%": -2.87,
+      "current_funding_annualized_%": 3.65,
+      "stability": 70,
+      "score": 1.38,
+      "volume_24h": 17938.71
+    },
+    {
+      "ticker": "MU/USDC PERP",
+      "marketId": "0x1962f819332b5c66ce0bfe8fb12c4d623aeb310e57cefa838e581e49639b90cd",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -2.07,
+      "avg_3d_annualized_%": -6.54,
+      "avg_24h_annualized_%": 8.76,
+      "current_funding_annualized_%": 3.65,
+      "stability": 66,
+      "score": 1.37,
+      "volume_24h": 106345.45
+    },
+    {
+      "ticker": "SHIB/USDC PERP",
+      "marketId": "0x77b3a8d9acc12616ca6e8ad1e339c27867a7ccc475ca4472a3ee7a8177f8c563",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 1.41,
+      "avg_3d_annualized_%": 4.61,
+      "avg_24h_annualized_%": 4.52,
+      "current_funding_annualized_%": 3.65,
+      "stability": 93,
+      "score": 1.31,
+      "volume_24h": 34167.37
     },
     {
       "ticker": "LIT/USDC PERP",
@@ -3291,42 +3315,6 @@
       "volume_24h": 23702.42
     },
     {
-      "ticker": "NIO/USDC PERP",
-      "marketId": "0x5d16a48b89e9671bcbb484bbeb196af7f5b98e86c0fb673a7e296ef6dc0507f9",
-      "type": "RWA",
-      "avg_7d_annualized_%": 3.9,
-      "avg_3d_annualized_%": 3.83,
-      "avg_24h_annualized_%": 4.2,
-      "current_funding_annualized_%": -24.09,
-      "stability": 32,
-      "score": 1.25,
-      "volume_24h": 3698.58
-    },
-    {
-      "ticker": "SHIB/USDC PERP",
-      "marketId": "0x77b3a8d9acc12616ca6e8ad1e339c27867a7ccc475ca4472a3ee7a8177f8c563",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 1.41,
-      "avg_3d_annualized_%": 4.61,
-      "avg_24h_annualized_%": 5.89,
-      "current_funding_annualized_%": 3.65,
-      "stability": 89,
-      "score": 1.25,
-      "volume_24h": 78083.07
-    },
-    {
-      "ticker": "ALGO/USDC PERP",
-      "marketId": "0x175419012cb57f5dbfcca1fdab43e3ca8078525b313f32b248dcf13de516b35a",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 1.51,
-      "avg_3d_annualized_%": 2.77,
-      "avg_24h_annualized_%": 0.78,
-      "current_funding_annualized_%": 3.65,
-      "stability": 82,
-      "score": 1.24,
-      "volume_24h": 139251.94
-    },
-    {
       "ticker": "ONDO/USDC PERP",
       "marketId": "0x1ecae98c2b02aa2871d7ce58380d130b10af87b6254c62635f3d0045835140be",
       "type": "CRYPTO",
@@ -3339,28 +3327,28 @@
       "volume_24h": 125588.03
     },
     {
-      "ticker": "MU/USDC PERP",
-      "marketId": "0x1962f819332b5c66ce0bfe8fb12c4d623aeb310e57cefa838e581e49639b90cd",
+      "ticker": "AAVE/USDC PERP",
+      "marketId": "0x324dd1a31695cb8cd7243f9e04286492653c9c146d7576379fb2848ab7cab76a",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -2.01,
-      "avg_3d_annualized_%": -9.62,
-      "avg_24h_annualized_%": 9.61,
-      "current_funding_annualized_%": 3.65,
-      "stability": 61,
-      "score": 1.23,
-      "volume_24h": 223509.12
+      "avg_7d_annualized_%": -1.63,
+      "avg_3d_annualized_%": -30.63,
+      "avg_24h_annualized_%": -35.7,
+      "current_funding_annualized_%": -50.06,
+      "stability": 76,
+      "score": 1.24,
+      "volume_24h": 138623.01
     },
     {
-      "ticker": "HNT/USDC PERP",
-      "marketId": "0x5b8cc3da7181c7eff98176288aa5bacc4a5bd326c90aa75fadebabe7999b2bae",
+      "ticker": "BTC/USDC PERP",
+      "marketId": "0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -1.97,
-      "avg_3d_annualized_%": 0.97,
-      "avg_24h_annualized_%": -1.04,
-      "current_funding_annualized_%": 3.65,
-      "stability": 60,
-      "score": 1.18,
-      "volume_24h": 33632.57
+      "avg_7d_annualized_%": 2.99,
+      "avg_3d_annualized_%": 5.57,
+      "avg_24h_annualized_%": 17.49,
+      "current_funding_annualized_%": -1.55,
+      "stability": 36,
+      "score": 1.08,
+      "volume_24h": 10828153.76
     },
     {
       "ticker": "PONS/USDC PERP",
@@ -3368,11 +3356,23 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 0.99,
       "avg_3d_annualized_%": 2.88,
-      "avg_24h_annualized_%": 2.98,
+      "avg_24h_annualized_%": 3.65,
       "current_funding_annualized_%": 3.65,
-      "stability": 92,
-      "score": 0.91,
-      "volume_24h": 2258.29
+      "stability": 91,
+      "score": 0.9,
+      "volume_24h": 1133.38
+    },
+    {
+      "ticker": "GRAM/USDC PERP",
+      "marketId": "0xcf40fa9f6f7ee66e71d3750d8fb8a69b85cd084c628d804db477274652e6c693",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 1.56,
+      "avg_3d_annualized_%": -71.28,
+      "avg_24h_annualized_%": -103.21,
+      "current_funding_annualized_%": -116.28,
+      "stability": 57,
+      "score": 0.89,
+      "volume_24h": 68492.18
     },
     {
       "ticker": "BONK/USDC PERP",
@@ -3399,28 +3399,28 @@
       "volume_24h": 89747.11
     },
     {
+      "ticker": "HOOD/USDC PERP",
+      "marketId": "0x34b37a03ba1f002f25aa804558972aaff44844088acc92b8dce61e8b2103a6f5",
+      "type": "RWA",
+      "avg_7d_annualized_%": 0.65,
+      "avg_3d_annualized_%": 3.59,
+      "avg_24h_annualized_%": 3.4,
+      "current_funding_annualized_%": 3.65,
+      "stability": 87,
+      "score": 0.57,
+      "volume_24h": 52253.33
+    },
+    {
       "ticker": "BERA/USDC PERP",
       "marketId": "0xcb036f44ab932a66cd1abd46091d07bda68b5fb9a4c72010a5780030f84bc414",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -1.09,
       "avg_3d_annualized_%": 1.37,
-      "avg_24h_annualized_%": -0.65,
+      "avg_24h_annualized_%": 0.58,
       "current_funding_annualized_%": 3.65,
-      "stability": 52,
-      "score": 0.57,
-      "volume_24h": 31095.51
-    },
-    {
-      "ticker": "HOOD/USDC PERP",
-      "marketId": "0x34b37a03ba1f002f25aa804558972aaff44844088acc92b8dce61e8b2103a6f5",
-      "type": "RWA",
-      "avg_7d_annualized_%": 0.6,
-      "avg_3d_annualized_%": 2.87,
-      "avg_24h_annualized_%": 3.65,
-      "current_funding_annualized_%": 3.65,
-      "stability": 86,
-      "score": 0.52,
-      "volume_24h": 106082.03
+      "stability": 51,
+      "score": 0.56,
+      "volume_24h": 12969.75
     },
     {
       "ticker": "ADA/USDC PERP",
@@ -3428,59 +3428,23 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": -0.95,
       "avg_3d_annualized_%": 0.63,
-      "avg_24h_annualized_%": 1.97,
+      "avg_24h_annualized_%": 3.06,
       "current_funding_annualized_%": 3.65,
-      "stability": 54,
-      "score": 0.51,
-      "volume_24h": 68792.25
-    },
-    {
-      "ticker": "SPCX/USDC PERP",
-      "marketId": "0xaecae1d106b0b189785c9dd600290c94eaca5608d91334a726a1b00b95347edb",
-      "type": "RWA",
-      "avg_7d_annualized_%": -0.77,
-      "avg_3d_annualized_%": 26.64,
-      "avg_24h_annualized_%": 37.85,
-      "current_funding_annualized_%": 48.18,
       "stability": 56,
-      "score": 0.43,
-      "volume_24h": 109925.42
+      "score": 0.53,
+      "volume_24h": 28626.74
     },
     {
-      "ticker": "COMP/USDC PERP",
-      "marketId": "0x1c9a984f31bcd6eb02cedeaa0119619b6fc2c8a597e1d2467af43f1372a31cea",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 0.51,
-      "avg_3d_annualized_%": 2.23,
-      "avg_24h_annualized_%": 2.13,
-      "current_funding_annualized_%": 3.65,
-      "stability": 81,
-      "score": 0.41,
-      "volume_24h": 119988.53
-    },
-    {
-      "ticker": "W/USDC PERP",
-      "marketId": "0xcf0078ac554d3c5ec2bcbec4719ca49ac63e28e1a8b859d87d9aa616cfe7efac",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -0.56,
-      "avg_3d_annualized_%": 3.6,
-      "avg_24h_annualized_%": 3.51,
-      "current_funding_annualized_%": 3.65,
-      "stability": 68,
-      "score": 0.38,
-      "volume_24h": 31428.17
-    },
-    {
-      "ticker": "ALT/USDC PERP",
-      "marketId": "0x24a275b308b987c2f7d0ecf1ff56607333f8bb6d3adad66475525b4ade88bdfd",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -0.61,
-      "avg_3d_annualized_%": 2.66,
-      "avg_24h_annualized_%": 1.37,
-      "current_funding_annualized_%": 3.65,
-      "stability": 61,
-      "score": 0.37,
-      "volume_24h": 34464.03
+      "ticker": "INTC/USDC PERP",
+      "marketId": "0x50f6bb0c95b6b6a1b4a4bf7b82e13de934f669a59475f7105595af59bd27bb50",
+      "type": "RWA",
+      "avg_7d_annualized_%": 1.07,
+      "avg_3d_annualized_%": -5.25,
+      "avg_24h_annualized_%": -22.93,
+      "current_funding_annualized_%": -24.09,
+      "stability": 46,
+      "score": 0.49,
+      "volume_24h": 147092.81
     },
     {
       "ticker": "REZ/USDC PERP",
@@ -3488,11 +3452,47 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 0.64,
       "avg_3d_annualized_%": 2.21,
-      "avg_24h_annualized_%": -0.68,
+      "avg_24h_annualized_%": 0.96,
       "current_funding_annualized_%": 3.65,
-      "stability": 51,
-      "score": 0.33,
-      "volume_24h": 12529.68
+      "stability": 73,
+      "score": 0.47,
+      "volume_24h": 5072.74
+    },
+    {
+      "ticker": "ALT/USDC PERP",
+      "marketId": "0x24a275b308b987c2f7d0ecf1ff56607333f8bb6d3adad66475525b4ade88bdfd",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -0.61,
+      "avg_3d_annualized_%": 2.66,
+      "avg_24h_annualized_%": 2.01,
+      "current_funding_annualized_%": 3.65,
+      "stability": 65,
+      "score": 0.4,
+      "volume_24h": 16827.62
+    },
+    {
+      "ticker": "COMP/USDC PERP",
+      "marketId": "0x1c9a984f31bcd6eb02cedeaa0119619b6fc2c8a597e1d2467af43f1372a31cea",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 0.51,
+      "avg_3d_annualized_%": 2.23,
+      "avg_24h_annualized_%": 1.36,
+      "current_funding_annualized_%": 3.65,
+      "stability": 76,
+      "score": 0.39,
+      "volume_24h": 60807.75
+    },
+    {
+      "ticker": "W/USDC PERP",
+      "marketId": "0xcf0078ac554d3c5ec2bcbec4719ca49ac63e28e1a8b859d87d9aa616cfe7efac",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -0.56,
+      "avg_3d_annualized_%": 3.6,
+      "avg_24h_annualized_%": 3.14,
+      "current_funding_annualized_%": 3.65,
+      "stability": 67,
+      "score": 0.38,
+      "volume_24h": 17163.31
     },
     {
       "ticker": "BEAM/USDC PERP",
@@ -3519,6 +3519,18 @@
       "volume_24h": 114197.43
     },
     {
+      "ticker": "AR/USDC PERP",
+      "marketId": "0xa21d2b7f666be098acb3906b86312f80841602b2ee81fdffdfdbcaf032be4e6a",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 0.32,
+      "avg_3d_annualized_%": 2.76,
+      "avg_24h_annualized_%": 3.95,
+      "current_funding_annualized_%": 3.65,
+      "stability": 81,
+      "score": 0.26,
+      "volume_24h": 60448.52
+    },
+    {
       "ticker": "THETA/USDC PERP",
       "marketId": "0x05973c7c52fa1efa4078b80950387614d2da7573a106bab5e78dd2ca31184829",
       "type": "CRYPTO",
@@ -3529,18 +3541,6 @@
       "stability": 53,
       "score": 0.25,
       "volume_24h": 114808.29
-    },
-    {
-      "ticker": "AR/USDC PERP",
-      "marketId": "0xa21d2b7f666be098acb3906b86312f80841602b2ee81fdffdfdbcaf032be4e6a",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 0.32,
-      "avg_3d_annualized_%": 2.76,
-      "avg_24h_annualized_%": 5.56,
-      "current_funding_annualized_%": 3.65,
-      "stability": 75,
-      "score": 0.24,
-      "volume_24h": 130624.19
     },
     {
       "ticker": "EGLD/USDC PERP",
@@ -3555,6 +3555,18 @@
       "volume_24h": 89224.24
     },
     {
+      "ticker": "GRT/USDC PERP",
+      "marketId": "0xc3831616297b8ccb3904d3b50a31718c13104e46b6cae457f263773ecedb6405",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -0.67,
+      "avg_3d_annualized_%": -2.25,
+      "avg_24h_annualized_%": -12.02,
+      "current_funding_annualized_%": 3.65,
+      "stability": 34,
+      "score": 0.23,
+      "volume_24h": 54743.22
+    },
+    {
       "ticker": "ILV/USDC PERP",
       "marketId": "0x63c88341f8139a4dcf395621d6c9e18da7f27ba021332ab8bb04a10eee3056c0",
       "type": "CRYPTO",
@@ -3567,40 +3579,40 @@
       "volume_24h": 79973.35
     },
     {
-      "ticker": "GRT/USDC PERP",
-      "marketId": "0xc3831616297b8ccb3904d3b50a31718c13104e46b6cae457f263773ecedb6405",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": -0.67,
-      "avg_3d_annualized_%": -2.25,
-      "avg_24h_annualized_%": -12.69,
-      "current_funding_annualized_%": 3.65,
-      "stability": 32,
-      "score": 0.21,
-      "volume_24h": 73209.65
-    },
-    {
-      "ticker": "ETH/USDC PERP",
-      "marketId": "0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 0.28,
-      "avg_3d_annualized_%": 3.92,
-      "avg_24h_annualized_%": 9.82,
-      "current_funding_annualized_%": 13.69,
-      "stability": 66,
-      "score": 0.18,
-      "volume_24h": 708603.43
-    },
-    {
       "ticker": "GALA/USDC PERP",
       "marketId": "0xdbde02d14c6ed0d6d5a6d64648dc91bd79187a83e0b704b8592ae6e814f99ba8",
       "type": "CRYPTO",
       "avg_7d_annualized_%": -0.26,
       "avg_3d_annualized_%": 3.26,
-      "avg_24h_annualized_%": 3.34,
+      "avg_24h_annualized_%": 2.94,
       "current_funding_annualized_%": 3.65,
       "stability": 63,
       "score": 0.16,
-      "volume_24h": 14096.78
+      "volume_24h": 6442.98
+    },
+    {
+      "ticker": "XTZ/USDC PERP",
+      "marketId": "0x762997886d8c2e159a2edf372dfa5a4e679b37e89cffb3a4717812062f8b651d",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": 0.21,
+      "avg_3d_annualized_%": 0.93,
+      "avg_24h_annualized_%": 2.71,
+      "current_funding_annualized_%": 3.65,
+      "stability": 67,
+      "score": 0.14,
+      "volume_24h": 16715.44
+    },
+    {
+      "ticker": "SKL/USDC PERP",
+      "marketId": "0x653cd025c8b47c3b565b736f9b5aefbae8a9ad139f4ea27dc75e5bed5b8e3991",
+      "type": "CRYPTO",
+      "avg_7d_annualized_%": -0.16,
+      "avg_3d_annualized_%": 2.19,
+      "avg_24h_annualized_%": 1.97,
+      "current_funding_annualized_%": 3.65,
+      "stability": 56,
+      "score": 0.09,
+      "volume_24h": 9656.32
     },
     {
       "ticker": "VIRTUAL/USDC PERP",
@@ -3615,28 +3627,16 @@
       "volume_24h": 88034.43
     },
     {
-      "ticker": "SKL/USDC PERP",
-      "marketId": "0x653cd025c8b47c3b565b736f9b5aefbae8a9ad139f4ea27dc75e5bed5b8e3991",
+      "ticker": "ETH/USDC PERP",
+      "marketId": "0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed",
       "type": "CRYPTO",
-      "avg_7d_annualized_%": -0.16,
-      "avg_3d_annualized_%": 2.19,
-      "avg_24h_annualized_%": -0.73,
-      "current_funding_annualized_%": 3.65,
-      "stability": 44,
+      "avg_7d_annualized_%": -0.18,
+      "avg_3d_annualized_%": 6.05,
+      "avg_24h_annualized_%": 7.75,
+      "current_funding_annualized_%": -1.2,
+      "stability": 41,
       "score": 0.07,
-      "volume_24h": 20934.91
-    },
-    {
-      "ticker": "XTZ/USDC PERP",
-      "marketId": "0x762997886d8c2e159a2edf372dfa5a4e679b37e89cffb3a4717812062f8b651d",
-      "type": "CRYPTO",
-      "avg_7d_annualized_%": 0.21,
-      "avg_3d_annualized_%": 0.93,
-      "avg_24h_annualized_%": -0.29,
-      "current_funding_annualized_%": 3.65,
-      "stability": 23,
-      "score": 0.05,
-      "volume_24h": 37730.87
+      "volume_24h": 3475518.62
     },
     {
       "ticker": "IMX/USDC PERP",
@@ -3680,11 +3680,11 @@
       "type": "CRYPTO",
       "avg_7d_annualized_%": 0.01,
       "avg_3d_annualized_%": 1.34,
-      "avg_24h_annualized_%": -2.13,
+      "avg_24h_annualized_%": 0.18,
       "current_funding_annualized_%": 3.65,
-      "stability": 48,
+      "stability": 39,
       "score": 0.0,
-      "volume_24h": 51318.65
+      "volume_24h": 51212.85
     }
   ]
 }
